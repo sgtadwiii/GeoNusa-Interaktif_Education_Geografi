@@ -27,12 +27,12 @@ export default function Home() {
 
   const animals = isNight
     ? {
-        main: '/images/owl.png',
+        main: `${import.meta.env.BASE_URL}images/owl.png`, // Pastikan nama file owl.png ada di folder public
         bird: null,
       }
     : {
-        main: '/images/monyet.png',
-        bird: '/images/burung.png',
+        main: `${import.meta.env.BASE_URL}images/monyet.png`,
+        bird: `${import.meta.env.BASE_URL}images/burung.png`,
       };
 
   return (
@@ -50,13 +50,9 @@ export default function Home() {
           exit={{ opacity: 0 }}
           transition={{ duration: 0.9 }}
           className="absolute inset-0 -z-20 bg-cover bg-center bg-no-repeat"
-          style={{
-            backgroundImage: `url('${
-              isNight
-                ? '/images/geonusamalam.png'
-                : '/images/geonusasiang.png'
-            }')`,
-          }}
+          style={{ 
+    backgroundImage: `url(${import.meta.env.BASE_URL}images/${isNight ? 'geonusamalam.png' : 'geonusasiang.png'})` 
+  }}
         />
       </AnimatePresence>
 

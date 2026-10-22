@@ -288,13 +288,9 @@ export default function Dashboard() {
           <motion.div
             key={theme}
             className="absolute inset-0 bg-cover bg-center"
-            style={{
-              backgroundImage: `url('${
-                isNight
-                  ? '/images/geonusamalam.png'
-                  : '/images/geonusa.png'
-              }')`,
-            }}
+            style={{ 
+    backgroundImage: `url(${import.meta.env.BASE_URL}images/${isNight ? 'geonusamalam.png' : 'geonusasiang.png'})` 
+  }}
             initial={{ opacity: 0, scale: 1.04 }}
             animate={{
               opacity: isNight ? 0.5 : 0.65,
