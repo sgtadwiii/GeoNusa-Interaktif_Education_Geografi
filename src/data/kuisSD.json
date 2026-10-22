@@ -1,0 +1,992 @@
+{
+  "kuis": [
+    {
+      "id": 1,
+      "provinsi": "Aceh",
+      "pulau": "Pulau Sumatra",
+      "pertanyaan": "Ibu kota dari Provinsi Aceh adalah...",
+      "opsi": [
+        "Banda Aceh",
+        "Medan",
+        "Padang",
+        "Pekanbaru"
+      ],
+      "jawaban": "Banda Aceh"
+    },
+    {
+      "id": 2,
+      "provinsi": "Aceh",
+      "pulau": "Pulau Sumatra",
+      "pertanyaan": "Bunga khas yang menjadi identitas flora Provinsi Aceh adalah...",
+      "opsi": [
+        "Bunga Jeumpa",
+        "Anggrek Hitam",
+        "Bunga Sedap Malam",
+        "Rafflesia"
+      ],
+      "jawaban": "Bunga Jeumpa"
+    },
+    {
+      "id": 3,
+      "provinsi": "Sumatra Utara",
+      "pulau": "Pulau Sumatra",
+      "pertanyaan": "Danau vulkanik terbesar di dunia yang terletak di Sumatra Utara adalah...",
+      "opsi": [
+        "Danau Toba",
+        "Danau Singkarak",
+        "Danau Maninjau",
+        "Danau Kerinci"
+      ],
+      "jawaban": "Danau Toba"
+    },
+    {
+      "id": 4,
+      "provinsi": "Sumatra Utara",
+      "pulau": "Pulau Sumatra",
+      "pertanyaan": "Burung endemik yang menjadi identitas fauna Sumatra Utara adalah...",
+      "opsi": [
+        "Beo Nias",
+        "Jalak Bali",
+        "Burung Merak",
+        "Cendrawasih"
+      ],
+      "jawaban": "Beo Nias"
+    },
+    {
+      "id": 5,
+      "provinsi": "Sumatra Barat",
+      "pulau": "Pulau Sumatra",
+      "pertanyaan": "Ibu kota Provinsi Sumatra Barat adalah...",
+      "opsi": [
+        "Padang",
+        "Bukittinggi",
+        "Pekanbaru",
+        "Jambi"
+      ],
+      "jawaban": "Padang"
+    },
+    {
+      "id": 6,
+      "provinsi": "Sumatra Barat",
+      "pulau": "Pulau Sumatra",
+      "pertanyaan": "Ikon bangunan bersejarah terkenal di Kota Bukittinggi, Sumatra Barat adalah...",
+      "opsi": [
+        "Jam Gadang",
+        "Monas",
+        "Tugu Muda",
+        "Tugu Pahlawan"
+      ],
+      "jawaban": "Jam Gadang"
+    },
+    {
+      "id": 7,
+      "provinsi": "Riau",
+      "pulau": "Pulau Sumatra",
+      "pertanyaan": "Ibu kota Provinsi Riau adalah...",
+      "opsi": [
+        "Pekanbaru",
+        "Batam",
+        "Tanjungpinang",
+        "Dumai"
+      ],
+      "jawaban": "Pekanbaru"
+    },
+    {
+      "id": 8,
+      "provinsi": "Riau",
+      "pulau": "Pulau Sumatra",
+      "pertanyaan": "Salah satu sungai besar yang mengalir di Provinsi Riau adalah...",
+      "opsi": [
+        "Sungai Siak",
+        "Sungai Kapuas",
+        "Sungai Barito",
+        "Sungai Musi"
+      ],
+      "jawaban": "Sungai Siak"
+    },
+    {
+      "id": 9,
+      "provinsi": "Kepulauan Riau",
+      "pulau": "Pulau Sumatra",
+      "pertanyaan": "Ibu kota dari Provinsi Kepulauan Riau adalah...",
+      "opsi": [
+        "Tanjungpinang",
+        "Batam",
+        "Pekanbaru",
+        "Pangkalpinang"
+      ],
+      "jawaban": "Tanjungpinang"
+    },
+    {
+      "id": 10,
+      "provinsi": "Kepulauan Riau",
+      "pulau": "Pulau Sumatra",
+      "pertanyaan": "Sebagian besar wilayah Kepulauan Riau terdiri dari...",
+      "opsi": [
+        "Lautan dan Kepulauan",
+        "Pegunungan Salju",
+        "Gurun Pasir",
+        "Hutan Pinus"
+      ],
+      "jawaban": "Lautan dan Kepulauan"
+    },
+    {
+      "id": 11,
+      "provinsi": "Jambi",
+      "pulau": "Pulau Sumatra",
+      "pertanyaan": "Sungai terpanjang di Pulau Sumatra yang mengalir di Jambi adalah...",
+      "opsi": [
+        "Sungai Batanghari",
+        "Sungai Musi",
+        "Sungai Asahan",
+        "Sungai Barito"
+      ],
+      "jawaban": "Sungai Batanghari"
+    },
+    {
+      "id": 12,
+      "provinsi": "Jambi",
+      "pulau": "Pulau Sumatra",
+      "pertanyaan": "Gunung tertinggi di Pulau Sumatra yang terletak di perbatasan Jambi adalah...",
+      "opsi": [
+        "Gunung Kerinci",
+        "Gunung Leuser",
+        "Gunung Dempo",
+        "Gunung Marapi"
+      ],
+      "jawaban": "Gunung Kerinci"
+    },
+    {
+      "id": 13,
+      "provinsi": "Sumatra Selatan",
+      "pulau": "Pulau Sumatra",
+      "pertanyaan": "Jembatan ikonik di Kota Palembang yang membentang di atas Sungai Musi adalah...",
+      "opsi": [
+        "Jembatan Ampera",
+        "Jembatan Suramadu",
+        "Jembatan Barito",
+        "Jembatan Barelang"
+      ],
+      "jawaban": "Jembatan Ampera"
+    },
+    {
+      "id": 14,
+      "provinsi": "Sumatra Selatan",
+      "pulau": "Pulau Sumatra",
+      "pertanyaan": "Ikan khas Sumatra Selatan yang biasa dijadikan bahan baku pembuatan Pempek adalah...",
+      "opsi": [
+        "Ikan Belida",
+        "Ikan Gurame",
+        "Ikan Mas",
+        "Ikan Bandeng"
+      ],
+      "jawaban": "Ikan Belida"
+    },
+    {
+      "id": 15,
+      "provinsi": "Kepulauan Bangka Belitung",
+      "pulau": "Pulau Sumatra",
+      "pertanyaan": "Ibu kota Provinsi Kepulauan Bangka Belitung adalah...",
+      "opsi": [
+        "Pangkalpinang",
+        "Tanjungpandan",
+        "Bandar Lampung",
+        "Bengkulu"
+      ],
+      "jawaban": "Pangkalpinang"
+    },
+    {
+      "id": 16,
+      "provinsi": "Kepulauan Bangka Belitung",
+      "pulau": "Pulau Sumatra",
+      "pertanyaan": "Hasil tambang utama yang sangat terkenal dari Kepulauan Bangka Belitung adalah...",
+      "opsi": [
+        "Timah",
+        "Emas",
+        "Batu Bara",
+        "Nikel"
+      ],
+      "jawaban": "Timah"
+    },
+    {
+      "id": 17,
+      "provinsi": "Bengkulu",
+      "pulau": "Pulau Sumatra",
+      "pertanyaan": "Bunga raksasa langka yang menjadi ikon flora khas Provinsi Bengkulu adalah...",
+      "opsi": [
+        "Rafflesia arnoldii",
+        "Bunga Mawar",
+        "Anggrek Bulan",
+        "Bunga Tulip"
+      ],
+      "jawaban": "Rafflesia arnoldii"
+    },
+    {
+      "id": 18,
+      "provinsi": "Bengkulu",
+      "pulau": "Pulau Sumatra",
+      "pertanyaan": "Benteng bersejarah peninggalan Inggris di Kota Bengkulu bernama...",
+      "opsi": [
+        "Benteng Marlborough",
+        "Benteng Vredeburg",
+        "Benteng Rotterdam",
+        "Benteng Victoria"
+      ],
+      "jawaban": "Benteng Marlborough"
+    },
+    {
+      "id": 19,
+      "provinsi": "Lampung",
+      "pulau": "Pulau Sumatra",
+      "pertanyaan": "Taman Nasional di Lampung yang terkenal sebagai tempat perlindungan dan pelatihan Gajah Sumatra adalah...",
+      "opsi": [
+        "Taman Nasional Way Kambas",
+        "Taman Nasional Ujung Kulon",
+        "Taman Nasional Baluran",
+        "Taman Nasional Komodo"
+      ],
+      "jawaban": "Taman Nasional Way Kambas"
+    },
+    {
+      "id": 20,
+      "provinsi": "Lampung",
+      "pulau": "Pulau Sumatra",
+      "pertanyaan": "Selat yang memisahkan Provinsi Lampung (Sumatra) dengan Pulau Jawa adalah...",
+      "opsi": [
+        "Selat Sunda",
+        "Selat Bali",
+        "Selat Makassar",
+        "Selat Malaka"
+      ],
+      "jawaban": "Selat Sunda"
+    },
+    {
+      "id": 21,
+      "provinsi": "Banten",
+      "pulau": "Pulau Jawa",
+      "pertanyaan": "Taman Nasional di Banten yang menjadi habitat alami Badak Jawa bercula satu adalah...",
+      "opsi": [
+        "Taman Nasional Ujung Kulon",
+        "Taman Nasional Gunung Leuser",
+        "Taman Nasional Alas Purwo",
+        "Taman Nasional Meru Betiri"
+      ],
+      "jawaban": "Taman Nasional Ujung Kulon"
+    },
+    {
+      "id": 22,
+      "provinsi": "Banten",
+      "pulau": "Pulau Jawa",
+      "pertanyaan": "Ibu kota Provinsi Banten adalah...",
+      "opsi": [
+        "Serang",
+        "Tangerang",
+        "Cilegon",
+        "Pandeglang"
+      ],
+      "jawaban": "Serang"
+    },
+    {
+      "id": 23,
+      "provinsi": "DKI Jakarta",
+      "pulau": "Pulau Jawa",
+      "pertanyaan": "Maskot fauna resmi dari DKI Jakarta adalah...",
+      "opsi": [
+        "Elang Bondol",
+        "Burung Cendrawasih",
+        "Jalak Bali",
+        "Burung Maleo"
+      ],
+      "jawaban": "Elang Bondol"
+    },
+    {
+      "id": 24,
+      "provinsi": "DKI Jakarta",
+      "pulau": "Pulau Jawa",
+      "pertanyaan": "Sungai utama yang mengalir membelah Kota Jakarta adalah...",
+      "opsi": [
+        "Sungai Ciliwung",
+        "Sungai Bengawan Solo",
+        "Sungai Brantas",
+        "Sungai Citarum"
+      ],
+      "jawaban": "Sungai Ciliwung"
+    },
+    {
+      "id": 25,
+      "provinsi": "Jawa Barat",
+      "pulau": "Pulau Jawa",
+      "pertanyaan": "Ibu kota Provinsi Jawa Barat adalah...",
+      "opsi": [
+        "Bandung",
+        "Bogor",
+        "Cirebon",
+        "Bekasi"
+      ],
+      "jawaban": "Bandung"
+    },
+    {
+      "id": 26,
+      "provinsi": "Jawa Barat",
+      "pulau": "Pulau Jawa",
+      "pertanyaan": "Fauna khas primata endemik Jawa Barat adalah...",
+      "opsi": [
+        "Surili",
+        "Bekantan",
+        "Tarsius",
+        "Orangutan"
+      ],
+      "jawaban": "Surili"
+    },
+    {
+      "id": 27,
+      "provinsi": "Jawa Tengah",
+      "pulau": "Pulau Jawa",
+      "pertanyaan": "Candi Buddha terbesar di dunia yang terletak di Jawa Tengah adalah...",
+      "opsi": [
+        "Candi Borobudur",
+        "Candi Prambanan",
+        "Candi Mendut",
+        "Candi Dieng"
+      ],
+      "jawaban": "Candi Borobudur"
+    },
+    {
+      "id": 28,
+      "provinsi": "Jawa Tengah",
+      "pulau": "Pulau Jawa",
+      "pertanyaan": "Burung yang menjadi simbol/identitas fauna Jawa Tengah adalah...",
+      "opsi": [
+        "Kepodang Emas",
+        "Elang Jawa",
+        "Gereja",
+        "Merpati"
+      ],
+      "jawaban": "Kepodang Emas"
+    },
+    {
+      "id": 29,
+      "provinsi": "DI Yogyakarta",
+      "pulau": "Pulau Jawa",
+      "pertanyaan": "Gunung berapi sangat aktif yang terletak di bagian utara Yogyakarta adalah...",
+      "opsi": [
+        "Gunung Merapi",
+        "Gunung Agung",
+        "Gunung Rinjani",
+        "Gunung Bromo"
+      ],
+      "jawaban": "Gunung Merapi"
+    },
+    {
+      "id": 30,
+      "provinsi": "DI Yogyakarta",
+      "pulau": "Pulau Jawa",
+      "pertanyaan": "Fenomena alam langka berupa bukit pasir di pesisir selatan Yogyakarta bernama...",
+      "opsi": [
+        "Gumuk Pasir Parangtritis",
+        "Gurun Sahara",
+        "Pantai Kuta",
+        "Taman Nasional Baluran"
+      ],
+      "jawaban": "Gumuk Pasir Parangtritis"
+    },
+    {
+      "id": 31,
+      "provinsi": "Jawa Timur",
+      "pulau": "Pulau Jawa",
+      "pertanyaan": "Gunung tertinggi di Pulau Jawa yang terletak di Jawa Timur adalah...",
+      "opsi": [
+        "Gunung Semeru",
+        "Gunung Slamet",
+        "Gunung Arjuno",
+        "Gunung Bromo"
+      ],
+      "jawaban": "Gunung Semeru"
+    },
+    {
+      "id": 32,
+      "provinsi": "Jawa Timur",
+      "pulau": "Pulau Jawa",
+      "pertanyaan": "Fenomena alam nyala api biru (blue fire) yang terkenal di Jawa Timur dapat dijumpai di...",
+      "opsi": [
+        "Kawah Ijen",
+        "Gunung Bromo",
+        "Kawah Sikidang",
+        "Tangkuan Perahu"
+      ],
+      "jawaban": "Kawah Ijen"
+    },
+    {
+      "id": 33,
+      "provinsi": "Bali",
+      "pulau": "Bali & Nusa Tenggara",
+      "pertanyaan": "Burung endemik yang menjadi maskot fauna khas Pulau Bali adalah...",
+      "opsi": [
+        "Jalak Bali",
+        "Cendrawasih",
+        "Elang Jawa",
+        "Merak"
+      ],
+      "jawaban": "Jalak Bali"
+    },
+    {
+      "id": 34,
+      "provinsi": "Bali",
+      "pulau": "Bali & Nusa Tenggara",
+      "pertanyaan": "Gunung tertinggi di Pulau Bali adalah...",
+      "opsi": [
+        "Gunung Agung",
+        "Gunung Batur",
+        "Gunung Rinjani",
+        "Gunung Tambora"
+      ],
+      "jawaban": "Gunung Agung"
+    },
+    {
+      "id": 35,
+      "provinsi": "Nusa Tenggara Barat",
+      "pulau": "Bali & Nusa Tenggara",
+      "pertanyaan": "Gunung berapi di Pulau Lombok yang memiliki danau indah bernama Segara Anak adalah...",
+      "opsi": [
+        "Gunung Rinjani",
+        "Gunung Tambora",
+        "Gunung Agung",
+        "Gunung Bromo"
+      ],
+      "jawaban": "Gunung Rinjani"
+    },
+    {
+      "id": 36,
+      "provinsi": "Nusa Tenggara Barat",
+      "pulau": "Bali & Nusa Tenggara",
+      "pertanyaan": "Gunung di Pulau Sumbawa yang letusannya sangat dahsyat pada tahun 1815 adalah...",
+      "opsi": [
+        "Gunung Tambora",
+        "Gunung Rinjani",
+        "Gunung Kelud",
+        "Gunung Krakatau"
+      ],
+      "jawaban": "Gunung Tambora"
+    },
+    {
+      "id": 37,
+      "provinsi": "Nusa Tenggara Timur",
+      "pulau": "Bali & Nusa Tenggara",
+      "pertanyaan": "Kadal purba terbesar di dunia yang hidup di Nusa Tenggara Timur adalah...",
+      "opsi": [
+        "Komodo",
+        "Biawak",
+        "Iguana",
+        "Toke"
+      ],
+      "jawaban": "Komodo"
+    },
+    {
+      "id": 38,
+      "provinsi": "Nusa Tenggara Timur",
+      "pulau": "Bali & Nusa Tenggara",
+      "pertanyaan": "Pohon penghasil kayu harum yang terkenal sebagai ikon flora Nusa Tenggara Timur adalah...",
+      "opsi": [
+        "Cendana",
+        "Jati",
+        "Mahoni",
+        "Meranti"
+      ],
+      "jawaban": "Cendana"
+    },
+    {
+      "id": 39,
+      "provinsi": "Kalimantan Barat",
+      "pulau": "Pulau Kalimantan",
+      "pertanyaan": "Kota di Kalimantan Barat yang dilintasi oleh garis khatulistiwa adalah...",
+      "opsi": [
+        "Pontianak",
+        "Singkawang",
+        "Sintang",
+        "Ketapang"
+      ],
+      "jawaban": "Pontianak"
+    },
+    {
+      "id": 40,
+      "provinsi": "Kalimantan Barat",
+      "pulau": "Pulau Kalimantan",
+      "pertanyaan": "Sungai terpanjang di Indonesia yang mengalir di Kalimantan Barat adalah...",
+      "opsi": [
+        "Sungai Kapuas",
+        "Sungai Mahakam",
+        "Sungai Barito",
+        "Sungai Musi"
+      ],
+      "jawaban": "Sungai Kapuas"
+    },
+    {
+      "id": 41,
+      "provinsi": "Kalimantan Tengah",
+      "pulau": "Pulau Kalimantan",
+      "pertanyaan": "Taman Nasional terkenal di Kalimantan Tengah yang menjadi pusat rehabilitasi Orangutan adalah...",
+      "opsi": [
+        "Taman Nasional Tanjung Puting",
+        "Taman Nasional Kutai",
+        "Taman Nasional Betung Kerihun",
+        "Taman Nasional Sebangau"
+      ],
+      "jawaban": "Taman Nasional Tanjung Puting"
+    },
+    {
+      "id": 42,
+      "provinsi": "Kalimantan Tengah",
+      "pulau": "Pulau Kalimantan",
+      "pertanyaan": "Ibu kota Provinsi Kalimantan Tengah adalah...",
+      "opsi": [
+        "Palangkaraya",
+        "Banjarmasin",
+        "Samarinda",
+        "Pontianak"
+      ],
+      "jawaban": "Palangkaraya"
+    },
+    {
+      "id": 43,
+      "provinsi": "Kalimantan Selatan",
+      "pulau": "Pulau Kalimantan",
+      "pertanyaan": "Monyet berhidung panjang yang menjadi fauna identitas Kalimantan Selatan adalah...",
+      "opsi": [
+        "Bekantan",
+        "Orangutan",
+        "Surili",
+        "Tarsius"
+      ],
+      "jawaban": "Bekantan"
+    },
+    {
+      "id": 44,
+      "provinsi": "Kalimantan Selatan",
+      "pulau": "Pulau Kalimantan",
+      "pertanyaan": "Tradisi jual beli di atas perahu yang sangat terkenal di Kalimantan Selatan dinamakan...",
+      "opsi": [
+        "Pasar Terapung",
+        "Pasar Kaget",
+        "Pasar Malam",
+        "Pasar Senen"
+      ],
+      "jawaban": "Pasar Terapung"
+    },
+    {
+      "id": 45,
+      "provinsi": "Kalimantan Timur",
+      "pulau": "Pulau Kalimantan",
+      "pertanyaan": "Mamalia air tawar langka yang hidup di Sungai Mahakam, Kalimantan Timur adalah...",
+      "opsi": [
+        "Pesut Mahakam",
+        "Lumba-lumba Hidung Botol",
+        "Dugong",
+        "Paus Seriti"
+      ],
+      "jawaban": "Pesut Mahakam"
+    },
+    {
+      "id": 46,
+      "provinsi": "Kalimantan Timur",
+      "pulau": "Pulau Kalimantan",
+      "pertanyaan": "Ibu Kota Nusantara (IKN) baru Indonesia dibangun di wilayah provinsi...",
+      "opsi": [
+        "Kalimantan Timur",
+        "Kalimantan Selatan",
+        "Kalimantan Tengah",
+        "Kalimantan Barat"
+      ],
+      "jawaban": "Kalimantan Timur"
+    },
+    {
+      "id": 47,
+      "provinsi": "Kalimantan Utara",
+      "pulau": "Pulau Kalimantan",
+      "pertanyaan": "Ibu kota Provinsi Kalimantan Utara adalah...",
+      "opsi": [
+        "Tanjung Selor",
+        "Tarakan",
+        "Nunukan",
+        "Malinau"
+      ],
+      "jawaban": "Tanjung Selor"
+    },
+    {
+      "id": 48,
+      "provinsi": "Kalimantan Utara",
+      "pulau": "Pulau Kalimantan",
+      "pertanyaan": "Taman Nasional luas di perbatasan Kalimantan Utara dengan Malaysia adalah...",
+      "opsi": [
+        "Taman Nasional Kayan Mentarang",
+        "Taman Nasional Betung Kerihun",
+        "Taman Nasional Kutai",
+        "Taman Nasional Bromo"
+      ],
+      "jawaban": "Taman Nasional Kayan Mentarang"
+    },
+    {
+      "id": 49,
+      "provinsi": "Sulawesi Utara",
+      "pulau": "Pulau Sulawesi",
+      "pertanyaan": "Taman Nasional bawah laut yang sangat terkenal di Sulawesi Utara adalah...",
+      "opsi": [
+        "Taman Nasional Bunaken",
+        "Taman Nasional Wakatobi",
+        "Taman Nasional Raja Ampat",
+        "Taman Nasional Togian"
+      ],
+      "jawaban": "Taman Nasional Bunaken"
+    },
+    {
+      "id": 50,
+      "provinsi": "Sulawesi Utara",
+      "pulau": "Pulau Sulawesi",
+      "pertanyaan": "Satwa primata kecil bermata besar yang nokturnal di Sulawesi Utara adalah...",
+      "opsi": [
+        "Tarsius",
+        "Bekantan",
+        "Owa Jawa",
+        "Kukang"
+      ],
+      "jawaban": "Tarsius"
+    },
+    {
+      "id": 51,
+      "provinsi": "Gorontalo",
+      "pulau": "Pulau Sulawesi",
+      "pertanyaan": "Burung khas Sulawesi yang bertelur menanam telurnya di pasir/tanah hangat di Gorontalo adalah...",
+      "opsi": [
+        "Burung Maleo",
+        "Burung Cendrawasih",
+        "Burung Enggang",
+        "Burung Merak"
+      ],
+      "jawaban": "Burung Maleo"
+    },
+    {
+      "id": 52,
+      "provinsi": "Gorontalo",
+      "pulau": "Pulau Sulawesi",
+      "pertanyaan": "Danau yang terdapat di Provinsi Gorontalo adalah...",
+      "opsi": [
+        "Danau Limboto",
+        "Danau Toba",
+        "Danau Poso",
+        "Danau Tempe"
+      ],
+      "jawaban": "Danau Limboto"
+    },
+    {
+      "id": 53,
+      "provinsi": "Sulawesi Tengah",
+      "pulau": "Pulau Sulawesi",
+      "pertanyaan": "Sesar aktif berbahaya yang melintasi wilayah Sulawesi Tengah dan Kota Palu adalah...",
+      "opsi": [
+        "Sesar Palu-Koro",
+        "Sesar Semangko",
+        "Sesar Lembang",
+        "Sesar Cimandiri"
+      ],
+      "jawaban": "Sesar Palu-Koro"
+    },
+    {
+      "id": 54,
+      "provinsi": "Sulawesi Tengah",
+      "pulau": "Pulau Sulawesi",
+      "pertanyaan": "Hewan endemik menyerupai sapi kerdil khas Sulawesi yang ada di Sulawesi Tengah adalah...",
+      "opsi": [
+        "Anoa",
+        "Komodo",
+        "Tapir",
+        "Bison"
+      ],
+      "jawaban": "Anoa"
+    },
+    {
+      "id": 55,
+      "provinsi": "Sulawesi Barat",
+      "pulau": "Pulau Sulawesi",
+      "pertanyaan": "Perahu tradisional khas Suku Mandar dari Sulawesi Barat yang sangat cepat adalah...",
+      "opsi": [
+        "Sandeq",
+        "Pinisi",
+        "Kora-kora",
+        "Jukung"
+      ],
+      "jawaban": "Sandeq"
+    },
+    {
+      "id": 56,
+      "provinsi": "Sulawesi Barat",
+      "pulau": "Pulau Sulawesi",
+      "pertanyaan": "Ibu kota Provinsi Sulawesi Barat adalah...",
+      "opsi": [
+        "Mamuju",
+        "Majene",
+        "Polewali",
+        "Palu"
+      ],
+      "jawaban": "Mamuju"
+    },
+    {
+      "id": 57,
+      "provinsi": "Sulawesi Selatan",
+      "pulau": "Pulau Sulawesi",
+      "pertanyaan": "Kapal layar tradisional peninggalan Suku Bugis/Makassar buatan Bulukumba adalah...",
+      "opsi": [
+        "Kapal Pinisi",
+        "Perahu Sandeq",
+        "Kapal Kora-Kora",
+        "Perahu Jukung"
+      ],
+      "jawaban": "Kapal Pinisi"
+    },
+    {
+      "id": 58,
+      "provinsi": "Sulawesi Selatan",
+      "pulau": "Pulau Sulawesi",
+      "pertanyaan": "Danau terdalam di Asia Tenggara yang terletak di Sulawesi Selatan bernama...",
+      "opsi": [
+        "Danau Matano",
+        "Danau Toba",
+        "Danau Poso",
+        "Danau Singkarak"
+      ],
+      "jawaban": "Danau Matano"
+    },
+    {
+      "id": 59,
+      "provinsi": "Sulawesi Tenggara",
+      "pulau": "Pulau Sulawesi",
+      "pertanyaan": "Kepulauan di Sulawesi Tenggara yang terkenal sebagai surga penyelaman bawah laut dunia adalah...",
+      "opsi": [
+        "Wakatobi",
+        "Bunaken",
+        "Raja Ampat",
+        "Derawan"
+      ],
+      "jawaban": "Wakatobi"
+    },
+    {
+      "id": 60,
+      "provinsi": "Sulawesi Tenggara",
+      "pulau": "Pulau Sulawesi",
+      "pertanyaan": "Tambang mineral yang sangat melimpah dan menjadi industri utama di Sulawesi Tenggara adalah...",
+      "opsi": [
+        "Nikel",
+        "Timah",
+        "Emas",
+        "Batu Bara"
+      ],
+      "jawaban": "Nikel"
+    },
+    {
+      "id": 61,
+      "provinsi": "Maluku",
+      "pulau": "Kepulauan Maluku",
+      "pertanyaan": "Buah rempah khas peninggalan bersejarah di Kepulauan Banda, Maluku adalah...",
+      "opsi": [
+        "Pala",
+        "Lada",
+        "Kayu Manis",
+        "Vanili"
+      ],
+      "jawaban": "Pala"
+    },
+    {
+      "id": 62,
+      "provinsi": "Maluku",
+      "pulau": "Kepulauan Maluku",
+      "pertanyaan": "Ibu kota Provinsi Maluku adalah...",
+      "opsi": [
+        "Ambon",
+        "Ternate",
+        "Tual",
+        "Bandanaira"
+      ],
+      "jawaban": "Ambon"
+    },
+    {
+      "id": 63,
+      "provinsi": "Maluku Utara",
+      "pulau": "Kepulauan Maluku",
+      "pertanyaan": "Burung cendrawasih endemik khas Maluku Utara yang ditemukan oleh Alfred Russel Wallace adalah...",
+      "opsi": [
+        "Burung Bidadari Halmahera",
+        "Cendrawasih Kuning",
+        "Burung Maleo",
+        "Kakatua Raja"
+      ],
+      "jawaban": "Burung Bidadari Halmahera"
+    },
+    {
+      "id": 64,
+      "provinsi": "Maluku Utara",
+      "pulau": "Kepulauan Maluku",
+      "pertanyaan": "Ibu kota Provinsi Maluku Utara adalah...",
+      "opsi": [
+        "Sofifi",
+        "Ternate",
+        "Tidore",
+        "Tobelo"
+      ],
+      "jawaban": "Sofifi"
+    },
+    {
+      "id": 65,
+      "provinsi": "Papua",
+      "pulau": "Pulau Papua",
+      "pertanyaan": "Buah khas Papua yang memiliki rasa manis gurih seperti campuran rambutan dan durian adalah...",
+      "opsi": [
+        "Matoa",
+        "Duku",
+        "Manggis",
+        "Kasturi"
+      ],
+      "jawaban": "Matoa"
+    },
+    {
+      "id": 66,
+      "provinsi": "Papua",
+      "pulau": "Pulau Papua",
+      "pertanyaan": "Danau indah di dekat Kota Jayapura yang terletak di kaki Pegunungan Cycloop adalah...",
+      "opsi": [
+        "Danau Sentani",
+        "Danau Paniai",
+        "Danau Toba",
+        "Danau Limboto"
+      ],
+      "jawaban": "Danau Sentani"
+    },
+    {
+      "id": 67,
+      "provinsi": "Papua Barat",
+      "pulau": "Pulau Papua",
+      "pertanyaan": "Burung unik di Pegunungan Arfak, Papua Barat yang pandai membuat dan menghias sarang adalah...",
+      "opsi": [
+        "Burung Namdur (Burung Pintar)",
+        "Burung Maleo",
+        "Burung Jalak",
+        "Burung Merak"
+      ],
+      "jawaban": "Burung Namdur (Burung Pintar)"
+    },
+    {
+      "id": 68,
+      "provinsi": "Papua Barat",
+      "pulau": "Pulau Papua",
+      "pertanyaan": "Ibu kota Provinsi Papua Barat adalah...",
+      "opsi": [
+        "Manokwari",
+        "Sorong",
+        "Jayapura",
+        "Nabire"
+      ],
+      "jawaban": "Manokwari"
+    },
+    {
+      "id": 69,
+      "provinsi": "Papua Selatan",
+      "pulau": "Pulau Papua",
+      "pertanyaan": "Bangunan sarang rayap tinggi menjulang yang menjadi fenomena unik di Merauke, Papua Selatan adalah...",
+      "opsi": [
+        "Musamus",
+        "Honai",
+        "Tongkonan",
+        "Candi"
+      ],
+      "jawaban": "Musamus"
+    },
+    {
+      "id": 70,
+      "provinsi": "Papua Selatan",
+      "pulau": "Pulau Papua",
+      "pertanyaan": "Ibu kota Provinsi Papua Selatan terletak di...",
+      "opsi": [
+        "Merauke",
+        "Agats",
+        "Tanah Merah",
+        "Boven Digoel"
+      ],
+      "jawaban": "Merauke"
+    },
+    {
+      "id": 71,
+      "provinsi": "Papua Tengah",
+      "pulau": "Pulau Papua",
+      "pertanyaan": "Puncak tertinggi di Indonesia yang memiliki salju abadi dan terletak di Papua Tengah adalah...",
+      "opsi": [
+        "Puncak Jaya (Carstensz)",
+        "Gunung Rinjani",
+        "Gunung Semeru",
+        "Gunung Kerinci"
+      ],
+      "jawaban": "Puncak Jaya (Carstensz)"
+    },
+    {
+      "id": 72,
+      "provinsi": "Papua Tengah",
+      "pulau": "Pulau Papua",
+      "pertanyaan": "Ibu kota Provinsi Papua Tengah adalah...",
+      "opsi": [
+        "Nabire",
+        "Timika",
+        "Enarotali",
+        "Sugapa"
+      ],
+      "jawaban": "Nabire"
+    },
+    {
+      "id": 73,
+      "provinsi": "Papua Pegunungan",
+      "pulau": "Pulau Papua",
+      "pertanyaan": "Satu-satunya provinsi di Indonesia yang tidak memiliki garis pantai sama sekali (landlocked) adalah...",
+      "opsi": [
+        "Papua Pegunungan",
+        "Papua Tengah",
+        "Jawa Barat",
+        "DI Yogyakarta"
+      ],
+      "jawaban": "Papua Pegunungan"
+    },
+    {
+      "id": 74,
+      "provinsi": "Papua Pegunungan",
+      "pulau": "Pulau Papua",
+      "pertanyaan": "Lembah terkenal di Papua Pegunungan tempat bermukimnya Suku Dani adalah...",
+      "opsi": [
+        "Lembah Baliem",
+        "Lembah Anai",
+        "Lembah Bada",
+        "Lembah Harau"
+      ],
+      "jawaban": "Lembah Baliem"
+    },
+    {
+      "id": 75,
+      "provinsi": "Papua Barat Daya",
+      "pulau": "Pulau Papua",
+      "pertanyaan": "Gugusan kepulauan karst terkenal di Papua Barat Daya yang merupakan pusat keanekaragaman hayati laut dunia adalah...",
+      "opsi": [
+        "Raja Ampat",
+        "Wakatobi",
+        "Bunaken",
+        "Derawan"
+      ],
+      "jawaban": "Raja Ampat"
+    },
+    {
+      "id": 76,
+      "provinsi": "Papua Barat Daya",
+      "pulau": "Pulau Papua",
+      "pertanyaan": "Provinsi termuda ke-38 di Indonesia yang disahkan pada tahun 2022 adalah...",
+      "opsi": [
+        "Papua Barat Daya",
+        "Banten",
+        "Gorontalo",
+        "Kaltara"
+      ],
+      "jawaban": "Papua Barat Daya"
+    }
+  ]
+}
