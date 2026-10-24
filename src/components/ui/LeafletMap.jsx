@@ -8,7 +8,7 @@ import provinsiData from '../../data/Provinsi.json';
 export default function LeafletMap({ locations, selectedLocation, onSelectLocation, isNight }) {
   const mapContainer = useRef(null);
   const map = useRef(null);
-  const markersRef = useRef([]);
+  const markersRef = useRef({});
   const geoJsonLayerRef = useRef(null);
   const selectedPolygonRef = useRef(null);
 
@@ -37,55 +37,101 @@ export default function LeafletMap({ locations, selectedLocation, onSelectLocati
     };
   }, []);
 
-  // 2. Render Markers
+  // 2. Render Markers (Custom Google Maps Style Pin)
   useEffect(() => {
     if (!map.current) return;
     
-    markersRef.current.forEach(m => map.current.removeLayer(m));
-    markersRef.current = [];
+    // Bersihkan marker lama
+    Object.values(markersRef.current).forEach(m => map.current.removeLayer(m));
+    markersRef.current = {};
 
     locations.forEach((loc) => {
+      const isActive = selectedLocation?.id === loc.id;
+      const color = loc.warna || '#10b981';
+
+      // SVG Pin ala Google Maps + Efek Denyut (Pulse) jika aktif
+      const html = `
+        <div style="position: relative; display: flex; flex-direction: column; align-items: center; cursor: pointer; transition: all 0.3s ease;">
+          ${isActive ? `<div style="position: absolute; top: 0; width: 30px; height: 30px; background-color: ${color}; border-radius: 50%; opacity: 0.6; animation: markerPulse 1.5s infinite;"></div>` : ''}
+          <div class="marker-pin ${isActive ? 'scale-110 z-50' : ''}" style="
+            width: 32px; 
+            height: 32px; 
+            background: linear-gradient(135deg, ${color}, ${color}dd); 
+            border-radius: 50% 50% 50% 0; 
+            transform: rotate(-45deg); 
+            border: 3px solid white; 
+            box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: ${isActive ? 50 : 10};
+            transition: transform 0.2s ease;
+          ">
+             <div style="
+               width: 10px; 
+               height: 10px; 
+               background: white; 
+               border-radius: 50%; 
+               transform: rotate(45deg);
+             "></div>
+          </div>
+        </div>
+      `;
+
       const icon = L.divIcon({
-        className: 'custom-marker',
-        html: `<div style="background-color: ${loc.warna || '#10b981'}; width: 24px; height: 24px; border-radius: 50%; border: 3px solid white; box-shadow: 0 4px 6px rgba(0,0,0,0.3); transition: transform 0.2s;"></div>`,
-        iconSize: [24, 24],
-        iconAnchor: [12, 12],
+        className: 'bg-transparent border-none',
+        html: html,
+        iconSize: [32, 42],
+        iconAnchor: [16, 42], // Ujung pin di koordinat
+        popupAnchor: [0, -42],
       });
 
       const marker = L.marker([loc.koordinat[1], loc.koordinat[0]], { icon })
         .addTo(map.current)
         .on('click', () => onSelectLocation(loc));
 
-      markersRef.current.push(marker);
+      markersRef.current[loc.id] = marker;
     });
-  }, [locations, onSelectLocation]);
+  }, [locations, selectedLocation, onSelectLocation]);
 
-  // 3. Render Garis Batas Provinsi (Putih di awal)
+  // 3. Render Garis Batas Provinsi (Dipertebal & Ber-glow)
   useEffect(() => {
     if (!map.current) return;
 
-    // Hapus layer batas lama jika ada
     if (geoJsonLayerRef.current) {
       map.current.removeLayer(geoJsonLayerRef.current);
     }
 
-    // Gambar semua batas provinsi dengan garis putih transparan
+    // Layer 1: Efek Glow (Garis luar lebih tebal & transparan)
+    const glowLayer = L.geoJSON(provinsiData, {
+      style: {
+        color: '#34d399', // Warna emerald terang
+        weight: 6,        // Lebih tebal
+        opacity: 0.3,     // Transparan untuk efek glow
+        fill: false,
+      },
+    }).addTo(map.current);
+
+    // Layer 2: Garis Utama (Lebih tebal & tegas)
     geoJsonLayerRef.current = L.geoJSON(provinsiData, {
       style: {
-        color: '#ffffff', 
-        weight: 1,        
-        opacity: 0.5,     
+        color: '#ffffff',
+        weight: 2,        // Dipertebal dari 1 menjadi 2
+        opacity: 0.9,     // Lebih tegas
         fill: false,      
       },
     }).addTo(map.current);
 
+    // Cleanup glow layer jika komponen unmount
+    return () => {
+      if (map.current && glowLayer) map.current.removeLayer(glowLayer);
+    };
   }, []);
 
   // 4. Efek saat kota dipilih (Zoom & Highlight Poligon)
   useEffect(() => {
     if (!map.current || !provinsiData) return;
 
-    // Hapus polygon highlight sebelumnya
     if (selectedPolygonRef.current) {
       map.current.removeLayer(selectedPolygonRef.current);
       selectedPolygonRef.current = null;
@@ -97,28 +143,47 @@ export default function LeafletMap({ locations, selectedLocation, onSelectLocati
         duration: 1.5,
       });
 
-      // Bersihkan nama provinsi dari embel-embel "(SMP)" atau "(SMA)"
       const cleanProvinceName = selectedLocation.nama.replace(/\s*\(.*?\)\s*/g, '').trim().toLowerCase();
+      
+      // Normalisasi nama khusus untuk provinsi tertentu
+      let searchName = cleanProvinceName;
+      if (cleanProvinceName === 'yogyakarta' || cleanProvinceName === 'di yogyakarta') searchName = 'daerah istimewa yogyakarta';
+      if (cleanProvinceName === 'dki jakarta' || cleanProvinceName === 'jakarta') searchName = 'dki jakarta';
 
-      // Cari fitur yang cocok dengan normalisasi nama
       const selectedFeature = provinsiData.features.find(
-        (feature) => feature.properties.PROVINSI.toLowerCase() === cleanProvinceName
+        (feature) => feature.properties.PROVINSI.toLowerCase() === searchName || feature.properties.PROVINSI.toLowerCase() === cleanProvinceName
       );
 
-      // Jika ketemu, gambar ulang dengan warna highlight
       if (selectedFeature) {
+        // Polygon Highlight yang lebih tegas
         selectedPolygonRef.current = L.geoJSON(selectedFeature, {
           style: {
             color: selectedLocation.warna || '#10b981', 
-            weight: 3,
+            weight: 4,             // Garis batas dipilih lebih tebal
             opacity: 1,
             fillColor: selectedLocation.warna || '#10b981',
-            fillOpacity: 0.15, 
+            fillOpacity: 0.25,     // Isi lebih terlihat
+            dashArray: '5, 5',     // Efek garis putus-putus (opsional, bisa dihapus jika tidak suka)
           },
         }).addTo(map.current);
       }
     }
   }, [selectedLocation]);
 
-  return <div ref={mapContainer} className="h-full w-full z-0 outline-none" />;
+  return (
+    <>
+      {/* Tambahan style global untuk animasi pulse marker */}
+      <style>{`
+        @keyframes markerPulse {
+          0% { transform: scale(0.8); opacity: 0.8; }
+          100% { transform: scale(2.5); opacity: 0; }
+        }
+        .marker-pin:hover {
+          transform: rotate(-45deg) scale(1.15) !important;
+          box-shadow: 0 8px 16px rgba(0,0,0,0.5) !important;
+        }
+      `}</style>
+      <div ref={mapContainer} className="h-full w-full z-0 outline-none" />
+    </>
+  );
 }
