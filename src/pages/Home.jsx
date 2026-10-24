@@ -14,16 +14,16 @@ import {
   BookOpen,
 } from 'lucide-react';
 import { Button } from '../components/ui/button';
-import  HomeAnimations from '../components/ui/HomeAnimations';
+import HomeAnimations from '../components/ui/HomeAnimations';
 
 export default function Home() {
   const [isNight, setIsNight] = useState(() => {
-  try {
-    return localStorage.getItem('geonusa-theme') === 'night';
-  } catch {
-    return false;
-  }
-});
+    try {
+      return localStorage.getItem('geonusa-theme') === 'night';
+    } catch {
+      return false;
+    }
+  });
 
   const animals = isNight
     ? {
@@ -50,9 +50,11 @@ export default function Home() {
           exit={{ opacity: 0 }}
           transition={{ duration: 0.9 }}
           className="absolute inset-0 -z-20 bg-cover bg-center bg-no-repeat"
-          style={{ 
-    backgroundImage: `url(${import.meta.env.BASE_URL}images/${isNight ? 'geonusamalam.png' : 'geonusasiang.png'})` 
-  }}
+          style={{
+            backgroundImage: `url(${import.meta.env.BASE_URL}images/${
+              isNight ? 'geonusamalam.png' : 'geonusasiang.png'
+            })`,
+          }}
         />
       </AnimatePresence>
 
@@ -118,20 +120,17 @@ export default function Home() {
             <button
               type="button"
               onClick={() => {
-  setIsNight((prev) => {
-    const nextTheme = !prev;
-
-    try {
-      localStorage.setItem(
-        'geonusa-theme',
-        nextTheme ? 'night' : 'day'
-      );
-    } catch {
-    }
-
-    return nextTheme;
-  });
-}}
+                setIsNight((prev) => {
+                  const nextTheme = !prev;
+                  try {
+                    localStorage.setItem(
+                      'geonusa-theme',
+                      nextTheme ? 'night' : 'day'
+                    );
+                  } catch {}
+                  return nextTheme;
+                });
+              }}
               aria-label={
                 isNight ? 'Aktifkan mode siang' : 'Aktifkan mode malam'
               }
@@ -194,9 +193,7 @@ export default function Home() {
             },
           }}
           className={`pointer-events-none absolute right-[3%] top-[100px] z-20 hidden origin-top object-contain drop-shadow-lg sm:block md:top-[115px] ${
-            isNight
-              ? 'w-20 sm:w-24 md:w-32'
-              : 'w-24 sm:w-28 md:w-36'
+            isNight ? 'w-20 sm:w-24 md:w-32' : 'w-24 sm:w-28 md:w-36'
           }`}
         />
       </AnimatePresence>
@@ -275,8 +272,7 @@ export default function Home() {
 
           {/* JUDUL */}
           <h1 className="mb-4 text-[36px] font-extrabold leading-[1.1] tracking-[-1.4px] sm:text-[43px] md:text-[48px] lg:text-[52px]">
-            Jelajahi{' '}
-            <span className="text-rose-600">Nusantara</span>
+            Jelajahi <span className="text-rose-600">Nusantara</span>
             <br />
             Secara Interaktif
           </h1>
@@ -292,22 +288,47 @@ export default function Home() {
             sampai Merauke.
           </p>
 
-          {/* TOMBOL JELAJAH */}
-          <Link to="/dashboard" className="inline-flex">
-            <Button
-              size="lg"
-              className="group flex h-[54px] items-center gap-3 rounded-full bg-rose-600 px-5 text-base font-bold text-white shadow-lg shadow-rose-600/25 transition-all hover:-translate-y-0.5 hover:bg-rose-700 sm:px-7"
-            >
-              <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-rose-600">
-                <Compass size={21} />
-              </span>
-              Mulai Jelajah
-              <ArrowRight
-                size={20}
-                className="transition-transform group-hover:translate-x-1"
-              />
-            </Button>
-          </Link>
+          {/* CONTAINER TOMBOL (Responsif: Berjejer ke bawah di HP) */}
+          <div className="flex flex-col sm:flex-row gap-3 mt-2">
+            {/* TOMBOL JELAJAH */}
+            <Link to="/dashboard" className="inline-flex w-full sm:w-auto">
+              <Button
+                size="lg"
+                className="group flex h-[54px] w-full sm:w-auto items-center justify-center gap-3 rounded-full bg-rose-600 px-5 text-base font-bold text-white shadow-lg shadow-rose-600/25 transition-all hover:-translate-y-0.5 hover:bg-rose-700 sm:px-7"
+              >
+                <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-rose-600">
+                  <Compass size={21} />
+                </span>
+                Mulai Jelajah
+                <ArrowRight
+                  size={20}
+                  className="transition-transform group-hover:translate-x-1"
+                />
+              </Button>
+            </Link>
+
+            {/* TOMBOL KUIS (BARU) */}
+            <Link to="/kuis" className="inline-flex w-full sm:w-auto">
+              <Button
+                size="lg"
+                variant="outline"
+                className={`group flex h-[54px] w-full sm:w-auto items-center justify-center gap-3 rounded-full border-2 px-5 text-base font-bold transition-all hover:-translate-y-0.5 sm:px-7 ${
+                  isNight
+                    ? 'border-slate-600 bg-slate-800/80 text-white hover:bg-slate-700 hover:text-rose-400'
+                    : 'border-slate-300 bg-white/70 text-slate-700 hover:bg-white hover:text-rose-600'
+                }`}
+              >
+                <span className={`flex h-8 w-8 items-center justify-center rounded-full transition-colors ${
+                  isNight 
+                    ? 'bg-slate-700 text-slate-300 group-hover:text-rose-400' 
+                    : 'bg-slate-100 text-slate-600 group-hover:text-rose-600'
+                }`}>
+                  <Gamepad2 size={20} />
+                </span>
+                Main Kuis
+              </Button>
+            </Link>
+          </div>
 
           {/* AKSEN KECIL */}
           <div
