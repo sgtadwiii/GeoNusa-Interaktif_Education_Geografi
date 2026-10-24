@@ -1,1946 +1,668 @@
 {
-  "SD": [
-    {
-      "id": "aceh",
-      "pulau": "Pulau Sumatra",
-      "nama": "Aceh",
-      "ibukota": "Banda Aceh",
-      "koordinat": [
-        95.3238,
-        5.5483
-      ],
-      "warna": "#EF4444",
-      "deskripsi": "Aceh terletak di ujung paling barat Indonesia dengan ibu kota Banda Aceh. Aceh dikenal dengan sebutan Serambi Mekkah dan memiliki keindahan pantai serta Pegunungan Bukit Barisan.",
-      "flora": "Bunga Jeumpa",
-      "fauna": "Burung Cempala Kuning, Gajah Sumatra",
-      "geografi": "Dikelilingi Samudra Hindia dan Selat Malaka, wilayah dataran rendah hingga pegunungan.",
-      "sumber": "Wikipedia - Aceh (https://id.wikipedia.org/wiki/Aceh)",
-      "gambar": "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sumut",
-      "pulau": "Pulau Sumatra",
-      "nama": "Sumatra Utara",
-      "ibukota": "Medan",
-      "koordinat": [
-        98.6722,
-        3.5952
-      ],
-      "warna": "#F59E0B",
-      "deskripsi": "Sumatra Utara beribu kota di Medan. Provinsi ini terkenal dengan Danau Toba, danau vulkanik terbesar di dunia dengan Pulau Samosir di tengahnya.",
-      "flora": "Bunga Kenanga, Bunga Bangkai",
-      "fauna": "Beo Nias, Harimau Sumatra",
-      "geografi": "Memiliki Danau Toba, wilayah pesisir timur, dataran tinggi, dan pesisir barat.",
-      "sumber": "Wikipedia - Sumatra Utara (https://id.wikipedia.org/wiki/Sumatra_Utara)",
-      "gambar": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sumbar",
-      "pulau": "Pulau Sumatra",
-      "nama": "Sumatra Barat",
-      "ibukota": "Padang",
-      "koordinat": [
-        100.3543,
-        -0.9492
-      ],
-      "warna": "#10B981",
-      "deskripsi": "Sumatra Barat beribu kota di Padang. Provinsi ini terkenal dengan keindahan alam seperti Jam Gadang di Bukittinggi dan Kepulauan Mentawai.",
-      "flora": "Pohon Andalas",
-      "fauna": "Kuau Raja, Harimau Sumatra",
-      "geografi": "Berada di pesisir barat Sumatra, didominasi oleh Pegunungan Bukit Barisan dan danau-danau indah.",
-      "sumber": "Wikipedia - Sumatra Barat (https://id.wikipedia.org/wiki/Sumatra_Barat)",
-      "gambar": "https://images.unsplash.com/photo-1590059208016-73241b312760?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "riau",
-      "pulau": "Pulau Sumatra",
-      "nama": "Riau",
-      "ibukota": "Pekanbaru",
-      "koordinat": [
-        101.4478,
-        0.5071
-      ],
-      "warna": "#3B82F6",
-      "deskripsi": "Riau beribu kota di Pekanbaru. Provinsi Riau terletak di bagian tengah Pulau Sumatra dan kaya akan minyak bumi serta hutan mangrove di pesisirnya.",
-      "flora": "Pohon Nibung",
-      "fauna": "Burung Serindit Melayu, Gajah Sumatra",
-      "geografi": "Dataran rendah berawa dan dilalui oleh sungai-sungai besar seperti Sungai Siak.",
-      "sumber": "Wikipedia - Riau (https://id.wikipedia.org/wiki/Riau)",
-      "gambar": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "kepri",
-      "pulau": "Pulau Sumatra",
-      "nama": "Kepulauan Riau",
-      "ibukota": "Tanjungpinang",
-      "koordinat": [
-        104.4487,
-        0.916
-      ],
-      "warna": "#8B5CF6",
-      "deskripsi": "Kepulauan Riau beribu kota di Tanjungpinang. Provinsi ini terdiri dari ribuan pulau yang berbatasan langsung dengan Singapura dan Malaysia.",
-      "flora": "Sirih",
-      "fauna": "Ikan Kakap Merah, Dugong",
-      "geografi": "Sebagian besar wilayahnya berupa lautan dan kepulauan.",
-      "sumber": "Wikipedia - Kepulauan Riau (https://id.wikipedia.org/wiki/Kepulauan_Riau)",
-      "gambar": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "jambi",
-      "pulau": "Pulau Sumatra",
-      "nama": "Jambi",
-      "ibukota": "Jambi",
-      "koordinat": [
-        103.6131,
-        -1.6101
-      ],
-      "warna": "#EC4899",
-      "deskripsi": "Jambi beribu kota di Kota Jambi. Di provinsi ini terdapat Candi Muaro Jambi yang sangat luas dan Sungai Batanghari yang panjang.",
-      "flora": "Pinang Merah",
-      "fauna": "Harimau Sumatra, Ungko",
-      "geografi": "Memiliki dataran rendah, rawa, hingga Pegunungan Bukit Barisan di barat (Gunung Kerinci).",
-      "sumber": "Wikipedia - Jambi (https://id.wikipedia.org/wiki/Jambi)",
-      "gambar": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sumsel",
-      "pulau": "Pulau Sumatra",
-      "nama": "Sumatra Selatan",
-      "ibukota": "Palembang",
-      "koordinat": [
-        104.7565,
-        -2.9909
-      ],
-      "warna": "#6366F1",
-      "deskripsi": "Sumatra Selatan beribu kota di Palembang. Provinsi ini terkenal dengan Jembatan Ampera di atas Sungai Musi dan kuliner Pempek.",
-      "flora": "Duku Palembang",
-      "fauna": "Ikan Belida, Gajah Sumatra",
-      "geografi": "Dataran rendah aluvial yang dilalui Sungai Musi serta pegunungan di sisi barat.",
-      "sumber": "Wikipedia - Sumatra Selatan (https://id.wikipedia.org/wiki/Sumatra_Selatan)",
-      "gambar": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "babel",
-      "pulau": "Pulau Sumatra",
-      "nama": "Kepulauan Bangka Belitung",
-      "ibukota": "Pangkalpinang",
-      "koordinat": [
-        106.1169,
-        -2.1316
-      ],
-      "warna": "#14B8A6",
-      "deskripsi": "Kepulauan Bangka Belitung beribu kota di Pangkalpinang. Provinsi ini terkenal dengan pantai-pantai indah batu granit dan tambang timah.",
-      "flora": "Pohon Nagasari",
-      "fauna": "Tarsius Bangka (Mentilin)",
-      "geografi": "Terdiri dari dua pulau besar (Bangka dan Belitung) serta ratusan pulau kecil.",
-      "sumber": "Wikipedia - Kepulauan Bangka Belitung (https://id.wikipedia.org/wiki/Kepulauan_Bangka_Belitung)",
-      "gambar": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "bengkulu",
-      "pulau": "Pulau Sumatra",
-      "nama": "Bengkulu",
-      "ibukota": "Bengkulu",
-      "koordinat": [
-        102.2655,
-        -3.8004
-      ],
-      "warna": "#F97316",
-      "deskripsi": "Bengkulu beribu kota di Kota Bengkulu. Bengkulu tempat ditemukannya bunga raksasa langka Rafflesia arnoldii dan peninggalan Benteng Marlborough.",
-      "flora": "Bunga Rafflesia arnoldii",
-      "fauna": "Beruang Madu",
-      "geografi": "Berada di pesisir barat Sumatra berhadapan langsung dengan Samudra Hindia.",
-      "sumber": "Wikipedia - Bengkulu (https://id.wikipedia.org/wiki/Bengkulu)",
-      "gambar": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "lampung",
-      "pulau": "Pulau Sumatra",
-      "nama": "Lampung",
-      "ibukota": "Bandar Lampung",
-      "koordinat": [
-        105.2663,
-        -5.45
-      ],
-      "warna": "#84CC16",
-      "deskripsi": "Lampung beribu kota di Bandar Lampung. Lampung merupakan pintu gerbang Pulau Sumatra di selatan dan terkenal dengan Taman Nasional Way Kambas tempat perlindungan Gajah.",
-      "flora": "Pohon Bunga Ashoka / Bunga Sedap Malam",
-      "fauna": "Gajah Sumatra, Lumba-lumba Hidung Botol",
-      "geografi": "Berbatasan dengan Selat Sunda di selatan dan Selat Lampung.",
-      "sumber": "Wikipedia - Lampung (https://id.wikipedia.org/wiki/Lampung)",
-      "gambar": "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "banten",
-      "pulau": "Pulau Jawa",
-      "nama": "Banten",
-      "ibukota": "Serang",
-      "koordinat": [
-        106.163,
-        -6.12
-      ],
-      "warna": "#06B6D4",
-      "deskripsi": "Banten beribu kota di Serang. Banten berada di ujung barat Pulau Jawa dan memiliki Taman Nasional Ujung Kulon, tempat hidup Badak Jawa yang bercula satu.",
-      "flora": "Pohon Kokoleceran",
-      "fauna": "Badak Jawa (Badak Bercula Satu)",
-      "geografi": "Dikelilingi Laut Jawa, Selat Sunda, dan Samudra Hindia.",
-      "sumber": "Wikipedia - Banten (https://id.wikipedia.org/wiki/Banten)",
-      "gambar": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "dkijakarta",
-      "pulau": "Pulau Jawa",
-      "nama": "DKI Jakarta",
-      "ibukota": "Jakarta",
-      "koordinat": [
-        106.8456,
-        -6.2088
-      ],
-      "warna": "#3B82F6",
-      "deskripsi": "DKI Jakarta adalah ibu kota negara Indonesia (saat ini) dan kota terpusat ekonomi. Di Jakarta ada Monumen Nasional (Monas) dan Kepulauan Seribu.",
-      "flora": "Salak Condet",
-      "fauna": "Burung Elang Bondol",
-      "geografi": "Dataran rendah di pesisir utara Pulau Jawa berhadapan dengan Laut Jawa.",
-      "sumber": "Wikipedia - Daerah Khusus Ibukota Jakarta (https://id.wikipedia.org/wiki/Daerah_Khusus_Ibukota_Jakarta)",
-      "gambar": "https://images.unsplash.com/photo-1555899434-94d1368aa7af?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "jabar",
-      "pulau": "Pulau Jawa",
-      "nama": "Jawa Barat",
-      "ibukota": "Bandung",
-      "koordinat": [
-        107.6191,
-        -6.9175
-      ],
-      "warna": "#10B981",
-      "deskripsi": "Jawa Barat beribu kota di Bandung. Provinsi ini dikelilingi pegunungan dan gunung berapi seperti Tangkuban Perahu, serta terkenal dengan kebudayaan Sunda.",
-      "flora": "Bunga Gandaria",
-      "fauna": "Macan Tutul Jawa, Surili",
-      "geografi": "Didominasi oleh pegunungan, dataran tinggi subur, dan pesisir pantai.",
-      "sumber": "Wikipedia - Jawa Barat (https://id.wikipedia.org/wiki/Jawa_Barat)",
-      "gambar": "https://images.unsplash.com/photo-1601058268499-e52658b8bb88?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "jateng",
-      "pulau": "Pulau Jawa",
-      "nama": "Jawa Tengah",
-      "ibukota": "Semarang",
-      "koordinat": [
-        110.4203,
-        -6.9667
-      ],
-      "warna": "#F59E0B",
-      "deskripsi": "Jawa Tengah beribu kota di Semarang. Di provinsi ini terdapat Candi Borobudur yang megah dan Gunung Merbabu serta Gunung Slamet.",
-      "flora": "Pohon Kantil",
-      "fauna": "Burung Kepodang Emas",
-      "geografi": "Dataran rendah di utara dan selatan, serta dataran tinggi vulkanik di bagian tengah.",
-      "sumber": "Wikipedia - Jawa Tengah (https://id.wikipedia.org/wiki/Jawa_Tengah)",
-      "gambar": "https://images.unsplash.com/photo-1609137144813-7d9921338f24?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "diy",
-      "pulau": "Pulau Jawa",
-      "nama": "DI Yogyakarta",
-      "ibukota": "Yogyakarta",
-      "koordinat": [
-        110.3695,
-        -7.7956
-      ],
-      "warna": "#EF4444",
-      "deskripsi": "DI Yogyakarta adalah daerah istimewa beribu kota di Yogyakarta. Dikenal sebagai kota pelajar dan budaya, serta memiliki Gunung Merapi yang aktif.",
-      "flora": "Pohon Kepel",
-      "fauna": "Burung Tekukur",
-      "geografi": "Membentang dari lereng Gunung Merapi di utara hingga pantai Samudra Hindia di selatan.",
-      "sumber": "Wikipedia - Daerah Istimewa Yogyakarta (https://id.wikipedia.org/wiki/Daerah_Istimewa_Yogyakarta)",
-      "gambar": "https://images.unsplash.com/photo-1584810359583-96fc3448beaa?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "jatim",
-      "pulau": "Pulau Jawa",
-      "nama": "Jawa Timur",
-      "ibukota": "Surabaya",
-      "koordinat": [
-        112.7508,
-        -7.2575
-      ],
-      "warna": "#8B5CF6",
-      "deskripsi": "Jawa Timur beribu kota di Surabaya. Provinsi ini memiliki Gunung Bromo, Kawah Ijen dengan api birunya, dan Pulau Madura.",
-      "flora": "Bunga Sedap Malam",
-      "fauna": "Ayam Bekisar",
-      "geografi": "Pegunungan vulkanik di tengah, dataran aluvial Sungai Brantas, dan Kepulauan Madura.",
-      "sumber": "Wikipedia - Jawa Timur (https://id.wikipedia.org/wiki/Jawa_Timur)",
-      "gambar": "https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "bali",
-      "pulau": "Bali & Nusa Tenggara",
-      "nama": "Bali",
-      "ibukota": "Denpasar",
-      "koordinat": [
-        115.1889,
-        -8.4095
-      ],
-      "warna": "#EC4899",
-      "deskripsi": "Bali beribu kota di Denpasar. Pulau Bali sangat terkenal di seluruh dunia karena keindahan pantai, budaya, dan Gunung Agung.",
-      "flora": "Bunga Kamboja, Pohon Kelapa",
-      "fauna": "Jalak Bali, Lumba-lumba",
-      "geografi": "Dikelilingi Laut Bali dan Samudra Hindia, memiliki gunung berapi aktif di tengahnya.",
-      "sumber": "Wikipedia - Bali (https://id.wikipedia.org/wiki/Bali)",
-      "gambar": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "ntb",
-      "pulau": "Bali & Nusa Tenggara",
-      "nama": "Nusa Tenggara Barat",
-      "ibukota": "Mataram",
-      "koordinat": [
-        116.1165,
-        -8.5833
-      ],
-      "warna": "#14B8A6",
-      "deskripsi": "Nusa Tenggara Barat (NTB) beribu kota di Mataram. NTB terdiri dari Pulau Lombok dan Pulau Sumbawa, serta memiliki Gunung Rinjani yang indah.",
-      "flora": "Pohon Sanggabuana / Ajan Kelicung",
-      "fauna": "Rusa Timor, Burung Cacatua",
-      "geografi": "Kepulauan dengan sabana tropis dan gunung berapi tinggi.",
-      "sumber": "Wikipedia - Nusa Tenggara Barat (https://id.wikipedia.org/wiki/Nusa_Tenggara_Barat)",
-      "gambar": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "ntt",
-      "pulau": "Bali & Nusa Tenggara",
-      "nama": "Nusa Tenggara Timur",
-      "ibukota": "Kupang",
-      "koordinat": [
-        123.5833,
-        -10.1667
-      ],
-      "warna": "#F97316",
-      "deskripsi": "Nusa Tenggara Timur (NTT) beribu kota di Kupang. NTT terkenal dengan Taman Nasional Komodo tempat hidup Komodo, kadal terbesar di dunia.",
-      "flora": "Pohon Cendana",
-      "fauna": "Komodo",
-      "geografi": "Kepulauan yang terdiri dari Pulau Flores, Sumba, Timor, dan banyak pulau kecil dengan bentang sabana.",
-      "sumber": "Wikipedia - Nusa Tenggara Timur (https://id.wikipedia.org/wiki/Nusa_Tenggara_Timur)",
-      "gambar": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "kalbar",
-      "pulau": "Pulau Kalimantan",
-      "nama": "Kalimantan Barat",
-      "ibukota": "Pontianak",
-      "koordinat": [
-        109.3333,
-        -0.0333
-      ],
-      "warna": "#6366F1",
-      "deskripsi": "Kalimantan Barat beribu kota di Pontianak. Kota Pontianak tepat dilewati oleh garis khatulistiwa (Garis Ekuator).",
-      "flora": "Tengkawang Tungkul",
-      "fauna": "Burung Enggang Gading, Orangutan Kalimantan",
-      "geografi": "Dataran rendah berawa dan dialiri Sungai Kapuas, sungai terpanjang di Indonesia.",
-      "sumber": "Wikipedia - Kalimantan Barat (https://id.wikipedia.org/wiki/Kalimantan_Barat)",
-      "gambar": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "kalteng",
-      "pulau": "Pulau Kalimantan",
-      "nama": "Kalimantan Tengah",
-      "ibukota": "Palangkaraya",
-      "koordinat": [
-        113.9167,
-        -2.2083
-      ],
-      "warna": "#84CC16",
-      "deskripsi": "Kalimantan Tengah beribu kota di Palangkaraya. Memiliki hutan hujan tropis yang sangat luas dan Taman Nasional Tanjung Puting pusat Orangutan.",
-      "flora": "Pohon Tengkah / Anggrek Hitam",
-      "fauna": "Orangutan Kalimantan, Kahau / Bekantan",
-      "geografi": "Didominasi oleh hutan tropis, lahan gambut, dan sungai-sungai besar.",
-      "sumber": "Wikipedia - Kalimantan Tengah (https://id.wikipedia.org/wiki/Kalimantan_Tengah)",
-      "gambar": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "kalsel",
-      "pulau": "Pulau Kalimantan",
-      "nama": "Kalimantan Selatan",
-      "ibukota": "Banjarbaru",
-      "koordinat": [
-        114.591,
-        -3.3194
-      ],
-      "warna": "#06B6D4",
-      "deskripsi": "Kalimantan Selatan beribu kota di Banjarbaru (sebelumnya Banjarmasin). Dikenal dengan sebutan Kota Seribu Sungai dan Pasar Terapung.",
-      "flora": "Pohon Kasturi",
-      "fauna": "Bekantan",
-      "geografi": "Dialiri Sungai Barito dan didominasi oleh Pegunungan Meratus.",
-      "sumber": "Wikipedia - Kalimantan Selatan (https://id.wikipedia.org/wiki/Kalimantan_Selatan)",
-      "gambar": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "kaltim",
-      "pulau": "Pulau Kalimantan",
-      "nama": "Kalimantan Timur",
-      "ibukota": "Samarinda",
-      "koordinat": [
-        117.1537,
-        -0.5022
-      ],
-      "warna": "#3B82F6",
-      "deskripsi": "Kalimantan Timur beribu kota di Samarinda. Di provinsi ini terletak lokasi Ibu Kota Nusantara (IKN) baru dan Sungai Mahakam.",
-      "flora": "Anggrek Hitam",
-      "fauna": "Pesut Mahakam",
-      "geografi": "Memiliki sungai besar, hutan hujan tropis, dan berbatasan dengan Selat Makassar.",
-      "sumber": "Wikipedia - Kalimantan Timur (https://id.wikipedia.org/wiki/Kalimantan_Timur)",
-      "gambar": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "kaltara",
-      "pulau": "Pulau Kalimantan",
-      "nama": "Kalimantan Utara",
-      "ibukota": "Tanjung Selor",
-      "koordinat": [
-        117.3653,
-        2.8373
-      ],
-      "warna": "#10B981",
-      "deskripsi": "Kalimantan Utara beribu kota di Tanjung Selor. Provinsi paling muda di Pulau Kalimantan ini berbatasan langsung dengan Malaysia.",
-      "flora": "Pohon Bakau / Anggrek Hitam",
-      "fauna": "Burung Enggang, Rusa Sambar",
-      "geografi": "Wilayah pegunungan di pedalaman dan kawasan pesisir/kepulauan (Tarakan).",
-      "sumber": "Wikipedia - Kalimantan Utara (https://id.wikipedia.org/wiki/Kalimantan_Utara)",
-      "gambar": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sulut",
-      "pulau": "Pulau Sulawesi",
-      "nama": "Sulawesi Utara",
-      "ibukota": "Manado",
-      "koordinat": [
-        124.8483,
-        1.4748
-      ],
-      "warna": "#F59E0B",
-      "deskripsi": "Sulawesi Utara beribu kota di Manado. Provinsi ini terkenal dengan keindahan bawah laut Taman Nasional Bunaken dan Danau Tondano.",
-      "flora": "Pohon Cempaka Ormosia",
-      "fauna": "Tarsius Spectrum, Tangkasi, Monyet Hitam (Taki), Maleo",
-      "geografi": "Semenanjung bagian utara Sulawesi yang dikelilingi laut dan gunung berapi.",
-      "sumber": "Wikipedia - Sulawesi Utara (https://id.wikipedia.org/wiki/Sulawesi_Utara)",
-      "gambar": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "gorontalo",
-      "pulau": "Pulau Sulawesi",
-      "nama": "Gorontalo",
-      "ibukota": "Gorontalo",
-      "koordinat": [
-        123.06,
-        0.5433
-      ],
-      "warna": "#EF4444",
-      "deskripsi": "Gorontalo beribu kota di Kota Gorontalo. Dikenal sebagai Serambi Madinah dan penghasil jagung utama, serta memiliki Danau Limboto.",
-      "flora": "Pohon Gupasa / Kayu Hitam",
-      "fauna": "Burung Maleo, Hiu Paus",
-      "geografi": "Berada di bagian utara Sulawesi, menghadap Teluk Tomini dan Laut Sulawesi.",
-      "sumber": "Wikipedia - Gorontalo (https://id.wikipedia.org/wiki/Gorontalo)",
-      "gambar": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sulteng",
-      "pulau": "Pulau Sulawesi",
-      "nama": "Sulawesi Tengah",
-      "ibukota": "Palu",
-      "koordinat": [
-        119.8707,
-        -0.8917
-      ],
-      "warna": "#8B5CF6",
-      "deskripsi": "Sulawesi Tengah beribu kota di Palu. Memiliki Danau Poso yang sangat luas, Kepulauan Togean, dan situs patung megalitikum di Lembah Bada.",
-      "flora": "Kayu Eboni (Kayu Hitam)",
-      "fauna": "Anoa, Babirusa",
-      "geografi": "Provinsi terluas di Pulau Sulawesi dengan pegunungan dan teluk-teluk besar.",
-      "sumber": "Wikipedia - Sulawesi Tengah (https://id.wikipedia.org/wiki/Sulawesi_Tengah)",
-      "gambar": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sulbar",
-      "pulau": "Pulau Sulawesi",
-      "nama": "Sulawesi Barat",
-      "ibukota": "Mamuju",
-      "koordinat": [
-        118.8886,
-        -2.6778
-      ],
-      "warna": "#EC4899",
-      "deskripsi": "Sulawesi Barat beribu kota di Mamuju. Provinsi ini terkenal dengan tradisi bahari Suku Mandar dan perahu cadik Sandeq yang sangat cepat.",
-      "flora": "Pohon Rotan / Cempaka",
-      "fauna": "Anoa, Burung Maleo",
-      "geografi": "Membentang di pesisir barat Sulawesi berhadapan dengan Selat Makassar.",
-      "sumber": "Wikipedia - Sulawesi Barat (https://id.wikipedia.org/wiki/Sulawesi_Barat)",
-      "gambar": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sulsel",
-      "pulau": "Pulau Sulawesi",
-      "nama": "Sulawesi Selatan",
-      "ibukota": "Makassar",
-      "koordinat": [
-        119.4327,
-        -5.1477
-      ],
-      "warna": "#14B8A6",
-      "deskripsi": "Sulawesi Selatan beribu kota di Makassar. Provinsi ini memiliki Tana Toraja yang terkenal dengan rumah adat Tongkonan dan kapal tradisional Pinisi.",
-      "flora": "Pohon Lontar",
-      "fauna": "Kuskus Beruang, Anoa",
-      "geografi": "Lengan selatan Sulawesi dengan pegunungan, danau (Tempe & Matano), dan pesisir.",
-      "sumber": "Wikipedia - Sulawesi Selatan (https://id.wikipedia.org/wiki/Sulawesi_Selatan)",
-      "gambar": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sultra",
-      "pulau": "Pulau Sulawesi",
-      "nama": "Sulawesi Tenggara",
-      "ibukota": "Kendari",
-      "koordinat": [
-        122.515,
-        -3.9672
-      ],
-      "warna": "#F97316",
-      "deskripsi": "Sulawesi Tenggara beribu kota di Kendari. Provinsi ini memiliki Taman Nasional Wakatobi yang sangat indah bawah lautnya dan tambang nikel.",
-      "flora": "Pohon Angsana / Orchid",
-      "fauna": "Anoa Dataran Rendah, Burung Maleo",
-      "geografi": "Mencakup semenanjung tenggara Sulawesi serta Pulau Buton, Muna, dan Wakatobi.",
-      "sumber": "Wikipedia - Sulawesi Tenggara (https://id.wikipedia.org/wiki/Sulawesi_Tenggara)",
-      "gambar": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "maluku",
-      "pulau": "Kepulauan Maluku",
-      "nama": "Maluku",
-      "ibukota": "Ambon",
-      "koordinat": [
-        128.1814,
-        -3.6954
-      ],
-      "warna": "#6366F1",
-      "deskripsi": "Maluku beribu kota di Ambon (Ambon Manise). Dikenal sejarah sebagai Kepulauan Rempah-Rempah penghasil Cengkih dan Pala.",
-      "flora": "Pohon Cengkih, Pohon Pala",
-      "fauna": "Burung Nuri Ambon, Kakatua Seram",
-      "geografi": "Kepulauan yang dikelilingi Laut Banda, Laut Seram, dan Samudra Pasifik.",
-      "sumber": "Wikipedia - Maluku (https://id.wikipedia.org/wiki/Maluku)",
-      "gambar": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "malut",
-      "pulau": "Kepulauan Maluku",
-      "nama": "Maluku Utara",
-      "ibukota": "Sofifi",
-      "koordinat": [
-        127.5583,
-        0.7308
-      ],
-      "warna": "#84CC16",
-      "deskripsi": "Maluku Utara beribu kota di Sofifi. Provinsi ini memiliki sejarah kesultanan Ternate dan Tidore serta Gunung Gamalama.",
-      "flora": "Pohon Cengkih Cokelat",
-      "fauna": "Burung Bidadari Halmahera",
-      "geografi": "Kepulauan yang terdiri dari Pulau Halmahera, Ternate, Tidore, dan Kepulauan Sula.",
-      "sumber": "Wikipedia - Maluku Utara (https://id.wikipedia.org/wiki/Maluku_Utara)",
-      "gambar": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "papua",
-      "pulau": "Pulau Papua",
-      "nama": "Papua",
-      "ibukota": "Jayapura",
-      "koordinat": [
-        140.7181,
-        -2.5337
-      ],
-      "warna": "#06B6D4",
-      "deskripsi": "Papua beribu kota di Jayapura. Provinsi ini berbatasan langsung dengan negara Papua Nugini dan memiliki Danau Sentani yang indah.",
-      "flora": "Pohon Matoa",
-      "fauna": "Burung Cendrawasih, Kanguru Pohon",
-      "geografi": "Dataran rendah pesisir utara dan Pegunungan Cycloop di dekat Jayapura.",
-      "sumber": "Wikipedia - Papua (https://id.wikipedia.org/wiki/Papua)",
-      "gambar": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "pabar",
-      "pulau": "Pulau Papua",
-      "nama": "Papua Barat",
-      "ibukota": "Manokwari",
-      "koordinat": [
-        134.062,
-        -0.8615
-      ],
-      "warna": "#3B82F6",
-      "deskripsi": "Papua Barat beribu kota di Manokwari. Provinsi ini memiliki Pegunungan Arfak dan kawasan hutan hujan tropis yang lebat.",
-      "flora": "Pohon Buah Merah",
-      "fauna": "Burung Pintar (Namdur), Kasuari",
-      "geografi": "Semenanjung Kepala Burung bagian timur dan Pegunungan Arfak.",
-      "sumber": "Wikipedia - Papua Barat (https://id.wikipedia.org/wiki/Papua_Barat)",
-      "gambar": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "pasel",
-      "pulau": "Pulau Papua",
-      "nama": "Papua Selatan",
-      "ibukota": "Merauke",
-      "koordinat": [
-        140.3942,
-        -8.4991
-      ],
-      "warna": "#10B981",
-      "deskripsi": "Papua Selatan beribu kota di Salor / Merauke. Provinsi ini terkenal dengan Musamus (rumah semut raksasa) dan Taman Nasional Wasur.",
-      "flora": "Pohon Kayu Putih",
-      "fauna": "Kanguru Sahul (Wallaby), Musamus",
-      "geografi": "Dataran rendah luas dan sabana terluas di Papua yang berbatasan dengan Papua Nugini.",
-      "sumber": "Wikipedia - Papua Selatan (https://id.wikipedia.org/wiki/Papua_Selatan)",
-      "gambar": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "pateng",
-      "pulau": "Pulau Papua",
-      "nama": "Papua Tengah",
-      "ibukota": "Nabire",
-      "koordinat": [
-        135.4967,
-        -3.3667
-      ],
-      "warna": "#F59E0B",
-      "deskripsi": "Papua Tengah beribu kota di Nabire. Di provinsi ini terdapat Puncak Jaya (Puncak Carstensz) yang diselimuti salju abadi dan Tambang Grasberg.",
-      "flora": "Anggrek Hitam Papua / Rhododendron",
-      "fauna": "Cendrawasih Cokelat, Hiu Paus Nabire",
-      "geografi": "Membentang dari pesisir Teluk Cenderawasih hingga pegunungan tinggi Jayawijaya.",
-      "sumber": "Wikipedia - Papua Tengah (https://id.wikipedia.org/wiki/Papua_Tengah)",
-      "gambar": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "papeg",
-      "pulau": "Pulau Papua",
-      "nama": "Papua Pegunungan",
-      "ibukota": "Jayawijaya (Wamena)",
-      "koordinat": [
-        138.9442,
-        -4.0967
-      ],
-      "warna": "#EF4444",
-      "deskripsi": "Papua Pegunungan beribu kota di Wamena (Kab. Jayawijaya). Satu-satunya provinsi di Indonesia yang seluruh wilayahnya tidak memiliki pantai (landlocked).",
-      "flora": "Pohon Udang / Kasuari, Hipere (Ubi Jalar)",
-      "fauna": "Dingiso (Kanguru Pohon Hitam), Burung Cendrawasih Elok",
-      "geografi": "Dikelilingi jajaran pegunungan tinggi dan Lembah Baliem.",
-      "sumber": "Wikipedia - Papua Pegunungan (https://id.wikipedia.org/wiki/Papua_Pegunungan)",
-      "gambar": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "pabaratdaya",
-      "pulau": "Pulau Papua",
-      "nama": "Papua Barat Daya",
-      "ibukota": "Sorong",
-      "koordinat": [
-        131.25,
-        -0.8833
-      ],
-      "warna": "#8B5CF6",
-      "deskripsi": "Papua Barat Daya beribu kota di Sorong. Provinsi ke-38 Indonesia ini terkenal dengan keindahan gugusan pulau Raja Ampat yang mendunia.",
-      "flora": "Pohon Anggrek Hitam Papua / Sagu",
-      "fauna": "Cendrawasih Merah, Pari Manta, Hiu Berjalan",
-      "geografi": "Kepulauan karst Raja Ampat dan daratan Kepala Burung bagian barat.",
-      "sumber": "Wikipedia - Papua Barat Daya (https://id.wikipedia.org/wiki/Papua_Barat_Daya)",
-      "gambar": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80"
-    }
-  ],
-  "SMP": [
-    {
-      "id": "aceh-smp",
-      "pulau": "Pulau Sumatra",
-      "nama": "Aceh (SMP)",
-      "ibukota": "Banda Aceh",
-      "koordinat": [
-        95.3238,
-        5.5483
-      ],
-      "warna": "#EF4444",
-      "deskripsi": "Provinsi Aceh terletak di bagian utara Pulau Sumatra. Secara geologis dilewati oleh Sesar Besar Sumatra (Semangko) yang menjadikannya rawan gempa tektonik dan tsunami.",
-      "flora": "Hutan hujan tropis, Bunga Jeumpa (Magnolia champaca).",
-      "fauna": "Gajah Sumatra (Elephas maximus sumatranus), Orangutan Sumatra, Burung Cempala Kuning.",
-      "geografi": "Berada pada zona konvergensi lempeng Indo-Australia dan Eurasia dengan topografi bervariasi.",
-      "sumber": "Wikipedia - Aceh (https://id.wikipedia.org/wiki/Aceh)",
-      "gambar": "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sumut-smp",
-      "pulau": "Pulau Sumatra",
-      "nama": "Sumatra Utara (SMP)",
-      "ibukota": "Medan",
-      "koordinat": [
-        98.6722,
-        3.5952
-      ],
-      "warna": "#F59E0B",
-      "deskripsi": "Sumatra Utara memiliki Danau Toba yang terbentuk akibat letusan supervolcano Toba puluhan ribu tahun lalu. Wilayah ini kaya akan sumber daya alam perkebunan dan kehutanan.",
-      "flora": "Hutan hujan tropis, Kenanga (Cananga odorata), Pinus strain Sumatra.",
-      "fauna": "Beo Nias (Gracula religiosa robinsoni), Orangutan Tapanuli, Harimau Sumatra.",
-      "geografi": "Wilayah terbagi menjadi Pesisir Timur, Dataran Tinggi Bukit Barisan, dan Pesisir Barat.",
-      "sumber": "Wikipedia - Sumatra Utara (https://id.wikipedia.org/wiki/Sumatra_Utara)",
-      "gambar": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sumbar-smp",
-      "pulau": "Pulau Sumatra",
-      "nama": "Sumatra Barat (SMP)",
-      "ibukota": "Padang",
-      "koordinat": [
-        100.3543,
-        -0.9492
-      ],
-      "warna": "#10B981",
-      "deskripsi": "Sumatra Barat memiliki topografi bergelombang yang dilewati oleh Pegunungan Bukit Barisan. Provinsi ini memiliki beberapa danau tektonik seperti Danau Singkarak dan Danau Maninjau.",
-      "flora": "Pohon Andalas (Morus macroura), Rafflesia arnoldii.",
-      "fauna": "Burung Kuau Raja (Argusianus argus), Tapir Sumatra.",
-      "geografi": "Didominasi oleh pegunungan vulkanik, lembah tektonik (Lembah Anai), dan jajaran kepulauan non-vulkanik (Mentawai).",
-      "sumber": "Wikipedia - Sumatra Barat (https://id.wikipedia.org/wiki/Sumatra_Barat)",
-      "gambar": "https://images.unsplash.com/photo-1590059208016-73241b312760?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "riau-smp",
-      "pulau": "Pulau Sumatra",
-      "nama": "Riau (SMP)",
-      "ibukota": "Pekanbaru",
-      "koordinat": [
-        101.4478,
-        0.5071
-      ],
-      "warna": "#3B82F6",
-      "deskripsi": "Riau dicirikan oleh topografi dataran rendah yang melandai ke arah Selat Malaka. Sungai-sungai besar seperti Sungai Siak, Kampar, dan Rokan menjadi urat nadi transportasi dan hidrologi.",
-      "flora": "Pohon Nibung (Oncosperma tigillarium), vegetasi gambut dan mangrove.",
-      "fauna": "Serindit Melayu (Loriculus galgulus), Harimau Sumatra, Gajah Sumatra.",
-      "geografi": "Lahan gambut luas, sungai-sungai meander, dan wilayah pesisir Selat Malaka.",
-      "sumber": "Wikipedia - Riau (https://id.wikipedia.org/wiki/Riau)",
-      "gambar": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "kepri-smp",
-      "pulau": "Pulau Sumatra",
-      "nama": "Kepulauan Riau (SMP)",
-      "ibukota": "Tanjungpinang",
-      "koordinat": [
-        104.4487,
-        0.916
-      ],
-      "warna": "#8B5CF6",
-      "deskripsi": "Kepulauan Riau (Kepri) merupakan provinsi kepulauan dengan 96% wilayahnya berupa perairan. Batam dan Bintan merupakan pusat ekonomi dan pariwisata maritim.",
-      "flora": "Sirih (Piper betle), mangrove pesisir pulau kecil.",
-      "fauna": "Ikan Kakap Merah, Dugong, Ketam Kenari.",
-      "geografi": "Kepulauan di Paparan Sunda dengan perairan dangkal strategis di Selat Malaka dan Laut Natuna.",
-      "sumber": "Wikipedia - Kepulauan Riau (https://id.wikipedia.org/wiki/Kepulauan_Riau)",
-      "gambar": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "jambi-smp",
-      "pulau": "Pulau Sumatra",
-      "nama": "Jambi (SMP)",
-      "ibukota": "Jambi",
-      "koordinat": [
-        103.6131,
-        -1.6101
-      ],
-      "warna": "#EC4899",
-      "deskripsi": "Jambi dibelah oleh Sungai Batanghari, sungai terpanjang di Pulau Sumatra. Bagian barat Jambi mencakup Kawasan Taman Nasional Kerinci Seblat.",
-      "flora": "Pinang Merah (Cyrtostachys renda), Anggrek Pensil.",
-      "fauna": "Harimau Sumatra, Harimau Dahan, Ungko (Hylobates agilis).",
-      "geografi": "Dari puncak tertinggi Sumatra (Gunung Kerinci 3.805 mdpl) di barat hingga dataran aluvial rawa di timur.",
-      "sumber": "Wikipedia - Jambi (https://id.wikipedia.org/wiki/Jambi)",
-      "gambar": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sumsel-smp",
-      "pulau": "Pulau Sumatra",
-      "nama": "Sumatra Selatan (SMP)",
-      "ibukota": "Palembang",
-      "koordinat": [
-        104.7565,
-        -2.9909
-      ],
-      "warna": "#6366F1",
-      "deskripsi": "Sumatra Selatan dialiri oleh Sungai Musi dan delapan anak sungainya (Batanghari Sembilan). Palembang dahulu merupakan pusat Kerajaan Sriwijaya.",
-      "flora": "Duku (Lansium domesticum), pohon kayu tembesu.",
-      "fauna": "Ikan Belida (Chitala hypselonotus), Gajah Sumatra.",
-      "geografi": "Cekungan sedimen Palembang yang kaya sumber daya batu bara dan minyak bumi.",
-      "sumber": "Wikipedia - Sumatra Selatan (https://id.wikipedia.org/wiki/Sumatra_Selatan)",
-      "gambar": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "babel-smp",
-      "pulau": "Pulau Sumatra",
-      "nama": "Kepulauan Bangka Belitung (SMP)",
-      "ibukota": "Pangkalpinang",
-      "koordinat": [
-        106.1169,
-        -2.1316
-      ],
-      "warna": "#14B8A6",
-      "deskripsi": "Bangka Belitung berada di jalur sabuk timah Asia Tenggara (Southeast Asian Tin Belt). Morfologi pantainya unik dengan hamparan batu granit raksasa.",
-      "flora": "Nagasari (Palaquium rostratum), Pelawan.",
-      "fauna": "Mentilin / Tarsius Bangka (Cephalopachus bancanus bancanus).",
-      "geografi": "Dikelilingi Laut Natuna, Selat Bangka, Selat Gaspar, dan Laut Jawa.",
-      "sumber": "Wikipedia - Kepulauan Bangka Belitung (https://id.wikipedia.org/wiki/Kepulauan_Bangka_Belitung)",
-      "gambar": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "bengkulu-smp",
-      "pulau": "Pulau Sumatra",
-      "nama": "Bengkulu (SMP)",
-      "ibukota": "Bengkulu",
-      "koordinat": [
-        102.2655,
-        -3.8004
-      ],
-      "warna": "#F97316",
-      "deskripsi": "Bengkulu terletak di pesisir barat pulau Sumatra dan dibatasi langsung oleh Pegunungan Bukit Barisan. Daerah ini rawan terhadap gempa bumi gempa megathrust.",
-      "flora": "Rafflesia arnoldii (Bunga Bangkai Pedang), Bunga Bunga Bangkai (Amorphophallus titanum).",
-      "fauna": "Beruang Madu (Helarctos malayanus), Harimau Sumatra.",
-      "geografi": "Jalur sempit dataran pantai barat yang berbatasan dengan Pegunungan Bukit Barisan.",
-      "sumber": "Wikipedia - Bengkulu (https://id.wikipedia.org/wiki/Bengkulu)",
-      "gambar": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "lampung-smp",
-      "pulau": "Pulau Sumatra",
-      "nama": "Lampung (SMP)",
-      "ibukota": "Bandar Lampung",
-      "koordinat": [
-        105.2663,
-        -5.45
-      ],
-      "warna": "#84CC16",
-      "deskripsi": "Lampung menghubungkan Sumatra dan Jawa via Selat Sunda. Taman Nasional Way Kambas di Lampung merupakan Pusat Latihan Gajah tertua di Indonesia.",
-      "flora": "Pohon Ashoka, Anggrek, tanaman kopi dan lada.",
-      "fauna": "Gajah Sumatra, Badak Sumatra, Harimau Sumatra.",
-      "geografi": "Wilayah selatan terdapat Teluk Lampung dan Krakatau di Selat Sunda.",
-      "sumber": "Wikipedia - Lampung (https://id.wikipedia.org/wiki/Lampung)",
-      "gambar": "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "banten-smp",
-      "pulau": "Pulau Jawa",
-      "nama": "Banten (SMP)",
-      "ibukota": "Serang",
-      "koordinat": [
-        106.163,
-        -6.12
-      ],
-      "warna": "#06B6D4",
-      "deskripsi": "Banten terpisah dari Jawa Barat sejak tahun 2000. Memiliki Pelabuhan Merak sebagai penyeberangan utama ke Sumatra serta habitat Badak Jawa di Ujung Kulon.",
-      "flora": "Kokoleceran (Vatica bantamensis), mangrove pesisir.",
-      "fauna": "Badak Jawa (Rhinoceros sondaicus), Owa Jawa, Anjing Hutan (Cuan).",
-      "geografi": "Semenanjung Ujung Kulon, Pegunungan Karang, dan kawasan pesisir Selat Sunda.",
-      "sumber": "Wikipedia - Banten (https://id.wikipedia.org/wiki/Banten)",
-      "gambar": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "dkijakarta-smp",
-      "pulau": "Pulau Jawa",
-      "nama": "DKI Jakarta (SMP)",
-      "ibukota": "Jakarta",
-      "koordinat": [
-        106.8456,
-        -6.2088
-      ],
-      "warna": "#3B82F6",
-      "deskripsi": "DKI Jakarta merupakan daerah khusus ibu kota yang berbentuk megapolitan. Jakarta dilalui oleh 13 sungai utama termasuk Sungai Ciliwung.",
-      "flora": "Salak Condet (Salacca zalacca), Pohon Buni.",
-      "fauna": "Elang Bondol (Haliastur indus), Musang Luwak.",
-      "geografi": "Dataran aluvial pantai utara Jawa dengan lanskap reklamasi dan kepulauan (Kepulauan Seribu).",
-      "sumber": "Wikipedia - Daerah Khusus Ibukota Jakarta (https://id.wikipedia.org/wiki/Daerah_Khusus_Ibukota_Jakarta)",
-      "gambar": "https://images.unsplash.com/photo-1555899434-94d1368aa7af?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "jabar-smp",
-      "pulau": "Pulau Jawa",
-      "nama": "Jawa Barat (SMP)",
-      "ibukota": "Bandung",
-      "koordinat": [
-        107.6191,
-        -6.9175
-      ],
-      "warna": "#10B981",
-      "deskripsi": "Jawa Barat memiliki kepadatan penduduk tinggi dan topografi pegunungan vulkanik aktif. Sungai Citarum merupakan sungai terpanjang di provinsi ini.",
-      "flora": "Gandaria (Bouea macrophylla), Bunga Patrakomala.",
-      "fauna": "Surili (Presbytis comata), Macan Tutul Jawa.",
-      "geografi": "Cekungan Bandung, Pegunungan Parahyangan, dan dataran aluvial pantura.",
-      "sumber": "Wikipedia - Jawa Barat (https://id.wikipedia.org/wiki/Jawa_Barat)",
-      "gambar": "https://images.unsplash.com/photo-1601058268499-e52658b8bb88?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "jateng-smp",
-      "pulau": "Pulau Jawa",
-      "nama": "Jawa Tengah (SMP)",
-      "ibukota": "Semarang",
-      "koordinat": [
-        110.4203,
-        -6.9667
-      ],
-      "warna": "#F59E0B",
-      "deskripsi": "Jawa Tengah memilik warisan sejarah peninggalan Candi Borobudur dan Prambanan. Dialiri oleh Sungai Bengawan Solo yang legendaris.",
-      "flora": "Kantil (Magnolia x alba), Jati.",
-      "fauna": "Kepodang Emas (Oriolus chinensis), Menjangan.",
-      "geografi": "Jajaran gunung berapi (Slamet, Dieng, Merbabu, Merapi) membelah bagian tengah provinsi.",
-      "sumber": "Wikipedia - Jawa Tengah (https://id.wikipedia.org/wiki/Jawa_Tengah)",
-      "gambar": "https://images.unsplash.com/photo-1609137144813-7d9921338f24?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "diy-smp",
-      "pulau": "Pulau Jawa",
-      "nama": "DI Yogyakarta (SMP)",
-      "ibukota": "Yogyakarta",
-      "koordinat": [
-        110.3695,
-        -7.7956
-      ],
-      "warna": "#EF4444",
-      "deskripsi": "Yogyakarta dipimpin oleh seorang Sultan sebagai Gubernur. Memiliki bentang alam unik dari puncak Gunung Merapi, dataran aluvial, hingga gumuk pasir Parangtritis.",
-      "flora": "Kepel (Stelechocarpus burahol).",
-      "fauna": "Burung Tekukur (Spilopelia chinensis).",
-      "geografi": "Sistem fluvio-vulkanik Gunung Merapi membentang selatan hingga pesisir karst dan gumuk pasir.",
-      "sumber": "Wikipedia - Daerah Istimewa Yogyakarta (https://id.wikipedia.org/wiki/Daerah_Istimewa_Yogyakarta)",
-      "gambar": "https://images.unsplash.com/photo-1584810359583-96fc3448beaa?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "jatim-smp",
-      "pulau": "Pulau Jawa",
-      "nama": "Jawa Timur (SMP)",
-      "ibukota": "Surabaya",
-      "koordinat": [
-        112.7508,
-        -7.2575
-      ],
-      "warna": "#8B5CF6",
-      "deskripsi": "Jawa Timur merupakan provinsi terluas di Pulau Jawa. Memiliki kawasan konservasi Taman Nasional Baluran dan Taman Nasional Bromo Tengger Semeru.",
-      "flora": "Sedap Malam (Polianthes tuberosa), Camara.",
-      "fauna": "Ayam Bekisar, Banteng Jawa (Bos javanicus).",
-      "geografi": "Pegunungan Kawi, Kelud, Bromo, Semeru, Argopuro, Ijen, serta dataran Madura.",
-      "sumber": "Wikipedia - Jawa Timur (https://id.wikipedia.org/wiki/Jawa_Timur)",
-      "gambar": "https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "bali-smp",
-      "pulau": "Bali & Nusa Tenggara",
-      "nama": "Bali (SMP)",
-      "ibukota": "Denpasar",
-      "koordinat": [
-        115.1889,
-        -8.4095
-      ],
-      "warna": "#EC4899",
-      "deskripsi": "Bali terletak di Cincin Api Pasifik dan dipisahkan oleh Selat Bali dari Jawa. Gunung Agung (3.142 mdpl) merupakan puncak tertinggi di Bali.",
-      "flora": "Bunga Kamboja (Plumeria), vegetasi mangrove pesisir.",
-      "fauna": "Jalak Bali (Leucopsar rothschildi), Penyu Hijau.",
-      "geografi": "Topografi bervariasi dari dataran pantai selatan hingga jajaran pegunungan vulkanik di tengah.",
-      "sumber": "Wikipedia - Bali (https://id.wikipedia.org/wiki/Bali)",
-      "gambar": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "ntb-smp",
-      "pulau": "Bali & Nusa Tenggara",
-      "nama": "Nusa Tenggara Barat (SMP)",
-      "ibukota": "Mataram",
-      "koordinat": [
-        116.1165,
-        -8.5833
-      ],
-      "warna": "#14B8A6",
-      "deskripsi": "NTB terdiri dari dua pulau utama: Lombok dan Sumbawa. Di Lombok terdapat Gunung Rinjani dan Danau Segara Anak, sedangkan di Sumbawa terdapat Gunung Tambora.",
-      "flora": "Ajan Kelicung (Diospyros macrophylla).",
-      "fauna": "Rusa Timor (Cervus timorensis), Kakatua Kecil Jambul Kuning.",
-      "geografi": "Kepulauan di sebelah timur Garis Wallace dengan iklim cenderung lebih kering.",
-      "sumber": "Wikipedia - Nusa Tenggara Barat (https://id.wikipedia.org/wiki/Nusa_Tenggara_Barat)",
-      "gambar": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "ntt-smp",
-      "pulau": "Bali & Nusa Tenggara",
-      "nama": "Nusa Tenggara Timur (SMP)",
-      "ibukota": "Kupang",
-      "koordinat": [
-        123.5833,
-        -10.1667
-      ],
-      "warna": "#F97316",
-      "deskripsi": "NTT memiliki iklim iklim kering (savana). Taman Nasional Komodo di Rinca dan Komodo diakui sebagai warisan dunia. Cendana adalah tanaman rempah legendaris dari NTT.",
-      "flora": "Pohon Cendana (Santalum album), Lontar.",
-      "fauna": "Komodo (Varanus komodoensis), Kuda Sumba.",
-      "geografi": "Kepulauan Nusa Tenggara bagian timur, dikelilingi Laut Flores dan Laut Timor.",
-      "sumber": "Wikipedia - Nusa Tenggara Timur (https://id.wikipedia.org/wiki/Nusa_Tenggara_Timur)",
-      "gambar": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "kalbar-smp",
-      "pulau": "Pulau Kalimantan",
-      "nama": "Kalimantan Barat (SMP)",
-      "ibukota": "Pontianak",
-      "koordinat": [
-        109.3333,
-        -0.0333
-      ],
-      "warna": "#6366F1",
-      "deskripsi": "Kalimantan Barat memiliki Sungai Kapuas (1.143 km). Pontianak memiliki Tugu Khatulistiwa karena dilintasi garis lintang 0 derajat.",
-      "flora": "Tengkawang Tungkul (Shorea macrophylla), Pohon Tengkawang.",
-      "fauna": "Enggang Gading (Rhinoplax vigil), Orangutan Kalimantan.",
-      "geografi": "Lahan basah gambut, bentang DAS Kapuas, dan pegunungan Kapuas Hulu.",
-      "sumber": "Wikipedia - Kalimantan Barat (https://id.wikipedia.org/wiki/Kalimantan_Barat)",
-      "gambar": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "kalteng-smp",
-      "pulau": "Pulau Kalimantan",
-      "nama": "Kalimantan Tengah (SMP)",
-      "ibukota": "Palangkaraya",
-      "koordinat": [
-        113.9167,
-        -2.2083
-      ],
-      "warna": "#84CC16",
-      "deskripsi": "Kalimantan Tengah merupakan salah satu provinsi terluas di Indonesia. Taman Nasional Tanjung Puting menjadi lokasi riset Orangutan ternama dunia.",
-      "flora": "Anggrek Hitam, Pohon Kahingai.",
-      "fauna": "Orangutan Kalimantan (Pongo pygmaeus), Bekantan.",
-      "geografi": "Dataran rendah aluvial pesisir selatan hingga Pegunungan Schwaner di utara.",
-      "sumber": "Wikipedia - Kalimantan Tengah (https://id.wikipedia.org/wiki/Kalimantan_Tengah)",
-      "gambar": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "kalsel-smp",
-      "pulau": "Pulau Kalimantan",
-      "nama": "Kalimantan Selatan (SMP)",
-      "ibukota": "Banjarbaru",
-      "koordinat": [
-        114.591,
-        -3.3194
-      ],
-      "warna": "#06B6D4",
-      "deskripsi": "Kalimantan Selatan memiliki budaya sungai yang kuat di sepanjang Sungai Barito dan Martapura. Pegunungan Meratus membentang di tengah provinsi.",
-      "flora": "Buah Kasturi (Mangifera casturi).",
-      "fauna": "Bekantan (Nasalis larvatus).",
-      "geografi": "Sistem rawa pasang surut di barat dan selatan, serta Pegunungan Meratus di timur.",
-      "sumber": "Wikipedia - Kalimantan Selatan (https://id.wikipedia.org/wiki/Kalimantan_Selatan)",
-      "gambar": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "kaltim-smp",
-      "pulau": "Pulau Kalimantan",
-      "nama": "Kalimantan Timur (SMP)",
-      "ibukota": "Samarinda",
-      "koordinat": [
-        117.1537,
-        -0.5022
-      ],
-      "warna": "#3B82F6",
-      "deskripsi": "Kalimantan Timur kaya akan sumber daya alam (minyak, gas, batu bara). Sungai Mahakam merupakan habitat lumba-lumba air tawar (Pesut Mahakam).",
-      "flora": "Anggrek Hitam (Coelogyne pandurata).",
-      "fauna": "Pesut Mahakam (Orcaella brevirostris), Beruang Madu.",
-      "geografi": "Cekungan Kutai yang kaya tambang dan kawasan karst Sangkulirang-Mangkalihat.",
-      "sumber": "Wikipedia - Kalimantan Timur (https://id.wikipedia.org/wiki/Kalimantan_Timur)",
-      "gambar": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "kaltara-smp",
-      "pulau": "Pulau Kalimantan",
-      "nama": "Kalimantan Utara (SMP)",
-      "ibukota": "Tanjung Selor",
-      "koordinat": [
-        117.3653,
-        2.8373
-      ],
-      "warna": "#10B981",
-      "deskripsi": "Kaltara mekar dari Kalimantan Timur pada tahun 2012. Memiliki Taman Nasional Kayan Mentarang yang sangat luas di perbatasan darat Malaysia.",
-      "flora": "Vegetasi hutan hujan tropis dataran tinggi dan mangrove Tarakan.",
-      "fauna": "Enggang, Rusa Sambar, Macan Dahan Kalimantan.",
-      "geografi": "Wilayah perbatasan negara, DAS Sesayap dan Kayan, serta pulau Tarakan.",
-      "sumber": "Wikipedia - Kalimantan Utara (https://id.wikipedia.org/wiki/Kalimantan_Utara)",
-      "gambar": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sulut-smp",
-      "pulau": "Pulau Sulawesi",
-      "nama": "Sulawesi Utara (SMP)",
-      "ibukota": "Manado",
-      "koordinat": [
-        124.8483,
-        1.4748
-      ],
-      "warna": "#F59E0B",
-      "deskripsi": "Sulawesi Utara terletak di ujung lengan utara Sulawesi. Bunaken merupakan destinasi penyelaman internasional. Memiliki satwa unik Tarsius dan Yaki.",
-      "flora": "Cempaka Ormosia (Palaquium obovatum).",
-      "fauna": "Tarsius (Tarsius tarsier), Yaki / Monyet Hitam Sulawesi (Macaca nigra), Burung Maleo.",
-      "geografi": "Semenanjung vulkanik aktif (Gunung Lokon, Soputan) dan Kepulauan Sangihe-Talaud.",
-      "sumber": "Wikipedia - Sulawesi Utara (https://id.wikipedia.org/wiki/Sulawesi_Utara)",
-      "gambar": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "gorontalo-smp",
-      "pulau": "Pulau Sulawesi",
-      "nama": "Gorontalo (SMP)",
-      "ibukota": "Gorontalo",
-      "koordinat": [
-        123.06,
-        0.5433
-      ],
-      "warna": "#EF4444",
-      "deskripsi": "Gorontalo pemekaran dari Sulawesi Utara pada tahun 2000. Teluk Tomini di selatan Gorontalo merupakan teluk terbesar di Indonesia dengan perairan tenang.",
-      "flora": "Gupasa (Vitex cofassus).",
-      "fauna": "Burung Maleo (Macrocephalon maleo), Hiu Paus Botubarani.",
-      "geografi": "Semenanjung utara dengan bentang Danau Limboto dan perairan Teluk Tomini.",
-      "sumber": "Wikipedia - Gorontalo (https://id.wikipedia.org/wiki/Gorontalo)",
-      "gambar": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sulteng-smp",
-      "pulau": "Pulau Sulawesi",
-      "nama": "Sulawesi Tengah (SMP)",
-      "ibukota": "Palu",
-      "koordinat": [
-        119.8707,
-        -0.8917
-      ],
-      "warna": "#8B5CF6",
-      "deskripsi": "Sulawesi Tengah dilewati oleh Sesar Palu-Koro. Taman Nasional Lore Lindu menyimpan peninggalan patung-patung megalitik purba dan habitat Anoa.",
-      "flora": "Kayu Hitam / Eboni (Diospyros celebica).",
-      "fauna": "Anoa (Bubalus depressicornis), Babirusa (Babyrousa babyrussa).",
-      "geografi": "Sisi tengah Sulawesi, Teluk Tomini, Teluk Tolo, dan Lembah Palu.",
-      "sumber": "Wikipedia - Sulawesi Tengah (https://id.wikipedia.org/wiki/Sulawesi_Tengah)",
-      "gambar": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sulbar-smp",
-      "pulau": "Pulau Sulawesi",
-      "nama": "Sulawesi Barat (SMP)",
-      "ibukota": "Mamuju",
-      "koordinat": [
-        118.8886,
-        -2.6778
-      ],
-      "warna": "#EC4899",
-      "deskripsi": "Sulawesi Barat mekar dari Sulawesi Selatan pada tahun 2004. Suku Mandar di Sulbar terkenal sebagai pelaut ulung pembuat perahu Sandeq.",
-      "flora": "Rotan, Kayu Cempaka.",
-      "fauna": "Anoa, Maleo, Penyu Hijau.",
-      "geografi": "Pesisir Selat Makassar di barat dan Pegunungan Quarles di timur.",
-      "sumber": "Wikipedia - Sulawesi Barat (https://id.wikipedia.org/wiki/Sulawesi_Barat)",
-      "gambar": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sulsel-smp",
-      "pulau": "Pulau Sulawesi",
-      "nama": "Sulawesi Selatan (SMP)",
-      "ibukota": "Makassar",
-      "koordinat": [
-        119.4327,
-        -5.1477
-      ],
-      "warna": "#14B8A6",
-      "deskripsi": "Sulawesi Selatan dihuni oleh Suku Bugis, Makassar, Toraja, dan Mandar. Kapal Pinisi buatan Bulukumba diakui UNESCO sebagai Warisan Budaya Takbenda.",
-      "flora": "Pohon Lontar (Borassus flabellifer).",
-      "fauna": "Kuskus Beruang Sulawesi (Ailurops ursinus), Anoa.",
-      "geografi": "Danau tektonik purba (Matano dan Towuti) serta Karst Maros-Pangkep.",
-      "sumber": "Wikipedia - Sulawesi Selatan (https://id.wikipedia.org/wiki/Sulawesi_Selatan)",
-      "gambar": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sultra-smp",
-      "pulau": "Pulau Sulawesi",
-      "nama": "Sulawesi Tenggara (SMP)",
-      "ibukota": "Kendari",
-      "koordinat": [
-        122.515,
-        -3.9672
-      ],
-      "warna": "#F97316",
-      "deskripsi": "Sulawesi Tenggara kaya akan tambang nikel dan aspal alami (Aspal Buton). Taman Nasional Wakatobi adalah surga terumbu karang internasional.",
-      "flora": "Pohon Angsana (Pterocarpus indicus).",
-      "fauna": "Anoa Dataran Rendah, Kuskus Kategori Sulawesi.",
-      "geografi": "Semenanjung tenggara, Pulau Buton, Pulau Muna, dan Kepulauan Wakatobi.",
-      "sumber": "Wikipedia - Sulawesi Tenggara (https://id.wikipedia.org/wiki/Sulawesi_Tenggara)",
-      "gambar": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "maluku-smp",
-      "pulau": "Kepulauan Maluku",
-      "nama": "Maluku (SMP)",
-      "ibukota": "Ambon",
-      "koordinat": [
-        128.1814,
-        -3.6954
-      ],
-      "warna": "#6366F1",
-      "deskripsi": "Maluku kaya akan sejarah perdagangan rempah global (Banda, Ambon, Seram). Banda Neira pernah menjadi satu-satunya tempat tumbuhnya buah Pala di dunia.",
-      "flora": "Pala (Myristica fragrans), Cengkih (Syzygium aromaticum).",
-      "fauna": "Nuri Ambon (Eos bornea), Kakatua Seram (Cacatua moluccensis).",
-      "geografi": "Kepulauan Banda, Seram, Buru, Kepulauan Kei, dan Aru.",
-      "sumber": "Wikipedia - Maluku (https://id.wikipedia.org/wiki/Maluku)",
-      "gambar": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "malut-smp",
-      "pulau": "Kepulauan Maluku",
-      "nama": "Maluku Utara (SMP)",
-      "ibukota": "Sofifi",
-      "koordinat": [
-        127.5583,
-        0.7308
-      ],
-      "warna": "#84CC16",
-      "deskripsi": "Maluku Utara dahulu merupakan pusat Kesultanan Empat Gunung (Moloku Kie Raha). Ternate dan Tidore terkenal dengan gunung vulkanik dan cengkih.",
-      "flora": "Cengkih Cokelat (Syzygium aromaticum), Cengkih Afo.",
-      "fauna": "Burung Bidadari Halmahera (Semioptera wallacii), Kupu-kupu Sayap Burung.",
-      "geografi": "Pulau utama Halmahera serta pulau-pulau vulkanik kecil di sekitarnya.",
-      "sumber": "Wikipedia - Maluku Utara (https://id.wikipedia.org/wiki/Maluku_Utara)",
-      "gambar": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "papua-smp",
-      "pulau": "Pulau Papua",
-      "nama": "Papua (SMP)",
-      "ibukota": "Jayapura",
-      "koordinat": [
-        140.7181,
-        -2.5337
-      ],
-      "warna": "#06B6D4",
-      "deskripsi": "Papua (setelah pemekaran) mencakup wilayah Jayapura dan sekitarnya. Danau Sentani berada di kaki Pegunungan Cycloop.",
-      "flora": "Matoa (Pometia pinnata), Pohon Sagu.",
-      "fauna": "Burung Cendrawasih (Paradisaeidae), Kanguru Pohon Mantel Emas.",
-      "geografi": "Pesisir utara Papua, Teluk Cenderawasih, dan Pegunungan Cycloop.",
-      "sumber": "Wikipedia - Papua (https://id.wikipedia.org/wiki/Papua)",
-      "gambar": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "pabar-smp",
-      "pulau": "Pulau Papua",
-      "nama": "Papua Barat (SMP)",
-      "ibukota": "Manokwari",
-      "koordinat": [
-        134.062,
-        -0.8615
-      ],
-      "warna": "#3B82F6",
-      "deskripsi": "Papua Barat terletak di wilayah Kepala Burung (Vogelkop). Pegunungan Arfak menyimpan burung pintar yang pandai membuat sarang hias.",
-      "flora": "Buah Merah (Pandanus conoideus).",
-      "fauna": "Burung Namdur / Burung Pintar (Ptilonorhynchidae), Kasuari Gelambir Ganda.",
-      "geografi": "Pegunungan Arfak, Teluk Bintuni (mangrove terluas), dan Ransiki.",
-      "sumber": "Wikipedia - Papua Barat (https://id.wikipedia.org/wiki/Papua_Barat)",
-      "gambar": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "pasel-smp",
-      "pulau": "Pulau Papua",
-      "nama": "Papua Selatan (SMP)",
-      "ibukota": "Merauke",
-      "koordinat": [
-        140.3942,
-        -8.4991
-      ],
-      "warna": "#10B981",
-      "deskripsi": "Papua Selatan merupakan hasil pemekaran tahun 2022. Memiliki lanskap mirip Australia dengan rumah rayap Musamus di Taman Nasional Wasur.",
-      "flora": "Pohon Kayu Putih (Melaleuca leucadendra), Sagu.",
-      "fauna": "Wallaby / Kanguru Landak, Burung Kasuari, Rayap Musamus.",
-      "geografi": "Dataran rendah rawa basah dan sabana terluas di Pulau Papua.",
-      "sumber": "Wikipedia - Papua Selatan (https://id.wikipedia.org/wiki/Papua_Selatan)",
-      "gambar": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "pateng-smp",
-      "pulau": "Pulau Papua",
-      "nama": "Papua Tengah (SMP)",
-      "ibukota": "Nabire",
-      "koordinat": [
-        135.4967,
-        -3.3667
-      ],
-      "warna": "#F59E0B",
-      "deskripsi": "Papua Tengah dimekarkan tahun 2022. Memiliki Puncak Jaya (4.884 mdpl) sebagai puncak tertinggi di Indonesia dengan gletser glasial.",
-      "flora": "Vegetasi alpin dan subalpin, Anggrek Papua.",
-      "fauna": "Hiu Paus (Taman Nasional Teluk Cenderawasih - Nabire), Burung Cendrawasih.",
-      "geografi": "Pesisir utara Nabire hingga Pegunungan Sudirman (Tembagapura/Grasberg).",
-      "sumber": "Wikipedia - Papua Tengah (https://id.wikipedia.org/wiki/Papua_Tengah)",
-      "gambar": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "papeg-smp",
-      "pulau": "Pulau Papua",
-      "nama": "Papua Pegunungan (SMP)",
-      "ibukota": "Jayawijaya (Wamena)",
-      "koordinat": [
-        138.9442,
-        -4.0967
-      ],
-      "warna": "#EF4444",
-      "deskripsi": "Papua Pegunungan dimekarkan tahun 2022. Terkenal dengan Lembah Baliem dan kebudayaan suku Suku Dani. Akses logistik utamanya melalui transportasi udara.",
-      "flora": "Hipere (Ubi jalar makanan pokok), Pohon Kasuari.",
-      "fauna": "Dingiso (Dendrolagus mbaiso), Cendrawasih Nuri.",
-      "geografi": "Seluruh wilayah berada di dataran tinggi Pegunungan Tengah (Lembah Baliem).",
-      "sumber": "Wikipedia - Papua Pegunungan (https://id.wikipedia.org/wiki/Papua_Pegunungan)",
-      "gambar": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "pabaratdaya-smp",
-      "pulau": "Pulau Papua",
-      "nama": "Papua Barat Daya (SMP)",
-      "ibukota": "Sorong",
-      "koordinat": [
-        131.25,
-        -0.8833
-      ],
-      "warna": "#8B5CF6",
-      "deskripsi": "Papua Barat Daya dimekarkan pada akhir 2022 sebagai provinsi ke-38. Raja Ampat menjadi surga biodiversitas laut tertinggi di planet bumi.",
-      "flora": "Anggrek Pinsil, Pohon Sagu, Mangrove.",
-      "fauna": "Cendrawasih Merah (Paradisaea rubra), Hiu Berjalan (Hemiscyllium freycineti), Pari Manta.",
-      "geografi": "Gugusan kepulauan karst (Raja Ampat) dan pesisir barat Kepulauan Kepala Burung.",
-      "sumber": "Wikipedia - Papua Barat Daya (https://id.wikipedia.org/wiki/Papua_Barat_Daya)",
-      "gambar": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80"
-    }
-  ],
-  "SMA": [
-    {
-      "id": "aceh-sma",
-      "pulau": "Pulau Sumatra",
-      "nama": "Aceh (SMA)",
-      "ibukota": "Banda Aceh",
-      "koordinat": [
-        95.3238,
-        5.5483
-      ],
-      "warna": "#EF4444",
-      "deskripsi": "Aceh secara tektonik berada dekat dengan zona subduksi Selat Sunda-Andaman. Keberadaan Taman Nasional Gunung Leuser menjadikannya situs warisan dunia UNESCO dengan keanekaragaman hayati yang sangat tinggi.",
-      "flora": "Vegetasi dipterokarpaceae, Rafflesia arnoldii, dan flora endemik pegunungan Bukit Barisan.",
-      "fauna": "Empat spesies kunci: Harimau Sumatra, Gajah Sumatra, Badak Sumatra, dan Orangutan Sumatra.",
-      "geografi": "Morfologi vulkanik dan tektonik aktif, didominasi oleh Pegunungan Bukit Barisan dan dataran aluvial pesisir.",
-      "sumber": "Wikipedia - Aceh (https://id.wikipedia.org/wiki/Aceh)",
-      "gambar": "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sumut-sma",
-      "pulau": "Pulau Sumatra",
-      "nama": "Sumatra Utara (SMA)",
-      "ibukota": "Medan",
-      "koordinat": [
-        98.6722,
-        3.5952
-      ],
-      "warna": "#F59E0B",
-      "deskripsi": "Geomorfologi Sumatra Utara didominasi oleh kaldera supervolcano Toba dan kompleks Pegunungan Bukit Barisan. Wilayah ini menunjukkan dinamika geologi aktif akibat aktivitas subduksi lempeng tektonik.",
-      "flora": "Keanekaragaman bioma hutan pegunungan tropis dan kawasan ekosistem Leuser serta Batang Toru.",
-      "fauna": "Orangutan Tapanuli (Pongo tapanuliensis) sebagai spesies hominid paling terancam punah di dunia.",
-      "geografi": "Struktur depresi tektono-vulkanik Danau Toba serta zona sesar aktif Sumatra bagian utara.",
-      "sumber": "Wikipedia - Sumatra Utara (https://id.wikipedia.org/wiki/Sumatra_Utara)",
-      "gambar": "https://images.unsplash.com/photo-1544644181-1484b3fdfc62?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sumbar-sma",
-      "pulau": "Pulau Sumatra",
-      "nama": "Sumatra Barat (SMA)",
-      "ibukota": "Padang",
-      "koordinat": [
-        100.3543,
-        -0.9492
-      ],
-      "warna": "#10B981",
-      "deskripsi": "Kondisi geologi Sumatra Barat dipengaruhi oleh patahan aktif Semangko dan subduksi Lempeng Indo-Australia. Kepulauan Mentawai terbentuk dari prisma akresi hasil subduksi lempeng.",
-      "flora": "Struktur vegetasi hutan hujan tropis dataran tinggi dan konservasi flora langka di cagar alam.",
-      "fauna": "Primata endemik Kepulauan Mentawai (Siamang Mentawai, Joja) serta fauna Asiatik.",
-      "geografi": "Kombinasi sistem pegunungan vulkanik aktif (Gunung Marapi, Kerinci), danau tekto-vulkanik, dan prisma akresi offshore.",
-      "sumber": "Wikipedia - Sumatra Barat (https://id.wikipedia.org/wiki/Sumatra_Barat)",
-      "gambar": "https://images.unsplash.com/photo-1590059208016-73241b312760?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "riau-sma",
-      "pulau": "Pulau Sumatra",
-      "nama": "Riau (SMA)",
-      "ibukota": "Pekanbaru",
-      "koordinat": [
-        101.4478,
-        0.5071
-      ],
-      "warna": "#3B82F6",
-      "deskripsi": "Ekosistem Riau didominasi oleh lahan gambut dalam (peatland) yang memegang peranan penting dalam sekuestrasi karbon global. Eksploitasi lahan menjadi tantangan lingkungan utama.",
-      "flora": "Vegetasi spesifik lahan basah/gambut dan hutan rawa air tawar.",
-      "fauna": "Konservasi spesies terancam punah di Taman Nasional Tesso Nilo dan Rimbang Baling.",
-      "geografi": "Geomorfologi fluvial dan delta, cekungan sedimen tersier penghasil hidrokarbon utama.",
-      "sumber": "Wikipedia - Riau (https://id.wikipedia.org/wiki/Riau)",
-      "gambar": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "kepri-sma",
-      "pulau": "Pulau Sumatra",
-      "nama": "Kepulauan Riau (SMA)",
-      "ibukota": "Tanjungpinang",
-      "koordinat": [
-        104.4487,
-        0.916
-      ],
-      "warna": "#8B5CF6",
-      "deskripsi": "Kepulauan Riau berada pada posisi geostrategis di jalur pelayaran internasional Selat Malaka dan Laut Tiongkok Selatan. Memiliki potensi ekonomi biru (blue economy) dan pengelolaan pulau-pulau kecil terluar (PPKT).",
-      "flora": "Ekosistem padang lamun, terumbu karang, dan hutan pantai.",
-      "fauna": "Keanekaragaman biota laut kepulauan serta fauna khas pulau Natuna (Kekah Natuna).",
-      "geografi": "Morfologi kepulauan granitoid (Paparan Sunda) dengan dinamika batas wilayah laut antarnegara.",
-      "sumber": "Wikipedia - Kepulauan Riau (https://id.wikipedia.org/wiki/Kepulauan_Riau)",
-      "gambar": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "jambi-sma",
-      "pulau": "Pulau Sumatra",
-      "nama": "Jambi (SMA)",
-      "ibukota": "Jambi",
-      "koordinat": [
-        103.6131,
-        -1.6101
-      ],
-      "warna": "#EC4899",
-      "deskripsi": "Kawasan Jambi memadukan situs arkeologi kompleks Candi Muaro Jambi dengan bentang alam Gunung Kerinci. Keberadaan TN Kerinci Seblat menjadikannya area konservasi ekologis krusial.",
-      "flora": "Gradient vegetasi dari zonasi aluvial hingga bioma alpin/subalpin Gunung Kerinci.",
-      "fauna": "Habitat utama konservasi mamalia besar endemik Sumatra.",
-      "geografi": "Sistem DAS Batanghari yang luas dan struktur vulkanik stratovolcano Kerinci.",
-      "sumber": "Wikipedia - Jambi (https://id.wikipedia.org/wiki/Jambi)",
-      "gambar": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sumsel-sma",
-      "pulau": "Pulau Sumatra",
-      "nama": "Sumatra Selatan (SMA)",
-      "ibukota": "Palembang",
-      "koordinat": [
-        104.7565,
-        -2.9909
-      ],
-      "warna": "#6366F1",
-      "deskripsi": "Sumatra Selatan memiliki cekungan hidrokarbon dan batu bara terbesar di Sumatra. Sistem DAS Musi membentuk pola permukiman dan dinamika lingkungan riparian yang khas.",
-      "flora": "Sistem vegetasi lahan basah, rawa lebak, dan hutan dataran rendah.",
-      "fauna": "Endemik fauna perairan darat seperti ikan Belida serta mamalia hutan rawa.",
-      "geografi": "Geomorfologi dataran aluvial rawa pantai hingga perbukitan lipatan tersier di bagian barat.",
-      "sumber": "Wikipedia - Sumatra Selatan (https://id.wikipedia.org/wiki/Sumatra_Selatan)",
-      "gambar": "https://images.unsplash.com/photo-1519046904884-53103b34b206?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "babel-sma",
-      "pulau": "Pulau Sumatra",
-      "nama": "Kepulauan Bangka Belitung (SMA)",
-      "ibukota": "Pangkalpinang",
-      "koordinat": [
-        106.1169,
-        -2.1316
-      ],
-      "warna": "#14B8A6",
-      "deskripsi": "Geologi Bangka Belitung didominasi pluton granit era Trias yang mengandung endapan timah aluvial dan primer. Aktivitas penambangan timah memberikan dampak signifikan pada lanskap lingkungan.",
-      "flora": "Vegetasi spesifik tanah kuarsa dan hutan kerangas (heath forest).",
-      "fauna": "Spesies primata nokturnal Mentilin yang beradaptasi pada habitat pulau terisolasi.",
-      "geografi": "Sistem perairan dangkal Paparan Sunda dengan pulau-pulau granitis unik.",
-      "sumber": "Wikipedia - Kepulauan Bangka Belitung (https://id.wikipedia.org/wiki/Kepulauan_Bangka_Belitung)",
-      "gambar": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "bengkulu-sma",
-      "pulau": "Pulau Sumatra",
-      "nama": "Bengkulu (SMA)",
-      "ibukota": "Bengkulu",
-      "koordinat": [
-        102.2655,
-        -3.8004
-      ],
-      "warna": "#F97316",
-      "deskripsi": "Posisinya tepat di depan zona megathrust Sumatra menjadikan Bengkulu kawasan fokus studi geodinamika dan mitigasi bencana tektonik. Memiliki keanekaragaman flora holoparasit endemik.",
-      "flora": "Spesialisasi biologi Rafflesia arnoldii sebagai tumbuhan holoparasit obligat.",
-      "fauna": "Konservasi fauna endemik Bukit Barisan Selatan di wilayah Bengkulu.",
-      "geografi": "Morfologi pantai terangkat (uplifted coast) dan lereng curam Bukit Barisan.",
-      "sumber": "Wikipedia - Bengkulu (https://id.wikipedia.org/wiki/Bengkulu)",
-      "gambar": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "lampung-sma",
-      "pulau": "Pulau Sumatra",
-      "nama": "Lampung (SMA)",
-      "ibukota": "Bandar Lampung",
-      "koordinat": [
-        105.2663,
-        -5.45
-      ],
-      "warna": "#84CC16",
-      "deskripsi": "Lampung memegang posisi strategis dalam arus migrasi dan logistik antarpulau (Jawa-Sumatra). Kompleks Gunung Anak Krakatau di Selat Sunda memengaruhi vulkanisme dan sejarah bencana geologi setempat.",
-      "flora": "Sistem vegetasi dataran rendah dan kawasan suaka margasatwa pesisir.",
-      "fauna": "Pusat konservasi ex-situ & in-situ Gajah Sumatra dan spesies terancam punah Way Kambas.",
-      "geografi": "Geomorfologi graben Selat Sunda dan dinamika vulkanik Anak Krakatau.",
-      "sumber": "Wikipedia - Lampung (https://id.wikipedia.org/wiki/Lampung)",
-      "gambar": "https://images.unsplash.com/photo-1564760055775-d63b17a55c44?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "banten-sma",
-      "pulau": "Pulau Jawa",
-      "nama": "Banten (SMA)",
-      "ibukota": "Serang",
-      "koordinat": [
-        106.163,
-        -6.12
-      ],
-      "warna": "#06B6D4",
-      "deskripsi": "Secara ekologis, Banten menjadi benteng terakhir suaka Badak Jawa di TN Ujung Kulon yang diakui UNESCO. Secara ekonomi, Banten merupakan koridor industri dan penyeberangan intersuler.",
-      "flora": "Spesialisasi vegetasi dataran rendah hutan hujan tropis basah Jawa bagian barat.",
-      "fauna": "Badak Jawa sebagai salah satu mamalia paling langka dan terancam punah di bumi.",
-      "geografi": "Zona tektonik Busur Sunda, batuan karst di Banten Selatan, dan dinamika vulkanik pesisir.",
-      "sumber": "Wikipedia - Banten (https://id.wikipedia.org/wiki/Banten)",
-      "gambar": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "dkijakarta-sma",
-      "pulau": "Pulau Jawa",
-      "nama": "DKI Jakarta (SMA)",
-      "ibukota": "Jakarta",
-      "koordinat": [
-        106.8456,
-        -6.2088
-      ],
-      "warna": "#3B82F6",
-      "deskripsi": "Jakarta menghadapi tantangan ekologis perkotaan tingkat tinggi seperti land subsidence (penurunan tanah) akibat ekstraksi air tanah berlebih dan krisis banjir luapan sungai/rob.",
-      "flora": "Vegetasi RTH perkotaan, ekosistem pesisir mangrove Angke Kapuk.",
-      "fauna": "Burung pemangsa pesisir Elang Bondol serta fauna laut Kepulauan Seribu.",
-      "geografi": "Delta aluvial muda dengan kerentanan hidrometeorologi dan gempa tektonik halus.",
-      "sumber": "Wikipedia - Daerah Khusus Ibukota Jakarta (https://id.wikipedia.org/wiki/Daerah_Khusus_Ibukota_Jakarta)",
-      "gambar": "https://images.unsplash.com/photo-1555899434-94d1368aa7af?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "jabar-sma",
-      "pulau": "Pulau Jawa",
-      "nama": "Jawa Barat (SMA)",
-      "ibukota": "Bandung",
-      "koordinat": [
-        107.6191,
-        -6.9175
-      ],
-      "warna": "#10B981",
-      "deskripsi": "Geologi Jawa Barat dibentuk oleh aktivitas vulkanisme Busur Sunda kuarter. Cekungan Bandung purba merupakan bekas danau purba yang terbentuk dari letusan Gunung Sunda.",
-      "flora": "Bioma hutan pegunungan tropis basah (Gede Pangrango) dan endemisme flora lereng vulkanik.",
-      "fauna": "Spesies primata terancam punah Surili dan predator puncak Macan Tutul Jawa.",
-      "geografi": "Sistem sesar aktif (Sesar Lembang), cekungan antar-gunung, serta kompleksitas DAS Citarum.",
-      "sumber": "Wikipedia - Jawa Barat (https://id.wikipedia.org/wiki/Jawa_Barat)",
-      "gambar": "https://images.unsplash.com/photo-1601058268499-e52658b8bb88?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "jateng-sma",
-      "pulau": "Pulau Jawa",
-      "nama": "Jawa Tengah (SMA)",
-      "ibukota": "Semarang",
-      "koordinat": [
-        110.4203,
-        -6.9667
-      ],
-      "warna": "#F59E0B",
-      "deskripsi": "Fisiografi Jawa Tengah terbagi atas Dataran Aluvial Pantura, Jalur Serayu Utara & Selatan, serta Gunungapi Kuarter. Kawasan Dieng menampilkan aktivitas geothermal terisolasi.",
-      "flora": "Vegetasi dataran tinggi karst Pegunungan Serayu dan hutan tanaman industri (Jati).",
-      "fauna": "Kepodang Emas sebagai avifauna budaya dan ekosistem dataran menengah.",
-      "geografi": "Kompleks vulkanik Dieng, dinamika pesisir rob Semarang, dan kawasan karst Pegunungan Kendeng.",
-      "sumber": "Wikipedia - Jawa Tengah (https://id.wikipedia.org/wiki/Jawa_Tengah)",
-      "gambar": "https://images.unsplash.com/photo-1609137144813-7d9921338f24?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "diy-sma",
-      "pulau": "Pulau Jawa",
-      "nama": "DI Yogyakarta (SMA)",
-      "ibukota": "Yogyakarta",
-      "koordinat": [
-        110.3695,
-        -7.7956
-      ],
-      "warna": "#EF4444",
-      "deskripsi": "DI Yogyakarta memiliki gumuk pasir (barchan sand dunes) Parangtritis yang sangat langka di Asia Tenggara. Aktivitas effusif dan eksplosif Gunung Merapi terus membentuk deposit fluvio-vulkanik.",
-      "flora": "Kepel sebagai vegetasi kraton khas dan adaptasi flora pesisir pantai selatan.",
-      "fauna": "Avifauna lokal serta konservasi penyu di pesisir selatan.",
-      "geografi": "Morfologi eolian Gumuk Pasir, kompleks Karst Gunungsewu, dan sistem lahar Merapi.",
-      "sumber": "Wikipedia - Daerah Istimewa Yogyakarta (https://id.wikipedia.org/wiki/Daerah_Istimewa_Yogyakarta)",
-      "gambar": "https://images.unsplash.com/photo-1584810359583-96fc3448beaa?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "jatim-sma",
-      "pulau": "Pulau Jawa",
-      "nama": "Jawa Timur (SMA)",
-      "ibukota": "Surabaya",
-      "koordinat": [
-        112.7508,
-        -7.2575
-      ],
-      "warna": "#8B5CF6",
-      "deskripsi": "Geomorfologi Jawa Timur dicirikan oleh kaldera Bromo-Tengger, Gunung Semeru (puncak tertinggi Jawa 3.676 mdpl), dan fenomena blue fire di Kawah Ijen. DAS Brantas menjadi pusat agrikultur dan industri.",
-      "flora": "Vegetasi sabana tropis (Baluran) dan hutan cemara gunung (Casuarina junghuhniana).",
-      "fauna": "Banteng Jawa di Baluran/Alas Purwo serta persilangan Ayam Bekisar khas Madura.",
-      "geografi": "Sistem vulkanisme Kuarter kompleks, karst Blambangan, dan hidro-geologi Cekungan Brantas.",
-      "sumber": "Wikipedia - Jawa Timur (https://id.wikipedia.org/wiki/Jawa_Timur)",
-      "gambar": "https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "bali-sma",
-      "pulau": "Bali & Nusa Tenggara",
-      "nama": "Bali (SMA)",
-      "ibukota": "Denpasar",
-      "koordinat": [
-        115.1889,
-        -8.4095
-      ],
-      "warna": "#EC4899",
-      "deskripsi": "Bali merupakan bagian dari Busur Sunda Timur. Proses tektonik lempeng Indo-Australia yang menunjam ke bawah Eurasia membentuk rantai vulkanik Bali (Agung, Batur). Sistem Subak Bali diakui UNESCO.",
-      "flora": "Analisis bioma hutan hujan topis hingga vegetasi subalpin pegunungan vulkanik.",
-      "fauna": "Konservasi endemik Jalak Bali dan peran ekologis ekosistem terumbu karang.",
-      "geografi": "Geomorfologi vulkanik, lanskap terasering kaskade (Subak), dan abrasi pesisir.",
-      "sumber": "Wikipedia - Bali (https://id.wikipedia.org/wiki/Bali)",
-      "gambar": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "ntb-sma",
-      "pulau": "Bali & Nusa Tenggara",
-      "nama": "Nusa Tenggara Barat (SMA)",
-      "ibukota": "Mataram",
-      "koordinat": [
-        116.1165,
-        -8.5833
-      ],
-      "warna": "#14B8A6",
-      "deskripsi": "NTB mencatat sejarah vulkanologi dunia melalui letusan dahsyat Gunung Tambora (1815) yang memicu 'Year Without a Summer'. Terletak di kawasan transisi ekologi Garis Wallace.",
-      "flora": "Vegetasi peralihan monsun, dari hutan hujan tropis Lombok hingga sabana kering Sumbawa.",
-      "fauna": "Fauna campuran tipe Asiatik dan Australis (Zona Wallacea).",
-      "geografi": "Kaldera Tambora, kaldera Rinjani (Segara Anak), dan morfologi kepulauan Busur Banda Barat.",
-      "sumber": "Wikipedia - Nusa Tenggara Barat (https://id.wikipedia.org/wiki/Nusa_Tenggara_Barat)",
-      "gambar": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "ntt-sma",
-      "pulau": "Bali & Nusa Tenggara",
-      "nama": "Nusa Tenggara Timur (SMA)",
-      "ibukota": "Kupang",
-      "koordinat": [
-        123.5833,
-        -10.1667
-      ],
-      "warna": "#F97316",
-      "deskripsi": "NTT memiliki kondisi biogeografi khas Wallacea dengan kelembapan rendah dan dominasi iklim Am/Aw (Savana Tropis). Komodo merupakan relik purba yang bertahan di ekosistem pulau terisolasi.",
-      "flora": "Eksploitasi dan konservasi Pohon Cendana serta ketahanan vegetasi Lontar di lahan kering.",
-      "fauna": "Varanus komodoensis sebagai apex predator varanid terbesar di dunia.",
-      "geografi": "Kompleks vulkanik Flores (Danau Kelimutu 3 warna), uplifted coral reefs, dan palung Timor.",
-      "sumber": "Wikipedia - Nusa Tenggara Timur (https://id.wikipedia.org/wiki/Nusa_Tenggara_Timur)",
-      "gambar": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "kalbar-sma",
-      "pulau": "Pulau Kalimantan",
-      "nama": "Kalimantan Barat (SMA)",
-      "ibukota": "Pontianak",
-      "koordinat": [
-        109.3333,
-        -0.0333
-      ],
-      "warna": "#6366F1",
-      "deskripsi": "Kalimantan Barat didominasi oleh batuan terobosan granitoid dan cekungan sedimen fluviatil Kapuas. Hutan gambut di Kalbar memegang fungsi hidrologi penyeimbang banjir dan penyimpan karbon.",
-      "flora": "Keanekaragaman famili Dipterocarpaceae dan vegetasi rawa gambut.",
-      "fauna": "Burung Enggang Gading sebagai simbol kebudayaan Dayak dan indikator kesehatan hutan primer.",
-      "geografi": "Sistem DAS Kapuas terpanjang di Indonesia serta batas darat dengan Sarawak (Malaysia).",
-      "sumber": "Wikipedia - Kalimantan Barat (https://id.wikipedia.org/wiki/Kalimantan_Barat)",
-      "gambar": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "kalteng-sma",
-      "pulau": "Pulau Kalimantan",
-      "nama": "Kalimantan Tengah (SMA)",
-      "ibukota": "Palangkaraya",
-      "koordinat": [
-        113.9167,
-        -2.2083
-      ],
-      "warna": "#84CC16",
-      "deskripsi": "Kalteng menyimpan deposit gambut dalam yang sangat rentan terhadap kebakaran lahan (karhutla). Pegunungan Schwaner mengandung puncak tertinggi Kalimantan Selatan/Tengah (Bukit Raya).",
-      "flora": "Ekosistem rawa gambut ombrogen dan biodiversitas hutan Dipterocarpaceae dataran rendah.",
-      "fauna": "Pusat konservasi in-situ Pongo pygmaeus di Camp Leakey TN Tanjung Puting.",
-      "geografi": "Geomorfologi fluvial sungai Kahayan, Barito, Mentaya, serta kawasan konservasi gambut Sabangau.",
-      "sumber": "Wikipedia - Kalimantan Tengah (https://id.wikipedia.org/wiki/Kalimantan_Tengah)",
-      "gambar": "https://images.unsplash.com/photo-1534567153574-2b12153a87f0?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "kalsel-sma",
-      "pulau": "Pulau Kalimantan",
-      "nama": "Kalimantan Selatan (SMA)",
-      "ibukota": "Banjarbaru",
-      "koordinat": [
-        114.591,
-        -3.3194
-      ],
-      "warna": "#06B6D4",
-      "deskripsi": "Pegunungan Meratus merupakan kompleks ofiolit (kerak samudra yang terangkat) tua di Kalimantan. Bekantan beradaptasi khusus pada ekosistem hutan bakau dan rawa empang.",
-      "flora": "Buah Kasturi sebagai spesies endemik yang statusnya telah punah di alam liar (extinct in the wild).",
-      "fauna": "Spesialisasi anatomi Bekantan (makanan daun bakau) dan konservasi habitatnya.",
-      "geografi": "Oftiolit Meratus, delta Sungai Barito, serta potensi tambang batu bara dan bijih besi.",
-      "sumber": "Wikipedia - Kalimantan Selatan (https://id.wikipedia.org/wiki/Kalimantan_Selatan)",
-      "gambar": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "kaltim-sma",
-      "pulau": "Pulau Kalimantan",
-      "nama": "Kalimantan Timur (SMA)",
-      "ibukota": "Samarinda",
-      "koordinat": [
-        117.1537,
-        -0.5022
-      ],
-      "warna": "#3B82F6",
-      "deskripsi": "Kaltim bertransisi menjadi pusat pemerintahan Indonesia (IKN Nusantara di Penajam Paser Utara/Kutai Kartanegara). Karst Sangkulirang menyimpan situs lukisan cadas purba penting.",
-      "flora": "Biodiversitas flora hutan hujan tropis Dipterokarp dan spesialisasi Anggrek Hitam.",
-      "fauna": "Pesut Mahakam sebagai mamalia air tawar terancam punah kritis di Sungai Mahakam.",
-      "geografi": "Cekungan Kutai (Kutai Basin), geologi karst Sangkulirang, dan tata ruang IKN.",
-      "sumber": "Wikipedia - Kalimantan Timur (https://id.wikipedia.org/wiki/Kalimantan_Timur)",
-      "gambar": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "kaltara-sma",
-      "pulau": "Pulau Kalimantan",
-      "nama": "Kalimantan Utara (SMA)",
-      "ibukota": "Tanjung Selor",
-      "koordinat": [
-        117.3653,
-        2.8373
-      ],
-      "warna": "#10B981",
-      "deskripsi": "Kaltara memiliki peran geopolitik vital sebagai wilayah perbatasan RI-Malaysia. Taman Nasional Kayan Mentarang merupakan kawasan konservasi lintas batas (Transboundary Conservation Area).",
-      "flora": "Hutan hujan tropis perawan dengan keanekaragaman flora dataran tinggi Heart of Borneo.",
-      "fauna": "Keanekaragaman fauna pedalaman Kalimantan dan biota pesisir delta sungai Kayan.",
-      "geografi": "Morfologi lipatan pegunungan pedalaman dan potensi energi hidro (PLTA Kayan).",
-      "sumber": "Wikipedia - Kalimantan Utara (https://id.wikipedia.org/wiki/Kalimantan_Utara)",
-      "gambar": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sulut-sma",
-      "pulau": "Pulau Sulawesi",
-      "nama": "Sulawesi Utara (SMA)",
-      "ibukota": "Manado",
-      "koordinat": [
-        124.8483,
-        1.4748
-      ],
-      "warna": "#F59E0B",
-      "deskripsi": "Sulut dipengaruhi oleh pertemuan lempeng Laut Sulawesi dan Lempeng Laut Filipina. Satwa endemik seperti Tarsius dan Yaki menjadi objek penting ekologi evolusioner Wallacea.",
-      "flora": "Vegetasi pegunungan vulkanik dan keanekaragaman terumbu karang episentrum Segitiga Terumbu Karang.",
-      "fauna": "Spesialisasi adaptasi primata unik Macaca nigra dan mamalia nokturnal Tarsius.",
-      "geografi": "Sistem vulkanisme lengan utara Sulawesi dan batas maritim dengan Filipina.",
-      "sumber": "Wikipedia - Sulawesi Utara (https://id.wikipedia.org/wiki/Sulawesi_Utara)",
-      "gambar": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "gorontalo-sma",
-      "pulau": "Pulau Sulawesi",
-      "nama": "Gorontalo (SMA)",
-      "ibukota": "Gorontalo",
-      "koordinat": [
-        123.06,
-        0.5433
-      ],
-      "warna": "#EF4444",
-      "deskripsi": "Gorontalo memiliki situs konservasi Burung Maleo yang bertelur menggunakan panas bumi/pasir hangat (Taman Nasional Bogani Nani Wartabone). Wisata konservasi Hiu Paus di Botubarani sangat berkembang.",
-      "flora": "Ekosistem hutan dataran rendah Wallacea dan vegetasi Danau Limboto.",
-      "fauna": "Behavioral ecology Burung Maleo (geothermal nesting) dan agregasi Hiu Paus (Rhincodon typus).",
-      "geografi": "Morfologi basin Danau Limboto dan sistem sesar Gorontalo.",
-      "sumber": "Wikipedia - Gorontalo (https://id.wikipedia.org/wiki/Gorontalo)",
-      "gambar": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sulteng-sma",
-      "pulau": "Pulau Sulawesi",
-      "nama": "Sulawesi Tengah (SMA)",
-      "ibukota": "Palu",
-      "koordinat": [
-        119.8707,
-        -0.8917
-      ],
-      "warna": "#8B5CF6",
-      "deskripsi": "Tektonik Sulawesi Tengah sangat aktif dengan dinamika Sesar Mendatar Palu-Koro (Palu-Koro Strike-Slip Fault). Keanekaragaman fauna endemik Wallacea terlindungi di TN Lore Lindu.",
-      "flora": "Kayu Eboni sebagai spesies pohon bernilai tinggi berstatus terancam.",
-      "fauna": "Mamalia endemik pulau Sulawesi: Anoa (sapi kerdil) dan Babirusa.",
-      "geografi": "Sistem graben Lembah Palu, danau tektonik Danau Poso, serta kompleks megalitikum Lembah Bada.",
-      "sumber": "Wikipedia - Sulawesi Tengah (https://id.wikipedia.org/wiki/Sulawesi_Tengah)",
-      "gambar": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sulbar-sma",
-      "pulau": "Pulau Sulawesi",
-      "nama": "Sulawesi Barat (SMA)",
-      "ibukota": "Mamuju",
-      "koordinat": [
-        118.8886,
-        -2.6778
-      ],
-      "warna": "#EC4899",
-      "deskripsi": "Pesisir Sulawesi Barat kaya akan potensi perikanan dan migas Selat Makassar. Pegunungan Quarles membentuk bentang alam lereng curam penghasil komoditas kakao dan kopi.",
-      "flora": "Vegetasi hutan pegunungan dan komoditas perkebunan khas (Kakao/Kopi Kalosi).",
-      "fauna": "Adaptasi fauna Wallacea pada tutupan hutan lereng Pegunungan Quarles.",
-      "geografi": "Morfologi pantai terjal pesisir barat dan struktur lipatan Pegunungan Quarles.",
-      "sumber": "Wikipedia - Sulawesi Barat (https://id.wikipedia.org/wiki/Sulawesi_Barat)",
-      "gambar": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sulsel-sma",
-      "pulau": "Pulau Sulawesi",
-      "nama": "Sulawesi Selatan (SMA)",
-      "ibukota": "Makassar",
-      "koordinat": [
-        119.4327,
-        -5.1477
-      ],
-      "warna": "#14B8A6",
-      "deskripsi": "Sulsel memiliki Karst Maros-Pangkep yang merupakan salah satu kawasan karst tower terbesar di dunia dengan situs arkeologi gua prasejarah. Danau Matano adalah danau terdalam di Asia Tenggara.",
-      "flora": "Flora endemik kawasan karst (calciphile plants) dan vegetasi Lontar.",
-      "fauna": "Kuskus Beruang sebagai marsupial unik di sebelah barat Garis Lydekker.",
-      "geografi": "Geomorfologi Karst Tower Maros-Pangkep, Danau Tektonik Matano, dan Selat Makassar.",
-      "sumber": "Wikipedia - Sulawesi Selatan (https://id.wikipedia.org/wiki/Sulawesi_Selatan)",
-      "gambar": "https://images.unsplash.com/photo-1518509562904-e7ef99cdcc86?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "sultra-sma",
-      "pulau": "Pulau Sulawesi",
-      "nama": "Sulawesi Tenggara (SMA)",
-      "ibukota": "Kendari",
-      "koordinat": [
-        122.515,
-        -3.9672
-      ],
-      "warna": "#F97316",
-      "deskripsi": "Sultra memegang peranan kunci dalam rantai pasok nikel dunia (hilirisasi tambang nikel). Wakatobi terletak di pusat Segitiga Terumbu Karang (Coral Triangle).",
-      "flora": "Vegetasi ultramafik yang toleran terhadap tanah kaya logam berat (nikel/besi).",
-      "fauna": "Keanekaragaman megafauna laut Wakatobi (Paus, Pari Manta) dan Anoa dataran rendah.",
-      "geografi": "Batuan ultrabasa/ultramafik, perairan kepulauan Karst Buton dan Atol Wakatobi.",
-      "sumber": "Wikipedia - Sulawesi Tenggara (https://id.wikipedia.org/wiki/Sulawesi_Tenggara)",
-      "gambar": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "maluku-sma",
-      "pulau": "Kepulauan Maluku",
-      "nama": "Maluku (SMA)",
-      "ibukota": "Ambon",
-      "koordinat": [
-        128.1814,
-        -3.6954
-      ],
-      "warna": "#6366F1",
-      "deskripsi": "Kepulauan Maluku berada di kompleksitas tektonik Busur Banda (Banda Arc) yang melengkung 180 derajat. Laut Banda memiliki palung laut sangat dalam (Weber Deep).",
-      "flora": "Biogeografi tanaman rempah-rempah asli kepulauan pasifik.",
-      "fauna": "Avifauna endemik pulau Seram dan Buru serta biodiversitas perairan Banda.",
-      "geografi": "Zona konvergensi kompleks, kedalaman laut Weber Deep (titik terdalam Indonesia), dan karst Kei.",
-      "sumber": "Wikipedia - Maluku (https://id.wikipedia.org/wiki/Maluku)",
-      "gambar": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "malut-sma",
-      "pulau": "Kepulauan Maluku",
-      "nama": "Maluku Utara (SMA)",
-      "ibukota": "Sofifi",
-      "koordinat": [
-        127.5583,
-        0.7308
-      ],
-      "warna": "#84CC16",
-      "deskripsi": "Malut berada di pertemuan tiga lempeng tektonik utama. Memiliki keanekaragaman avifauna Wallacea yang dipelajari Alfred Russel Wallace saat merumuskan teori evolusi.",
-      "flora": "Keanekaragaman endemik hutan hujan tropis Halmahera.",
-      "fauna": "Burung Bidadari Halmahera (Bird of Paradise Wallacea) dan cakar unik Wallace.",
-      "geografi": "Busur vulkanik Ternate-Tidore, struktur kompleks Halmahera, dan potensi nikel Weda Bay.",
-      "sumber": "Wikipedia - Maluku Utara (https://id.wikipedia.org/wiki/Maluku_Utara)",
-      "gambar": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "papua-sma",
-      "pulau": "Pulau Papua",
-      "nama": "Papua (SMA)",
-      "ibukota": "Jayapura",
-      "koordinat": [
-        140.7181,
-        -2.5337
-      ],
-      "warna": "#06B6D4",
-      "deskripsi": "Papua terlepas dari lempeng Australis secara biogeografi (Zona Australasia). Keanekaragaman hayati sangat tinggi dengan spesies yang berkerabat dengan benua Australia.",
-      "flora": "Matoa dan hutan hujan tropis basah dataran rendah Papua.",
-      "fauna": "Spesialisasi marsupial (Kanguru Pohon) dan avifauna Paradisaeidae.",
-      "geografi": "Sesar aktif Mamberamo, Pegunungan Cycloop, dan batas wilayah kedaulatan negara.",
-      "sumber": "Wikipedia - Papua (https://id.wikipedia.org/wiki/Papua)",
-      "gambar": "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "pabar-sma",
-      "pulau": "Pulau Papua",
-      "nama": "Papua Barat (SMA)",
-      "ibukota": "Manokwari",
-      "koordinat": [
-        134.062,
-        -0.8615
-      ],
-      "warna": "#3B82F6",
-      "deskripsi": "Papua Barat memiliki ekosistem Teluk Bintuni yang menyimpan kawasan mangrove terbesar kedua di dunia. Pegunungan Arfak menjadi laboratorium biogeografi spefisiasi spesies.",
-      "flora": "Buah Merah sebagai tanaman obat tradisional bernilai nutrisi tinggi.",
-      "fauna": "Bowerbird (Burung Namdur) dengan perilaku kompleks pembuat bower hiasan kawin.",
-      "geografi": "Sistem lipatan Pegunungan Arfak dan cekungan gas alam Teluk Bintuni.",
-      "sumber": "Wikipedia - Papua Barat (https://id.wikipedia.org/wiki/Papua_Barat)",
-      "gambar": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "pasel-sma",
-      "pulau": "Pulau Papua",
-      "nama": "Papua Selatan (SMA)",
-      "ibukota": "Merauke",
-      "koordinat": [
-        140.3942,
-        -8.4991
-      ],
-      "warna": "#10B981",
-      "deskripsi": "Papua Selatan berada di Paparan Sahul dengan iklim monsun yang sangat dipengaruhi daratan Australia. Musamus dibangun oleh koloni rayap *Microcerotermes serratus*.",
-      "flora": "Vegetasi sabana Eucalyptus dan Melaleuca khas zona Australasia.",
-      "fauna": "Wallaby (Macropodidae) dan avifauna lahan basah migran di TN Wasur.",
-      "geografi": "Geomorfologi fluvial aluvial pantai selatan Papua dan batas darat Merauke-PNG.",
-      "sumber": "Wikipedia - Papua Selatan (https://id.wikipedia.org/wiki/Papua_Selatan)",
-      "gambar": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "pateng-sma",
-      "pulau": "Pulau Papua",
-      "nama": "Papua Tengah (SMA)",
-      "ibukota": "Nabire",
-      "koordinat": [
-        135.4967,
-        -3.3667
-      ],
-      "warna": "#F59E0B",
-      "deskripsi": "Papua Tengah memiliki gletser Carstensz yang mengalami penyusutan pesat akibat perubahan iklim global. Deposit tembaga-emas Grasberg merupakan salah satu terbesar di dunia.",
-      "flora": "Zonasi ekosistem alpin/subalpin dan tumbuhan endemik kebun pegunungan tinggi.",
-      "fauna": "Keanekaragaman biota laut Teluk Cenderawasih dan fauna Pegunungan Tengah.",
-      "geografi": "Tektonik collision Pegunungan Tengah Papua dan proses deglasiasi gletser Carstensz.",
-      "sumber": "Wikipedia - Papua Tengah (https://id.wikipedia.org/wiki/Papua_Tengah)",
-      "gambar": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "papeg-sma",
-      "pulau": "Pulau Papua",
-      "nama": "Papua Pegunungan (SMA)",
-      "ibukota": "Jayawijaya (Wamena)",
-      "koordinat": [
-        138.9442,
-        -4.0967
-      ],
-      "warna": "#EF4444",
-      "deskripsi": "Papua Pegunungan merupakan *landlocked province* pertama di Indonesia. Pembentukan Lembah Baliem disebabkan oleh dinamika tektonik orogenesa Pegunungan Tengah Papua.",
-      "flora": "Pertanian tradisional ubi jalar (Hipere) dan adaptasi sistem budidaya keteorologis dataran tinggi.",
-      "fauna": "Dingiso sebagai satwa sakral yang ditemukan oleh Dr. Tim Flannery.",
-      "geografi": "Geomorfologi intermontane basin Lembah Baliem dan karteristik terisolasi secara terestrial.",
-      "sumber": "Wikipedia - Papua Pegunungan (https://id.wikipedia.org/wiki/Papua_Pegunungan)",
-      "gambar": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80"
-    },
-    {
-      "id": "pabaratdaya-sma",
-      "pulau": "Pulau Papua",
-      "nama": "Papua Barat Daya (SMA)",
-      "ibukota": "Sorong",
-      "koordinat": [
-        131.25,
-        -0.8833
-      ],
-      "warna": "#8B5CF6",
-      "deskripsi": "Papua Barat Daya memuat Raja Ampat yang diakui sebagai episentrum biodiversitas kelautan dunia (Coral Triangle heart). Memiliki spesies terumbu karang terbanyak di bumi.",
-      "flora": "Keanekaragaman mikro-flora endemik pulau karst dan ekosistem mangrove.",
-      "fauna": "Spesiasi unik Hiu Berjalan (walking shark) dan konservasi Pari Manta.",
-      "geografi": "Karst kepulauan Misool/Wayag, dinamika arus terobosan Indonesia (Arlindo), serta geofisika pesisir.",
-      "sumber": "Wikipedia - Papua Barat Daya (https://id.wikipedia.org/wiki/Papua_Barat_Daya)",
-      "gambar": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=800&q=80"
-    }
-  ]
+"SD": [
+{
+"id": "aceh",
+"pulau": "Pulau Sumatera",
+"nama": "Aceh",
+"ibukota": "Banda Aceh",
+"koordinat": [95.3238, 5.5483],
+"koordinat_provinsi": "4.695135, 96.749399",
+"warna": "#10B981",
+"deskripsi": "Aceh terletak di ujung barat Indonesia dan dikenal dengan julukan Serambi Mekkah. Memiliki Masjid Raya Baiturrahman dan Tari Saman yang terkenal.",
+"flora": "Bunga Jeumpa",
+"fauna": "Gajah Sumatra",
+"geografi": "Wilayah paling barat Indonesia yang berbatasan langsung dengan Samudra Hindia dan Selat Malaka.",
+"sumber": "Wikipedia - Aceh (https://id.wikipedia.org/wiki/Aceh)",
+"gambar": "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "sumut",
+"pulau": "Pulau Sumatera",
+"nama": "Sumatera Utara",
+"ibukota": "Medan",
+"koordinat": [98.6722, 3.5952],
+"koordinat_provinsi": "2.115354, 99.545097",
+"warna": "#059669",
+"deskripsi": "Sumatera Utara terkenal dengan Danau Toba, danau vulkanik terbesar di dunia yang memiliki Pulau Samosir di tengahnya.",
+"flora": "Bunga Kenanga",
+"fauna": "Orangutan Sumatra",
+"geografi": "Memiliki wilayah pegunungan Bukit Barisan dan pesisir timur yang subur.",
+"sumber": "Wikipedia - Sumatera Utara (https://id.wikipedia.org/wiki/Sumatera_Utara)",
+"gambar": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "sumbar",
+"pulau": "Pulau Sumatera",
+"nama": "Sumatera Barat",
+"ibukota": "Padang",
+"koordinat": [100.3543, -0.9492],
+"koordinat_provinsi": "-0.739939, 100.800005",
+"warna": "#047857",
+"deskripsi": "Terkenal dengan kebudayaan Minangkabau, rumah adat Rumah Gadang, serta kelezatan masakan Rendang.",
+"flora": "Pohon Andalas",
+"fauna": "Harimau Sumatra",
+"geografi": "Didominasi oleh pegunungan, danau seperti Danau Singkarak, dan pantai pesisir barat.",
+"sumber": "Wikipedia - Sumatera Barat (https://id.wikipedia.org/wiki/Sumatera_Barat)",
+"gambar": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "riau",
+"pulau": "Pulau Sumatera",
+"nama": "Riau",
+"ibukota": "Pekanbaru",
+"koordinat": [101.4478, 0.5071],
+"koordinat_provinsi": "0.293347, 101.706829",
+"warna": "#15803D",
+"deskripsi": "Riau merupakan pusat kebudayaan Melayu dengan wilayah perkebunan kelapa sawit dan hasil bumi minyak bumi yang melimpah.",
+"flora": "Pohon Nibung",
+"fauna": "Burung Serindit Melayu",
+"geografi": "Didominasi dataran rendah, rawa, serta sungai-sungai besar seperti Sungai Siak.",
+"sumber": "Wikipedia - Riau (https://id.wikipedia.org/wiki/Riau)",
+"gambar": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "kepri",
+"pulau": "Pulau Sumatera",
+"nama": "Kepulauan Riau",
+"ibukota": "Tanjungpinang",
+"koordinat": [104.4539, 0.9168],
+"koordinat_provinsi": "3.945651, 108.142867",
+"warna": "#166534",
+"deskripsi": "Provinsi kepulauan yang dekat dengan Singapura dan Malaysia. Memiliki Pulau Batam sebagai pusat industri dan perdagangan.",
+"flora": "Sirih",
+"fauna": "Ikan Kakap Merah",
+"geografi": "Wilayah perairan laut seluas 96% dengan ribuan pulau besar dan kecil.",
+"sumber": "Wikipedia - Kepulauan Riau (https://id.wikipedia.org/wiki/Kepulauan_Riau)",
+"gambar": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "jambi",
+"pulau": "Pulau Sumatera",
+"nama": "Jambi",
+"ibukota": "Jambi",
+"koordinat": [103.6131, -1.6101],
+"koordinat_provinsi": "-1.485188, 102.438058",
+"warna": "#22C55E",
+"deskripsi": "Memiliki kompleks Percandian Muaro Jambi yang merupakan peninggalan bersejarah Kerajaan Sriwijaya.",
+"flora": "Pinang Merah",
+"fauna": "Harimau Sumatra",
+"geografi": "Membentang dari Pegunungan Kerinci hingga dataran rendah di pesisir timur.",
+"sumber": "Wikipedia - Jambi (https://id.wikipedia.org/wiki/Jambi)",
+"gambar": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "bengkulu",
+"pulau": "Pulau Sumatera",
+"nama": "Bengkulu",
+"ibukota": "Bengkulu",
+"koordinat": [102.2655, -3.8004],
+"koordinat_provinsi": "-3.577847, 102.346387",
+"warna": "#16A34A",
+"deskripsi": "Bengkulu merupakan habitat asli bunga raksasa langka Rafflesia arnoldii dan tempat pengasingan Bung Karno.",
+"flora": "Bunga Rafflesia Arnoldii",
+"fauna": "Burung Rangkong",
+"geografi": "Pesisir barat Sumatera yang berhadapan langsung dengan Samudra Hindia.",
+"sumber": "Wikipedia - Bengkulu (https://id.wikipedia.org/wiki/Bengkulu)",
+"gambar": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "sumsel",
+"pulau": "Pulau Sumatera",
+"nama": "Sumatera Selatan",
+"ibukota": "Palembang",
+"koordinat": [104.7566, -2.9909],
+"koordinat_provinsi": "-3.238401, 104.146303",
+"warna": "#15803D",
+"deskripsi": "Terkenal dengan ikon Jembatan Ampera di atas Sungai Musi dan kuliner khas Pempek Palembang.",
+"flora": "Duku Palembang",
+"fauna": "Ikan Belida",
+"geografi": "Dataran rendah aluvial yang dialiri Sungai Musi dan anak-anak sungainya.",
+"sumber": "Wikipedia - Sumatera Selatan (https://id.wikipedia.org/wiki/Sumatera_Selatan)",
+"gambar": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "babel",
+"pulau": "Pulau Sumatera",
+"nama": "Kepulauan Bangka Belitung",
+"ibukota": "Pangkalpinang",
+"koordinat": [106.1169, -2.1316],
+"koordinat_provinsi": "-2.741051, 106.440587",
+"warna": "#4ADE80",
+"deskripsi": "Terkenal dengan keindahan pantai batu granitnya serta sebagai daerah penghasil timah terbesar di Indonesia.",
+"flora": "Pohon Nagasari",
+"fauna": "Mentilin (Tarsius)",
+"geografi": "Dua pulau utama Bangka dan Belitung yang dikelilingi perairan laut dangkal.",
+"sumber": "Wikipedia - Bangka Belitung (https://id.wikipedia.org/wiki/Kepulauan_Bangka_Belitung)",
+"gambar": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "lampung",
+"pulau": "Pulau Sumatera",
+"nama": "Lampung",
+"ibukota": "Bandar Lampung",
+"koordinat": [105.2663, -5.4500],
+"koordinat_provinsi": "-4.927032, 105.020904",
+"warna": "#86EFAC",
+"deskripsi": "Gerbang utama Pulau Sumatera dari Pulau Jawa. Memiliki Taman Nasional Way Kambas sebagai pusat pelatihan gajah.",
+"flora": "Bunga Ashar",
+"fauna": "Gajah Sumatra",
+"geografi": "Ujung selatan Sumatera dengan perbukitan dan teluk yang strategis.",
+"sumber": "Wikipedia - Lampung (https://id.wikipedia.org/wiki/Lampung)",
+"gambar": "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "banten",
+"pulau": "Pulau Jawa",
+"nama": "Banten",
+"ibukota": "Serang",
+"koordinat": [106.1503, -6.1200],
+"koordinat_provinsi": "-6.423871, 106.027014",
+"warna": "#2563EB",
+"deskripsi": "Provinsi paling barat di Pulau Jawa. Memiliki Taman Nasional Ujung Kulon habitat Badak Jawa yang dilindungi.",
+"flora": "Pohon Kokoleceran",
+"fauna": "Badak Bercula Satu (Badak Jawa)",
+"geografi": "Pesisir Selat Sunda dan dataran pegunungan di bagian selatan.",
+"sumber": "Wikipedia - Banten (https://id.wikipedia.org/wiki/Banten)",
+"gambar": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "dkijakarta",
+"pulau": "Pulau Jawa",
+"nama": "DKI Jakarta",
+"ibukota": "Jakarta Pusat",
+"koordinat": [106.8456, -6.2088],
+"koordinat_provinsi": "-6.211544, 106.845172",
+"warna": "#1D4ED8",
+"deskripsi": "Ibu Kota Negara Indonesia. Memiliki ikon Monumen Nasional (Monas) dan budaya khas Suku Betawi.",
+"flora": "Salak Condet",
+"fauna": "Burung Elang Bondol",
+"geografi": "Dataran rendah aluvial di pesisir utara barat Pulau Jawa.",
+"sumber": "Wikipedia - DKI Jakarta (https://id.wikipedia.org/wiki/Daerah_Khusus_Ibukota_Jakarta)",
+"gambar": "https://images.unsplash.com/photo-1555899434-94d1368aa7af?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "jabar",
+"pulau": "Pulau Jawa",
+"nama": "Jawa Barat",
+"ibukota": "Bandung",
+"koordinat": [107.6191, -6.9175],
+"koordinat_provinsi": "-6.920432, 107.603708",
+"warna": "#1E40AF",
+"deskripsi": "Dikenal dengan keindahan alam pegunungannya, kebudayaan Sunda, serta alat musik tradisional Angklung.",
+"flora": "Bunga Gandaria",
+"fauna": "Macan Tutul Jawa",
+"geografi": "Wilayah pegunungan vulkanik aktif, dataran tinggi, dan dataran rendah pesisir utara.",
+"sumber": "Wikipedia - Jawa Barat (https://id.wikipedia.org/wiki/Jawa_Barat)",
+"gambar": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "jateng",
+"pulau": "Pulau Jawa",
+"nama": "Jawa Tengah",
+"ibukota": "Semarang",
+"koordinat": [110.4203, -6.9932],
+"koordinat_provinsi": "-7.150975, 110.140259",
+"warna": "#1E3A8A",
+"deskripsi": "Pusat kebudayaan Jawa yang memiliki candi Buddha terbesar di dunia, yaitu Candi Borobudur.",
+"flora": "Bunga Kantil",
+"fauna": "Burung Kepodang Emas",
+"geografi": "Apit pegunungan vulkanik di tengah dan dataran aluvial utara serta selatan.",
+"sumber": "Wikipedia - Jawa Tengah (https://id.wikipedia.org/wiki/Jawa_Tengah)",
+"gambar": "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "diy",
+"pulau": "Pulau Jawa",
+"nama": "DI Yogyakarta",
+"ibukota": "Yogyakarta",
+"koordinat": [110.3695, -7.7956],
+"koordinat_provinsi": "-7.875384, 110.426209",
+"warna": "#3B82F6",
+"deskripsi": "Daerah Istimewa yang dipimpin oleh seorang Sultan. Terkenal sebagai kota pelajar, budaya, dan wisata Keraton.",
+"flora": "Pohon Kepel",
+"fauna": "Burung Tekukur",
+"geografi": "Terletak di sebelah selatan Gunung Merapi hingga pesisir Samudra Hindia.",
+"sumber": "Wikipedia - DI Yogyakarta (https://id.wikipedia.org/wiki/Daerah_Istimewa_Yogyakarta)",
+"gambar": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "jatim",
+"pulau": "Pulau Jawa",
+"nama": "Jawa Timur",
+"ibukota": "Surabaya",
+"koordinat": [112.7521, -7.2575],
+"koordinat_provinsi": "-7.536064, 112.238402",
+"warna": "#60A5FA",
+"deskripsi": "Memiliki destinasi wisata ikonik Gunung Bromo dan Kawah Ijen. Ibu kotanya Surabaya dikenal sebagai Kota Pahlawan.",
+"flora": "Bunga Sedap Malam",
+"fauna": "Ayam Bekisar",
+"geografi": "Provinsi terluas di Jawa dengan gunung-gunung aktif dan Pulau Madura.",
+"sumber": "Wikipedia - Jawa Timur (https://id.wikipedia.org/wiki/Jawa_Timur)",
+"gambar": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "bali",
+"pulau": "Nusa Tenggara & Bali",
+"nama": "Bali",
+"ibukota": "Denpasar",
+"koordinat": [115.2167, -8.6500],
+"koordinat_provinsi": "-8.409518, 115.188916",
+"warna": "#F59E0B",
+"deskripsi": "Dikenal dengan sebutan Pulau Dewata. Terkenal di seluruh dunia karena keindahan pantai, pura, dan tarian tradisionalnya.",
+"flora": "Bunga Kamboja (Jepun)",
+"fauna": "Jalak Bali",
+"geografi": "Pulau di antara Jawa dan Lombok dengan jajaran gunung berapi seperti Gunung Agung.",
+"sumber": "Wikipedia - Bali (https://id.wikipedia.org/wiki/Bali)",
+"gambar": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "ntb",
+"pulau": "Nusa Tenggara & Bali",
+"nama": "Nusa Tenggara Barat",
+"ibukota": "Mataram",
+"koordinat": [116.1167, -8.5833],
+"koordinat_provinsi": "-8.652933, 117.361648",
+"warna": "#D97706",
+"deskripsi": "Terdiri dari Pulau Lombok dan Pulau Sumbawa. Memiliki Gunung Rinjani dan Sirkuit Internasional Mandalika.",
+"flora": "Pohon Majegau",
+"fauna": "Rusa Timor",
+"geografi": "Dua pulau utama dengan bentang alam pegunungan tinggi dan pantai indah.",
+"sumber": "Wikipedia - Nusa Tenggara Barat (https://id.wikipedia.org/wiki/Nusa_Tenggara_Barat)",
+"gambar": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "ntt",
+"pulau": "Nusa Tenggara & Bali",
+"nama": "Nusa Tenggara Timur",
+"ibukota": "Kupang",
+"koordinat": [123.5833, -10.1667],
+"koordinat_provinsi": "-8.657382, 121.079370",
+"warna": "#B45309",
+"deskripsi": "Rumah bagi Komodo, kadal terbesar di dunia yang hidup di Taman Nasional Komodo, serta Danau Kelimutu Tiga Warna.",
+"flora": "Pohon Cendana",
+"fauna": "Komodo",
+"geografi": "Kepulauan kepulauan seperti Flores, Sumba, dan Timor dengan iklim sabana kering.",
+"sumber": "Wikipedia - Nusa Tenggara Timur (https://id.wikipedia.org/wiki/Nusa_Tenggara_Timur)",
+"gambar": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "kalbar",
+"pulau": "Pulau Kalimantan",
+"nama": "Kalimantan Barat",
+"ibukota": "Pontianak",
+"koordinat": [109.3333, -0.0333],
+"koordinat_provinsi": "-0.278781, 111.475285",
+"warna": "#EF4444",
+"deskripsi": "Dilintasi oleh garis khatulistiwa di kota Pontianak. Memiliki Sungai Kapuas, sungai terpanjang di Indonesia.",
+"flora": "Tengkawang Tungkul",
+"fauna": "Burung Enggang Gading",
+"geografi": "Didominasi dataran rendah, rawa, dan aliran Sungai Kapuas.",
+"sumber": "Wikipedia - Kalimantan Barat (https://id.wikipedia.org/wiki/Kalimantan_Barat)",
+"gambar": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "kalteng",
+"pulau": "Pulau Kalimantan",
+"nama": "Kalimantan Tengah",
+"ibukota": "Palangkaraya",
+"koordinat": [113.9167, -2.2000],
+"koordinat_provinsi": "-1.681488, 113.382354",
+"warna": "#DC2626",
+"deskripsi": "Provinsi terluas di Kalimantan yang kaya akan hutan hujan tropis dan konservasi Orangutan di Tanjung Puting.",
+"flora": "Anggrek Hitam",
+"fauna": "Orangutan Kalimantan",
+"geografi": "Hutan gambut pesisir selatan hingga Pegunungan Schwaner di utara.",
+"sumber": "Wikipedia - Kalimantan Tengah (https://id.wikipedia.org/wiki/Kalimantan_Tengah)",
+"gambar": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "kalsel",
+"pulau": "Pulau Kalimantan",
+"nama": "Kalimantan Selatan",
+"ibukota": "Banjarbaru",
+"koordinat": [114.8333, -3.4167],
+"koordinat_provinsi": "-3.092642, 115.283758",
+"warna": "#B91C1C",
+"deskripsi": "Dikenal dengan kebudayaan sungai seperti Pasar Terapung Lok Baintan dan hasil tambang batu bara.",
+"flora": "Kasturi",
+"fauna": "Bekantan",
+"geografi": "Pegunungan Meratus membelah wilayah ini menjadi dataran tinggi dan dataran aluvial rawa.",
+"sumber": "Wikipedia - Kalimantan Selatan (https://id.wikipedia.org/wiki/Kalimantan_Selatan)",
+"gambar": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "kaltim",
+"pulau": "Pulau Kalimantan",
+"nama": "Kalimantan Timur",
+"ibukota": "Samarinda",
+"koordinat": [117.1500, -0.5000],
+"koordinat_provinsi": "0.538659, 116.419389",
+"warna": "#991B1B",
+"deskripsi": "Pusat industri energi tambang dan wilayah terpilih lokasi Ibu Kota Nusantara (IKN).",
+"flora": "Anggrek Hitam",
+"fauna": "Pesut Mahakam",
+"geografi": "Wilayah pesisir Selat Makassar dan daerah aliran Sungai Mahakam.",
+"sumber": "Wikipedia - Kalimantan Timur (https://id.wikipedia.org/wiki/Kalimantan_Timur)",
+"gambar": "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "kaltara",
+"pulau": "Pulau Kalimantan",
+"nama": "Kalimantan Utara",
+"ibukota": "Tanjung Selor",
+"koordinat": [117.3667, 2.8333],
+"koordinat_provinsi": "3.073093, 116.041389",
+"warna": "#F87171",
+"deskripsi": "Provinsi termuda di Kalimantan yang berbatasan darat langsung dengan negara Malaysia.",
+"flora": "Pohon Bakau",
+"fauna": "Penyu Hijau",
+"geografi": "Wilayah perbatasan pegunungan utara dan perairan kaya akan potensi hidroelektrik.",
+"sumber": "Wikipedia - Kalimantan Utara (https://id.wikipedia.org/wiki/Kalimantan_Utara)",
+"gambar": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "sulut",
+"pulau": "Pulau Sulawesi",
+"nama": "Sulawesi Utara",
+"ibukota": "Manado",
+"koordinat": [124.8400, 1.4900],
+"koordinat_provinsi": "0.624693, 123.975002",
+"warna": "#8B5CF6",
+"deskripsi": "Terkenal dengan Taman Laut Bunaken yang indah dan kebudayaan Suku Minahasa.",
+"flora": "Pohon Cempaka Buntut",
+"fauna": "Tarsius Spektrum (Tarsius)",
+"geografi": "Semenanjung paling utara Sulawesi yang dikelilingi lautan dalam.",
+"sumber": "Wikipedia - Sulawesi Utara (https://id.wikipedia.org/wiki/Sulawesi_Utara)",
+"gambar": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "gorontalo",
+"pulau": "Pulau Sulawesi",
+"nama": "Gorontalo",
+"ibukota": "Gorontalo",
+"koordinat": [123.0600, 0.5400],
+"koordinat_provinsi": "0.687664, 122.457886",
+"warna": "#7C3AED",
+"deskripsi": "Dikenal sebagai 'Serambi Madinah' dan daerah penghasil jagung nasional utama.",
+"flora": "Pohon Gupasa",
+"fauna": "Burung Maleo",
+"geografi": "Terletak di teluk terindung Teluk Tomini dengan pesisir berteluk.",
+"sumber": "Wikipedia - Gorontalo (https://id.wikipedia.org/wiki/Gorontalo)",
+"gambar": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "sulteng",
+"pulau": "Pulau Sulawesi",
+"nama": "Sulawesi Tengah",
+"ibukota": "Palu",
+"koordinat": [119.8707, -0.8917],
+"koordinat_provinsi": "-0.960149, 119.930553",
+"warna": "#6D28D9",
+"deskripsi": "Sulawesi Tengah beribu kota di Palu. Memiliki Danau Poso yang sangat luas, Kepulauan Togean, dan situs patung megalitikum di Lembah Bada.",
+"flora": "Kayu Eboni (Kayu Hitam)",
+"fauna": "Anoa, Babirusa",
+"geografi": "Provinsi terluas di Pulau Sulawesi dengan pegunungan dan teluk-teluk besar.",
+"sumber": "Wikipedia - Sulawesi Tengah (https://id.wikipedia.org/wiki/Sulawesi_Tengah)",
+"gambar": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "sulbar",
+"pulau": "Pulau Sulawesi",
+"nama": "Sulawesi Barat",
+"ibukota": "Mamuju",
+"koordinat": [118.8886, -2.6778],
+"koordinat_provinsi": "-2.465348, 119.347725",
+"warna": "#EC4899",
+"deskripsi": "Sulawesi Barat beribu kota di Mamuju. Provinsi ini terkenal dengan tradisi bahari Suku Mandar dan perahu cadik Sandeq yang sangat cepat.",
+"flora": "Pohon Rotan / Cempaka",
+"fauna": "Anoa, Burung Maleo",
+"geografi": "Membentang di pesisir barat Sulawesi berhadapan dengan Selat Makassar.",
+"sumber": "Wikipedia - Sulawesi Barat (https://id.wikipedia.org/wiki/Sulawesi_Barat)",
+"gambar": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "sulsel",
+"pulau": "Pulau Sulawesi",
+"nama": "Sulawesi Selatan",
+"ibukota": "Makassar",
+"koordinat": [119.4320, -5.1477],
+"koordinat_provinsi": "-3.644672, 119.947192",
+"warna": "#5B21B6",
+"deskripsi": "Pusat peradaban Suku Bugis dan Makassar yang terkenal sebagai pembuat Perahu Phinisi, serta kawasan Tana Toraja.",
+"flora": "Pohon Lontar",
+"fauna": "Burung Rengke (Julang Sulawesi)",
+"geografi": "Semenanjung selatan Sulawesi dengan dataran tinggi pegunungan Karst Rammang-Rammang.",
+"sumber": "Wikipedia - Sulawesi Selatan (https://id.wikipedia.org/wiki/Sulawesi_Selatan)",
+"gambar": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "sultra",
+"pulau": "Pulau Sulawesi",
+"nama": "Sulawesi Tenggara",
+"ibukota": "Kendari",
+"koordinat": [122.5150, -3.9675],
+"koordinat_provinsi": "-4.124698, 122.158307",
+"warna": "#4C1D95",
+"deskripsi": "Rumah bagi Taman Nasional Wakatobi yang merupakan surga terumbu karang penyelam dunia.",
+"flora": "Anggrek Serat",
+"fauna": "Anoa",
+"geografi": "Semenanjung tenggara dan pulau-pulau di sekitarnya seperti Buton dan Muna.",
+"sumber": "Wikipedia - Sulawesi Tenggara (https://id.wikipedia.org/wiki/Sulawesi_Tenggara)",
+"gambar": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "maluku",
+"pulau": "Kepulauan Maluku",
+"nama": "Maluku",
+"ibukota": "Ambon",
+"koordinat": [128.1814, -3.6954],
+"koordinat_provinsi": "-3.238463, 130.145262",
+"warna": "#06B6D4",
+"deskripsi": "Dikenal sebagai Kepulauan Rempah-Rempah (Spice Islands) penghasil pala dan cengkeh yang tersohor sejak zaman kuno.",
+"flora": "Pohon Angsana",
+"fauna": "Burung Nuri Raja Ambon",
+"geografi": "Kepulauan vulkanik dengan laut dalam di sekitar Laut Banda.",
+"sumber": "Wikipedia - Maluku (https://id.wikipedia.org/wiki/Maluku)",
+"gambar": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "malut",
+"pulau": "Kepulauan Maluku",
+"nama": "Maluku Utara",
+"ibukota": "Sofifi",
+"koordinat": [127.5583, 0.7306],
+"koordinat_provinsi": "1.570999, 127.808769",
+"warna": "#0891B2",
+"deskripsi": "Memiliki sejarah Kesultanan Ternate dan Tidore serta kaya akan potensi tambang nikel.",
+"flora": "Cengkeh Afo",
+"fauna": "Burung Bidadari Halmahera",
+"geografi": "Kepulauan gunung api aktif seperti Gunung Gamalama.",
+"sumber": "Wikipedia - Maluku Utara (https://id.wikipedia.org/wiki/Maluku_Utara)",
+"gambar": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "papuabarat",
+"pulau": "Pulau Papua",
+"nama": "Papua Barat",
+"ibukota": "Manokwari",
+"koordinat": [134.0620, -0.8615],
+"koordinat_provinsi": "-1.336115, 133.174716",
+"warna": "#14B8A6",
+"deskripsi": "Provinsi di bagian kepala burung Pulau Papua dengan lanskap pegunungan Arfak yang kaya flora unik.",
+"flora": "Pohon MatOA",
+"fauna": "Burung Cenderawasih Merah",
+"geografi": "Pegunungan tinggi dan kawasan pesisir Teluk Cenderawasih.",
+"sumber": "Wikipedia - Papua Barat (https://id.wikipedia.org/wiki/Papua_Barat)",
+"gambar": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "papuabaratdaya",
+"pulau": "Pulau Papua",
+"nama": "Papua Barat Daya",
+"ibukota": "Sorong",
+"koordinat": [131.2500, -0.8833],
+"koordinat_provinsi": "-1.218324, 132.183789",
+"warna": "#0D9488",
+"deskripsi": "Pintu masuk menuju kepulauan Raja Ampat, pusat keanekaragaman hayati laut dunia.",
+"flora": "Pohon Anggrek Hitam Papua",
+"fauna": "Burung Cenderawasih Wilson",
+"geografi": "Gugusan pulau karang kart dan perairan kaya spesies bahari.",
+"sumber": "Wikipedia - Papua Barat Daya (https://id.wikipedia.org/wiki/Papua_Barat_Daya)",
+"gambar": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "papua",
+"pulau": "Pulau Papua",
+"nama": "Papua",
+"ibukota": "Jayapura",
+"koordinat": [140.7167, -2.5333],
+"koordinat_provinsi": "-2.285880, 138.309072",
+"warna": "#0F766E",
+"deskripsi": "Berada di pesisir utara Papua, memiliki Danau Sentani yang indah dan Teluk Yotefa.",
+"flora": "Buah Merah",
+"fauna": "Cenderawasih 12 Kawat",
+"geografi": "Pesisir pantai utara, perbukitan, dan kawasan Danau Sentani.",
+"sumber": "Wikipedia - Papua (https://id.wikipedia.org/wiki/Papua)",
+"gambar": "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "papuatengah",
+"pulau": "Pulau Papua",
+"nama": "Papua Tengah",
+"ibukota": "Nabire",
+"koordinat": [135.5000, -3.3667],
+"koordinat_provinsi": "-3.816667, 136.500000",
+"warna": "#115E59",
+"deskripsi": "Memiliki Puncak Jaya (Carstensz Pyramid) puncak tertinggi di Indonesia yang bersalju abadi.",
+"flora": "Pohon Sagu",
+"fauna": "Kanguru Pohon Manteldik",
+"geografi": "Didominasi Pegunungan Tengah Jayawijaya bersalju hingga dataran Nabire.",
+"sumber": "Wikipedia - Papua Tengah (https://id.wikipedia.org/wiki/Papua_Tengah)",
+"gambar": "https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "papuapegunungan",
+"pulau": "Pulau Papua",
+"nama": "Papua Pegunungan",
+"ibukota": "Jayawijaya (Wamena)",
+"koordinat": [138.9500, -4.0833],
+"koordinat_provinsi": "-4.116667, 139.000000",
+"warna": "#134E4A",
+"deskripsi": "Satu-satunya provinsi di Indonesia yang tidak memiliki batas wilayah laut (landlocked) di Lembah Baliem.",
+"flora": "Pohon Pine / Cemara Papua",
+"fauna": "Burung Cenderawasih Panji",
+"geografi": "Lembah tinggi dan dataran antarmountain dikelilingi puncak tinggi.",
+"sumber": "Wikipedia - Papua Pegunungan (https://id.wikipedia.org/wiki/Papua_Pegunungan)",
+"gambar": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "papuaselatan",
+"pulau": "Pulau Papua",
+"nama": "Papua Selatan",
+"ibukota": "Merauke",
+"koordinat": [140.4000, -8.4833],
+"koordinat_provinsi": "-6.500000, 139.500000",
+"warna": "#2DD4BF",
+"deskripsi": "Ujung timur Indonesia (Dari Sabang sampai Merauke). Terkenal dengan rumah semut raksasa Musamus di Taman Nasional Wasur.",
+"flora": "Pohon Sagu",
+"fauna": "Kangguru Saham (Kangguru Mini)",
+"geografi": "Dataran rendah aluvial bersungai lebar dan rawa basah terbesar.",
+"sumber": "Wikipedia - Papua Selatan (https://id.wikipedia.org/wiki/Papua_Selatan)",
+"gambar": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80"
+}
+],
+"SMP": [
+{
+"id": "aceh-smp",
+"pulau": "Pulau Sumatera",
+"nama": "Aceh (SMP)",
+"ibukota": "Banda Aceh",
+"koordinat": [95.3238, 5.5483],
+"koordinat_provinsi": "4.695135, 96.749399",
+"warna": "#10B981",
+"deskripsi": "Aceh menerapkan otonomi khusus berbasis Syariat Islam. Sejarah mencatat Aceh sebagai pusat Kerajaan Samudera Pasai, kerajaan Islam pertama di Nusantara.",
+"flora": "Bunga Jeumpa (Michelia champaca).",
+"fauna": "Gajah Sumatra (Elephas maximus sumatranus).",
+"geografi": "Ujung utara pegunungan Bukit Barisan dan Kawasan Ekosistem Leuser.",
+"sumber": "Wikipedia - Aceh (https://id.wikipedia.org/wiki/Aceh)",
+"gambar": "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "sulteng-smp",
+"pulau": "Pulau Sulawesi",
+"nama": "Sulawesi Tengah (SMP)",
+"ibukota": "Palu",
+"koordinat": [119.8707, -0.8917],
+"koordinat_provinsi": "-0.960149, 119.930553",
+"warna": "#8B5CF6",
+"deskripsi": "Sulawesi Tengah dilewati oleh Sesar Palu-Koro. Taman Nasional Lore Lindu menyimpan peninggalan patung-patung megalitik purba dan habitat Anoa.",
+"flora": "Kayu Hitam / Eboni (Diospyros celebica).",
+"fauna": "Anoa (Bubalus depressicornis), Babirusa (Babyrousa babyrussa).",
+"geografi": "Sisi tengah Sulawesi, Teluk Tomini, Teluk Tolo, dan Lembah Palu.",
+"sumber": "Wikipedia - Sulawesi Tengah (https://id.wikipedia.org/wiki/Sulawesi_Tengah)",
+"gambar": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "sulbar-smp",
+"pulau": "Pulau Sulawesi",
+"nama": "Sulawesi Barat (SMP)",
+"ibukota": "Mamuju",
+"koordinat": [118.8886, -2.6778],
+"koordinat_provinsi": "-2.465348, 119.347725",
+"warna": "#EC4899",
+"deskripsi": "Sulawesi Barat mekar dari Sulawesi Selatan pada tahun 2004. Suku Mandar di Sulbar terkenal sebagai pelaut ulung pembuat perahu Sandeq.",
+"flora": "Rotan, Kayu Cempaka.",
+"fauna": "Anoa, Maleo, Penyu Hijau.",
+"geografi": "Pesisir Selat Makassar di barat dan Pegunungan Quarles di timur.",
+"sumber": "Wikipedia - Sulawesi Barat (https://id.wikipedia.org/wiki/Sulawesi_Barat)",
+"gambar": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80"
+}
+],
+"SMA": [
+{
+"id": "aceh-sma",
+"pulau": "Pulau Sumatera",
+"nama": "Aceh (SMA)",
+"ibukota": "Banda Aceh",
+"koordinat": [95.3238, 5.5483],
+"koordinat_provinsi": "4.695135, 96.749399",
+"warna": "#10B981",
+"deskripsi": "Wilayah Aceh dibentuk oleh aktivitas tektonik Sesar Besar Sumatra (Semangko). Konservasi hutan Leuser memegang peranan kunci keanekaragaman hayati sub-region Sundaland.",
+"flora": "Spesies pohon endemik kehutanan tropis basah.",
+"fauna": "Spesies mamalia kritis terancam punah (Critically Endangered) seperti Gajah, Badak, dan Harimau Sumatra.",
+"geografi": "Zona sesar aktif, dataran graben, dan cekungan intramontana.",
+"sumber": "Wikipedia - Aceh (https://id.wikipedia.org/wiki/Aceh)",
+"gambar": "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "sulteng-sma",
+"pulau": "Pulau Sulawesi",
+"nama": "Sulawesi Tengah (SMA)",
+"ibukota": "Palu",
+"koordinat": [119.8707, -0.8917],
+"koordinat_provinsi": "-0.960149, 119.930553",
+"warna": "#8B5CF6",
+"deskripsi": "Tektonik Sulawesi Tengah sangat aktif dengan dinamika Sesar Mendatar Palu-Koro (Palu-Koro Strike-Slip Fault). Keanekaragaman fauna endemik Wallacea terlindungi di TN Lore Lindu.",
+"flora": "Kayu Eboni sebagai spesies pohon bernilai tinggi berstatus terancam.",
+"fauna": "Mamalia endemik pulau Sulawesi: Anoa (sapi kerdil) dan Babirusa.",
+"geografi": "Sistem graben Lembah Palu, danau tektonik Danau Poso, serta kompleks megalitikum Lembah Bada.",
+"sumber": "Wikipedia - Sulawesi Tengah (https://id.wikipedia.org/wiki/Sulawesi_Tengah)",
+"gambar": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=800&q=80"
+},
+{
+"id": "sulbar-sma",
+"pulau": "Pulau Sulawesi",
+"nama": "Sulawesi Barat (SMA)",
+"ibukota": "Mamuju",
+"koordinat": [118.8886, -2.6778],
+"koordinat_provinsi": "-2.465348, 119.347725",
+"warna": "#EC4899",
+"deskripsi": "Pesisir Sulawesi Barat kaya akan potensi perikanan dan migas Selat Makassar. Pegunungan Quarles membentuk bentang alam lereng curam penghasil komoditas kakao dan kopi.",
+"flora": "Vegetasi hutan pegunungan dan komoditas perkebunan khas (Kakao/Kopi Kalosi).",
+"fauna": "Adaptasi fauna Wallacea pada tutupan hutan lereng Pegunungan Quarles.",
+"geografi": "Morfologi pantai terjal pesisir barat dan struktur lipatan Pegunungan Quarles.",
+"sumber": "Wikipedia - Sulawesi Barat (https://id.wikipedia.org/wiki/Sulawesi_Barat)",
+"gambar": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?auto=format&fit=crop&w=800&q=80"
+}
+]
 }

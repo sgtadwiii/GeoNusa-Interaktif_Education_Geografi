@@ -7,6 +7,7 @@ import {
   Sun, Moon, ExternalLink, Bot, ChevronUp, Sparkles
 } from 'lucide-react';
 
+// ✅ FIX: Import path komponen dan data disesuaikan dengan struktur folder
 import LeafletMap from '../components/ui/LeafletMap';
 import materiData from '../data/materi.json';
 
@@ -21,9 +22,7 @@ function getSourceUrl(source) {
   return match ? match[0] : null;
 }
 
-// ==========================================
-// KOMPONEN MASKOT BOT
-// ==========================================
+// Komponen Maskot Bot
 function Mascot() {
   const [isVisible, setIsVisible] = useState(true);
   const [showBubble, setShowBubble] = useState(false);
@@ -62,9 +61,6 @@ function Mascot() {
   );
 }
 
-// ==========================================
-// DASHBOARD UTAMA
-// ==========================================
 export default function Dashboard() {
   const [activeTab, setActiveTab] = useState('SD');
   const [selectedCity, setSelectedCity] = useState(null);
@@ -77,8 +73,15 @@ export default function Dashboard() {
   const [hasScrolled, setHasScrolled] = useState(false);
   const contentRef = useRef(null);
 
+  const [showGuide, setShowGuide] = useState(() => {
+    return localStorage.getItem('geonusa-guide-closed') !== 'true';
+  });
+
   const isNight = theme === 'night';
+  
+  // Ambil data berdasarkan tab yang aktif (SD, SMP, SMA)
   const cities = useMemo(() => materiData[activeTab] || [], [activeTab]);
+  const firstCity = cities[0];
 
   const filteredCities = useMemo(() => {
     const query = searchQuery.trim().toLowerCase();
@@ -87,9 +90,6 @@ export default function Dashboard() {
       `${city.nama || ''} ${city.pulau || ''} ${city.geografi || ''}`.toLowerCase().includes(query)
     );
   }, [cities, searchQuery]);
-
-  // Ambil kota pertama (Aceh) untuk rekomendasi awal
-  const firstCity = cities[0]; 
 
   useEffect(() => {
     try { localStorage.setItem(THEME_KEY, theme); } catch {}
@@ -113,6 +113,13 @@ export default function Dashboard() {
     setSelectedCity(city);
     setIsSidebarOpen(false);
     setSheetHeight('85dvh'); 
+    setShowGuide(false);
+  };
+
+  const closeGuide = (e) => {
+    e.stopPropagation();
+    setShowGuide(false);
+    localStorage.setItem('geonusa-guide-closed', 'true');
   };
 
   const selectNextLocation = () => {
@@ -144,7 +151,7 @@ export default function Dashboard() {
         )}
       </AnimatePresence>
 
-      {/* SIDEBAR (DAFTAR KOTA) */}
+      {/* SIDEBAR */}
       <aside className={`fixed inset-y-0 left-0 z-50 flex w-[290px] flex-col border-r backdrop-blur-2xl transition-all duration-300 md:relative md:z-20 md:w-[320px] md:shrink-0 ${surface} ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}`}>
         <div className="border-b border-inherit p-5">
           <div className="mb-6 flex items-center justify-between">
@@ -197,7 +204,9 @@ export default function Dashboard() {
             <button onClick={() => setIsSidebarOpen(true)} className={`rounded-2xl border p-3 shadow-sm backdrop-blur-xl md:hidden ${surface}`}><Menu size={20} /></button>
             <div>
               <div className={`mb-1 flex items-center gap-2 text-[10px] font-bold uppercase tracking-[0.18em] ${muted}`}><Compass size={13} className="text-emerald-500" /> Ruang eksplorasi</div>
-              <h2 className={'truncate text-lg font-black tracking-tight md:text-2xl'}>Jelajahi Bumi</h2>
+              <h2 className={`truncate text-lg font-black tracking-tight md:text-2xl ${isNight ? 'text-white' : 'text-slate-900'}`}>
+                Jelajahi Bumi
+              </h2>
             </div>
           </div>
           <button onClick={() => setTheme(isNight ? 'day' : 'night')} className={`flex h-11 w-11 items-center justify-center rounded-2xl border shadow-lg backdrop-blur-xl ${surface}`}>
@@ -210,22 +219,30 @@ export default function Dashboard() {
             <div className="absolute inset-0 z-0"><LeafletMap locations={cities} selectedLocation={selectedCity} onSelectLocation={selectLocation} isNight={isNight} /></div>
             <div className="pointer-events-none absolute inset-0 z-[2] rounded-[inherit] ring-1 ring-inset ring-white/10" />
 
-            {/* ==================================================== */}
-            {/* KARTU AJAKAN BELAJAR (MULAI DARI ACEH) */}
-            {/* ==================================================== */}
+            {/* KARTU PANDUAN PEMULA */}
             <AnimatePresence>
-              {!selectedCity && firstCity && (
+              {!selectedCity && firstCity && showGuide && (
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: 20, scale: 0.95 }}
-                  className="absolute bottom-6 left-1/2 -translate-x-1/2 w-[90%] max-w-sm z-10"
+                  className="absolute bottom-6 left-1/2 -translate-x-1/2 w-[90%] max-w-sm z-30"
                 >
                   <div className={`relative overflow-hidden rounded-3xl border p-5 shadow-2xl backdrop-blur-xl ${
-                    isNight ? 'border-white/10 bg-slate-900/80 text-white' : 'border-white bg-white/90 text-slate-800'
+                    isNight ? 'border-white/10 bg-slate-900/90 text-white' : 'border-white bg-white/95 text-slate-800'
                   }`}>
-                    {/* Ornamen Latar */}
-                    <div className="absolute -right-4 -top-4 h-24 w-24 rounded-full bg-emerald-500/10 blur-xl"></div>
+                    
+                    <button 
+                      onClick={closeGuide}
+                      className={`absolute right-3 top-3 z-50 rounded-full p-2 transition-colors ${
+                        isNight ? 'bg-slate-800 hover:bg-slate-700 text-slate-300' : 'bg-slate-100 hover:bg-slate-200 text-slate-600'
+                      }`}
+                      aria-label="Tutup panduan"
+                    >
+                      <X size={16} />
+                    </button>
+
+                    <div className="absolute -right-4 -top-4 h-24 w-24 rounded-full bg-emerald-500/10 blur-xl pointer-events-none"></div>
                     
                     <div className="mb-3 flex items-center gap-2">
                       <span className="flex h-8 w-8 items-center justify-center rounded-full bg-emerald-500 text-white shadow-lg">
@@ -234,11 +251,11 @@ export default function Dashboard() {
                       <span className="text-[10px] font-extrabold uppercase tracking-wider text-emerald-500">Panduan Pemula</span>
                     </div>
 
-                    <h3 className="text-lg font-black leading-tight mb-2">
-                      Mulai belajar dari {firstCity.nama}?
+                    <h3 className="text-lg font-black leading-tight mb-2 pr-6">
+                      Mulai belajar dari {firstCity.nama.replace(/\s*\(.*?\)\s*/g, '')}?
                     </h3>
                     <p className={`text-xs mb-4 leading-relaxed ${muted}`}>
-                      Klik tombol di bawah untuk langsung membuka materi geografi {firstCity.nama}.
+                      Klik tombol di bawah untuk langsung membuka materi geografi {firstCity.nama.replace(/\s*\(.*?\)\s*/g, '')}.
                     </p>
 
                     <button
@@ -248,10 +265,6 @@ export default function Dashboard() {
                       Mulai Belajar Sekarang
                       <ArrowRight size={16} className="transition-transform group-hover:translate-x-1" />
                     </button>
-                    
-                    <p className={`mt-3 text-center text-[10px] ${muted}`}>
-                      Atau klik penanda (pin) lain di peta.
-                    </p>
                   </div>
                 </motion.div>
               )}
@@ -260,9 +273,7 @@ export default function Dashboard() {
           </div>
         </div>
 
-        {/* ======================================================== */}
-        {/* PANEL MATERI (BOTTOM SHEET) */}
-        {/* ======================================================== */}
+        {/* PANEL MATERI */}
         <AnimatePresence>
           {selectedCity && (
             <motion.section
@@ -286,7 +297,7 @@ export default function Dashboard() {
                 <div className="relative flex items-start justify-between gap-3">
                   <div>
                     <div className="mb-2 flex items-center gap-2"><span className="rounded-full bg-emerald-500/15 px-3 py-1 text-[10px] font-extrabold uppercase tracking-wider text-emerald-500">Materi {activeTab}</span></div>
-                    <h2 className="text-2xl font-black leading-tight md:text-3xl">{selectedCity.nama}</h2>
+                    <h2 className="text-2xl font-black leading-tight md:text-3xl">{selectedCity.nama.replace(/\s*\(.*?\)\s*/g, '')}</h2>
                     <p className={`mt-2 text-xs ${muted}`}>{selectedCity.pulau || 'Karakteristik wilayah'}</p>
                   </div>
                   <div className="flex flex-col items-end gap-2">
@@ -316,7 +327,7 @@ export default function Dashboard() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                   <div className="absolute bottom-3 left-3 text-white">
                     <p className="text-[10px] font-bold uppercase tracking-widest text-white/80">Jelajah Nusantara</p>
-                    <h3 className="text-lg font-black">{selectedCity.nama}</h3>
+                    <h3 className="text-lg font-black">{selectedCity.nama.replace(/\s*\(.*?\)\s*/g, '')}</h3>
                   </div>
                 </div>
 
@@ -358,7 +369,7 @@ export default function Dashboard() {
                     <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-500/15 text-emerald-500"><ExternalLink size={19} /></div>
                     <div className="min-w-0 flex-1">
                       <p className="text-xs font-extrabold">Sumber Referensi</p>
-                      <p className={`mt-1 truncate text-[10px] ${muted}`}>{sourceUrl}</p>
+                      <p className={`mt-1 truncate text-[10px] ${muted}`}>{selectedCity.sumber}</p>
                     </div>
                     <ChevronRight size={17} className="text-emerald-500" />
                   </a>
