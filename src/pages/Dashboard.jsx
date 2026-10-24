@@ -4,11 +4,13 @@ import { motion, AnimatePresence, useDragControls } from 'framer-motion';
 import {
   Menu, X, Search, Compass, Leaf, Bird, BookOpen,
   MapPinned, ChevronRight, ArrowRight, Layers, Globe2, Mountain,
-  Sun, Moon, ExternalLink, Bot, ChevronUp, Sparkles
+  Sun, Moon, ExternalLink, Bot, ChevronUp, Sparkles, Map as MapIcon
 } from 'lucide-react';
 
-// ✅ FIX: Import path komponen dan data disesuaikan dengan struktur folder
+// ✅ Import komponen & data
 import LeafletMap from '../components/ui/LeafletMap';
+import ThreeGlobe from '../components/ui/ThreeGlobe'; 
+import YouTubeAudioPlayer from '../components/ui/YouTubeAudioPlayer'; 
 import materiData from '../data/materi.json';
 
 const THEME_KEY = 'geonusa-theme';
@@ -70,6 +72,9 @@ export default function Dashboard() {
   const [sheetHeight, setSheetHeight] = useState('85dvh'); 
   const dragControls = useDragControls();
   
+  // State untuk mode Peta (2D atau 3D)
+  const [mapMode, setMapMode] = useState('2d'); 
+
   const [hasScrolled, setHasScrolled] = useState(false);
   const contentRef = useRef(null);
 
@@ -79,7 +84,6 @@ export default function Dashboard() {
 
   const isNight = theme === 'night';
   
-  // Ambil data berdasarkan tab yang aktif (SD, SMP, SMA)
   const cities = useMemo(() => materiData[activeTab] || [], [activeTab]);
   const firstCity = cities[0];
 
@@ -209,14 +213,35 @@ export default function Dashboard() {
               </h2>
             </div>
           </div>
-          <button onClick={() => setTheme(isNight ? 'day' : 'night')} className={`flex h-11 w-11 items-center justify-center rounded-2xl border shadow-lg backdrop-blur-xl ${surface}`}>
-            {isNight ? <Sun size={20} className="text-amber-400" /> : <Moon size={20} className="text-indigo-500" />}
-          </button>
+          
+          <div className="flex items-center gap-2">
+            {/* TOMBOL TOGGLE 2D / 3D */}
+            <button 
+              onClick={() => setMapMode(mapMode === '2d' ? '3d' : '2d')}
+              className={`flex h-11 items-center justify-center gap-2 rounded-2xl border px-4 shadow-lg backdrop-blur-xl transition-colors ${surface} hover:bg-white/10`}
+            >
+              {mapMode === '2d' ? <Globe2 size={18} className="text-emerald-500" /> : <MapIcon size={18} className="text-amber-500" />}
+              <span className="text-xs font-bold hidden sm:inline">{mapMode === '2d' ? 'Mode 3D' : 'Mode 2D'}</span>
+            </button>
+
+            <button onClick={() => setTheme(isNight ? 'day' : 'night')} className={`flex h-11 w-11 items-center justify-center rounded-2xl border shadow-lg backdrop-blur-xl ${surface}`}>
+              {isNight ? <Sun size={20} className="text-amber-400" /> : <Moon size={20} className="text-indigo-500" />}
+            </button>
+          </div>
         </header>
 
         <div className="relative min-h-0 flex-1 overflow-hidden px-3 pb-3 md:px-5 md:pb-5">
           <div className={`absolute inset-3 overflow-hidden rounded-[28px] border shadow-2xl md:inset-x-5 md:inset-y-0 md:rounded-[32px] ${isNight ? 'border-white/10 bg-slate-900/40' : 'border-white/70 bg-white/20'}`}>
-            <div className="absolute inset-0 z-0"><LeafletMap locations={cities} selectedLocation={selectedCity} onSelectLocation={selectLocation} isNight={isNight} /></div>
+            
+            {/* RENDER PETA: 2D atau 3D */}
+            <div className="absolute inset-0 z-0">
+              {mapMode === '2d' ? (
+                <LeafletMap locations={cities} selectedLocation={selectedCity} onSelectLocation={selectLocation} isNight={isNight} />
+              ) : (
+                <ThreeGlobe locations={cities} onSelect={selectLocation} />
+              )}
+            </div>
+            
             <div className="pointer-events-none absolute inset-0 z-[2] rounded-[inherit] ring-1 ring-inset ring-white/10" />
 
             {/* KARTU PANDUAN PEMULA */}
@@ -273,7 +298,7 @@ export default function Dashboard() {
           </div>
         </div>
 
-        {/* PANEL MATERI */}
+        {/* PANEL MATERI (BOTTOM SHEET) */}
         <AnimatePresence>
           {selectedCity && (
             <motion.section
@@ -364,16 +389,33 @@ export default function Dashboard() {
                   </div>
                 </div>
 
-                {sourceUrl && (
-                  <a href={sourceUrl} target="_blank" rel="noopener noreferrer" className={`flex items-center gap-3 rounded-xl border p-3 transition ${isNight ? 'border-white/10 hover:bg-white/5' : 'border-slate-200 hover:bg-emerald-50'}`}>
-                    <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-500/15 text-emerald-500"><ExternalLink size={19} /></div>
-                    <div className="min-w-0 flex-1">
-                      <p className="text-xs font-extrabold">Sumber Referensi</p>
-                      <p className={`mt-1 truncate text-[10px] ${muted}`}>{selectedCity.sumber}</p>
-                    </div>
-                    <ChevronRight size={17} className="text-emerald-500" />
-                  </a>
-                )}
+                {/* ========================================================= */}
+                {/* BAGIAN LAGU DAERAH & SUMBER REFERENSI */}
+                {/* ========================================================= */}
+                <div className="flex flex-col gap-3">
+                  
+                  {/* 1. Lagu Daerah (YouTube Player) - Ditaruh di atas sumber */}
+                  {selectedCity.youtubeId && (
+                    <YouTubeAudioPlayer 
+                      videoId={selectedCity.youtubeId} 
+                      title={`Lagu ${selectedCity.nama.replace(/\s*\(.*?\)\s*/g, '')}`}
+                      isNight={isNight}
+                    />
+                  )}
+
+                  {/* 2. Sumber Referensi */}
+                  {sourceUrl && (
+                    <a href={sourceUrl} target="_blank" rel="noopener noreferrer" className={`flex items-center gap-3 rounded-xl border p-3 transition ${isNight ? 'border-white/10 hover:bg-white/5' : 'border-slate-200 hover:bg-emerald-50'}`}>
+                      <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-500/15 text-emerald-500"><ExternalLink size={19} /></div>
+                      <div className="min-w-0 flex-1">
+                        <p className="text-xs font-extrabold">Sumber Referensi</p>
+                        <p className={`mt-1 truncate text-[10px] ${muted}`}>{selectedCity.sumber}</p>
+                      </div>
+                      <ChevronRight size={17} className="text-emerald-500" />
+                    </a>
+                  )}
+                </div>
+
                 <div className="h-10" />
               </div>
             </motion.section>
