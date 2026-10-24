@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, useMotionValue, useSpring, useTransform } from 'framer-motion';
 import {
   Map,
   House,
@@ -16,7 +16,24 @@ import {
 import { Button } from '../components/ui/button';
 import HomeAnimations from '../components/ui/HomeAnimations';
 
+// --- KOMPONEN IKON GITHUB LOKAL (PENGGANTI LUCIDE) ---
+function GithubIcon({ size = 14, className = "" }) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={className}
+      aria-hidden="true"
+    >
+      <path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.9 1.2 1.9 1.2 3.2 0 4.5-2.7 5.5-5.3 5.8.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5z" />
+    </svg>
+  );
+}
+
 export default function Home() {
+  // --- STATE TEMA ---
   const [isNight, setIsNight] = useState(() => {
     try {
       return localStorage.getItem('geonusa-theme') === 'night';
@@ -25,9 +42,35 @@ export default function Home() {
     }
   });
 
+  // --- EFEK PARALLAX 3D (Kartu mengikuti kursor) ---
+  const x = useMotionValue(0);
+  const y = useMotionValue(0);
+  const mouseXSpring = useSpring(x, { stiffness: 300, damping: 30 });
+  const mouseYSpring = useSpring(y, { stiffness: 300, damping: 30 });
+  const rotateX = useTransform(mouseYSpring, [-0.5, 0.5], ["7deg", "-7deg"]);
+  const rotateY = useTransform(mouseXSpring, [-0.5, 0.5], ["-7deg", "7deg"]);
+
+  const handleMouseMove = (e) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const width = rect.width;
+    const height = rect.height;
+    const mouseX = e.clientX - rect.left;
+    const mouseY = e.clientY - rect.top;
+    const xPct = mouseX / width - 0.5;
+    const yPct = mouseY / height - 0.5;
+    x.set(xPct);
+    y.set(yPct);
+  };
+
+  const handleMouseLeave = () => {
+    x.set(0);
+    y.set(0);
+  };
+
+  // --- LOGIKA ASET ANIMASI ---
   const animals = isNight
     ? {
-        main: `${import.meta.env.BASE_URL}images/owl.png`, // Pastikan nama file owl.png ada di folder public
+        main: `${import.meta.env.BASE_URL}images/owl.png`,
         bird: null,
       }
     : {
@@ -45,10 +88,10 @@ export default function Home() {
       <AnimatePresence initial={false}>
         <motion.div
           key={isNight ? 'night' : 'day'}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
+          initial={{ opacity: 0, scale: 1.05 }}
+          animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0 }}
-          transition={{ duration: 0.9 }}
+          transition={{ duration: 1.2 }}
           className="absolute inset-0 -z-20 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: `url(${import.meta.env.BASE_URL}images/${
@@ -83,7 +126,9 @@ export default function Home() {
             to="/"
             className="flex shrink-0 items-center gap-2 text-lg font-extrabold tracking-tight sm:text-xl"
           >
-            <Map className="h-7 w-7 text-rose-600 sm:h-8 sm:w-8" />
+            <motion.div whileHover={{ rotate: 180 }} transition={{ duration: 0.5 }}>
+              <Map className="h-7 w-7 text-rose-600 sm:h-8 sm:w-8" />
+            </motion.div>
             <span>GeoNusa</span>
           </Link>
 
@@ -117,24 +162,18 @@ export default function Home() {
           {/* TOMBOL KANAN */}
           <div className="flex shrink-0 items-center gap-2">
             {/* TOGGLE TEMA */}
-            <button
+            <motion.button
+              whileTap={{ scale: 0.9 }}
               type="button"
               onClick={() => {
                 setIsNight((prev) => {
                   const nextTheme = !prev;
                   try {
-                    localStorage.setItem(
-                      'geonusa-theme',
-                      nextTheme ? 'night' : 'day'
-                    );
+                    localStorage.setItem('geonusa-theme', nextTheme ? 'night' : 'day');
                   } catch {}
                   return nextTheme;
                 });
               }}
-              aria-label={
-                isNight ? 'Aktifkan mode siang' : 'Aktifkan mode malam'
-              }
-              title={isNight ? 'Mode siang' : 'Mode malam'}
               className={`flex h-10 w-10 items-center justify-center rounded-full border transition-all duration-300 hover:scale-105 ${
                 isNight
                   ? 'border-amber-300/30 bg-amber-300/15 text-amber-300 hover:bg-amber-300/25'
@@ -152,12 +191,12 @@ export default function Home() {
                   {isNight ? <Moon size={20} /> : <Sun size={20} />}
                 </motion.span>
               </AnimatePresence>
-            </button>
+            </motion.button>
 
             <Link to="/login">
               <Button className="flex h-10 items-center gap-2 rounded-full bg-rose-600 px-4 text-sm font-semibold text-white shadow-md shadow-rose-600/20 hover:bg-rose-700 sm:px-5">
                 <UserRound size={17} />
-                <span>Masuk</span>
+                <span className="hidden sm:inline">Masuk</span>
               </Button>
             </Link>
           </div>
@@ -170,29 +209,21 @@ export default function Home() {
           key={animals.main}
           src={animals.main}
           alt={isNight ? 'Burung hantu malam' : 'Monyet bergelantungan'}
-          initial={{ opacity: 0, y: -12, rotate: -8, scale: 0.9 }}
+          initial={{ opacity: 0, y: -20, rotate: -10, scale: 0.8 }}
           animate={{
             opacity: 1,
             y: isNight ? [0, -8, 0] : [0, 5, -2, 5, 0],
             rotate: isNight ? [-3, 3, -3] : [-6, 5, -4, 6, -6],
             scale: 1,
           }}
-          exit={{ opacity: 0, y: -10, scale: 0.9 }}
+          exit={{ opacity: 0, y: -20, scale: 0.8 }}
           transition={{
             opacity: { duration: 0.35 },
             scale: { duration: 0.35 },
-            y: {
-              duration: isNight ? 3.5 : 2.8,
-              repeat: Infinity,
-              ease: 'easeInOut',
-            },
-            rotate: {
-              duration: isNight ? 4 : 3.5,
-              repeat: Infinity,
-              ease: 'easeInOut',
-            },
+            y: { duration: isNight ? 3.5 : 2.8, repeat: Infinity, ease: 'easeInOut' },
+            rotate: { duration: isNight ? 4 : 3.5, repeat: Infinity, ease: 'easeInOut' },
           }}
-          className={`pointer-events-none absolute right-[3%] top-[100px] z-20 hidden origin-top object-contain drop-shadow-lg sm:block md:top-[115px] ${
+          className={`pointer-events-none absolute right-[3%] top-[100px] z-20 hidden origin-top object-contain drop-shadow-2xl sm:block md:top-[115px] ${
             isNight ? 'w-20 sm:w-24 md:w-32' : 'w-24 sm:w-28 md:w-36'
           }`}
         />
@@ -214,26 +245,10 @@ export default function Home() {
             }}
             exit={{ opacity: 0, y: -8 }}
             transition={{
-              opacity: {
-                duration: 3,
-                repeat: Infinity,
-                ease: 'easeInOut',
-              },
-              x: {
-                duration: 6,
-                repeat: Infinity,
-                ease: 'easeInOut',
-              },
-              y: {
-                duration: 4,
-                repeat: Infinity,
-                ease: 'easeInOut',
-              },
-              rotate: {
-                duration: 4,
-                repeat: Infinity,
-                ease: 'easeInOut',
-              },
+              opacity: { duration: 3, repeat: Infinity, ease: 'easeInOut' },
+              x: { duration: 6, repeat: Infinity, ease: 'easeInOut' },
+              y: { duration: 4, repeat: Infinity, ease: 'easeInOut' },
+              rotate: { duration: 4, repeat: Infinity, ease: 'easeInOut' },
             }}
             className="pointer-events-none absolute right-[30%] top-[125px] z-10 hidden w-14 object-contain drop-shadow-md sm:block md:right-[34%] md:top-[145px] md:w-20"
           />
@@ -242,22 +257,29 @@ export default function Home() {
 
       {/* KONTEN UTAMA */}
       <section className="relative mx-auto flex min-h-screen w-full max-w-[1600px] items-center px-5 pb-8 pt-28 sm:px-8 md:px-12 lg:px-[6%]">
+        
+        {/* KARTU 3D PARALLAX */}
         <motion.div
-          layout
-          className={`relative z-20 w-full max-w-[540px] border p-6 shadow-xl backdrop-blur-md transition-colors duration-500 sm:p-8 md:p-9 lg:p-10 ${
-            isNight
-              ? 'border-white/20 bg-slate-950/55 text-white shadow-black/20'
-              : 'border-white/70 bg-white/65 text-slate-900 shadow-slate-900/10'
-          }`}
+          onMouseMove={handleMouseMove}
+          onMouseLeave={handleMouseLeave}
           style={{
-            borderRadius: '34px 22px 40px 18px',
+            rotateX: rotateX,
+            rotateY: rotateY,
+            transformStyle: "preserve-3d",
+            borderRadius: '34px 22px 40px 18px', // Style digabung di sini
           }}
-          initial={{ opacity: 0, x: -28 }}
+          initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.7 }}
+          transition={{ duration: 0.8, type: "spring" }}
+          className={`relative z-20 w-full max-w-[540px] border p-6 shadow-2xl backdrop-blur-md transition-colors duration-500 sm:p-8 md:p-9 lg:p-10 ${
+            isNight
+              ? 'border-white/20 bg-slate-950/60 text-white shadow-black/30'
+              : 'border-white/70 bg-white/70 text-slate-900 shadow-slate-900/10'
+          }`}
         >
           {/* LABEL */}
-          <div
+          <motion.div
+            style={{ transform: "translateZ(30px)" }}
             className={`mb-5 inline-flex items-center gap-2 rounded-full px-3.5 py-2 text-xs font-bold sm:text-sm ${
               isNight
                 ? 'border border-rose-300/15 bg-rose-500/15 text-rose-200'
@@ -265,20 +287,30 @@ export default function Home() {
             }`}
           >
             <span className="flex h-6 w-6 items-center justify-center rounded-full bg-rose-600 text-white">
-              <Globe2 size={15} />
+              <Globe2 size={15} className="animate-pulse" />
             </span>
             Media Belajar Geografi #1
-          </div>
+          </motion.div>
 
-          {/* JUDUL */}
-          <h1 className="mb-4 text-[36px] font-extrabold leading-[1.1] tracking-[-1.4px] sm:text-[43px] md:text-[48px] lg:text-[52px]">
-            Jelajahi <span className="text-rose-600">Nusantara</span>
+          {/* JUDUL DENGAN ANIMASI SPRING */}
+          <motion.h1
+            style={{ transform: "translateZ(40px)" }}
+            className="mb-4 text-[36px] font-extrabold leading-[1.1] tracking-[-1.4px] sm:text-[43px] md:text-[48px] lg:text-[52px]"
+          >
+            Jelajahi{' '}
+            <motion.span 
+              className="text-rose-600 inline-block"
+              whileHover={{ scale: 1.1, rotate: -2 }}
+            >
+              Nusantara
+            </motion.span>
             <br />
             Secara Interaktif
-          </h1>
+          </motion.h1>
 
           {/* DESKRIPSI */}
-          <p
+          <motion.p
+            style={{ transform: "translateZ(20px)" }}
             className={`mb-6 max-w-[460px] text-sm font-medium leading-relaxed sm:text-base ${
               isNight ? 'text-slate-200' : 'text-slate-700'
             }`}
@@ -286,19 +318,26 @@ export default function Home() {
             Belajar geografi Indonesia jadi menyenangkan! Temukan
             gunung berapi, flora, fauna, dan budaya dari Sabang
             sampai Merauke.
-          </p>
+          </motion.p>
 
-          {/* CONTAINER TOMBOL (Responsif: Berjejer ke bawah di HP) */}
-          <div className="flex flex-col sm:flex-row gap-3 mt-2">
-            {/* TOMBOL JELAJAH */}
-            <Link to="/dashboard" className="inline-flex w-full sm:w-auto">
+          {/* CONTAINER TOMBOL */}
+          <div className="flex flex-col sm:flex-row gap-3 mt-2" style={{ transform: "translateZ(30px)" }}>
+            
+            {/* TOMBOL JELAJAH (Dengan Efek Glow/Pulse) */}
+            <Link to="/dashboard" className="inline-flex w-full sm:w-auto relative group">
+              <div className={`absolute inset-0 rounded-full blur-lg opacity-60 group-hover:opacity-100 transition-opacity duration-300 animate-pulse ${isNight ? 'bg-rose-500' : 'bg-rose-400'}`}></div>
+              
               <Button
                 size="lg"
-                className="group flex h-[54px] w-full sm:w-auto items-center justify-center gap-3 rounded-full bg-rose-600 px-5 text-base font-bold text-white shadow-lg shadow-rose-600/25 transition-all hover:-translate-y-0.5 hover:bg-rose-700 sm:px-7"
+                className="relative z-10 group flex h-[54px] w-full sm:w-auto items-center justify-center gap-3 rounded-full bg-rose-600 px-5 text-base font-bold text-white shadow-lg shadow-rose-600/40 transition-all hover:-translate-y-1 hover:bg-rose-700 sm:px-7"
               >
-                <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-rose-600">
+                <motion.span 
+                  className="flex h-8 w-8 items-center justify-center rounded-full bg-white text-rose-600"
+                  animate={{ rotate: [0, 10, -10, 0] }}
+                  transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+                >
                   <Compass size={21} />
-                </span>
+                </motion.span>
                 Mulai Jelajah
                 <ArrowRight
                   size={20}
@@ -307,15 +346,15 @@ export default function Home() {
               </Button>
             </Link>
 
-            {/* TOMBOL KUIS (BARU) */}
+            {/* TOMBOL KUIS */}
             <Link to="/kuis" className="inline-flex w-full sm:w-auto">
               <Button
                 size="lg"
                 variant="outline"
-                className={`group flex h-[54px] w-full sm:w-auto items-center justify-center gap-3 rounded-full border-2 px-5 text-base font-bold transition-all hover:-translate-y-0.5 sm:px-7 ${
+                className={`group flex h-[54px] w-full sm:w-auto items-center justify-center gap-3 rounded-full border-2 px-5 text-base font-bold transition-all hover:-translate-y-1 sm:px-7 ${
                   isNight
-                    ? 'border-slate-600 bg-slate-800/80 text-white hover:bg-slate-700 hover:text-rose-400'
-                    : 'border-slate-300 bg-white/70 text-slate-700 hover:bg-white hover:text-rose-600'
+                    ? 'border-slate-600 bg-slate-800/80 text-white hover:bg-slate-700 hover:text-rose-400 hover:border-rose-400'
+                    : 'border-slate-300 bg-white/70 text-slate-700 hover:bg-white hover:text-rose-600 hover:border-rose-300'
                 }`}
               >
                 <span className={`flex h-8 w-8 items-center justify-center rounded-full transition-colors ${
@@ -329,25 +368,27 @@ export default function Home() {
               </Button>
             </Link>
           </div>
-
-          {/* AKSEN KECIL */}
-          <div
-            aria-hidden="true"
-            className={`pointer-events-none absolute -bottom-3 -right-3 -z-10 h-20 w-20 rounded-full blur-2xl ${
-              isNight ? 'bg-indigo-400/20' : 'bg-sky-300/30'
-            }`}
-          />
         </motion.div>
       </section>
 
-      {/* FOOTER KECIL OPSIONAL */}
+      {/* COPYRIGHT FOOTER */}
       <div
-        className={`pointer-events-none absolute bottom-3 right-5 z-10 hidden items-center gap-2 text-xs font-medium sm:flex ${
-          isNight ? 'text-white/70' : 'text-slate-800/65'
+        className={`absolute bottom-3 left-1/2 -translate-x-1/2 z-30 flex items-center justify-center gap-1.5 text-[11px] sm:text-xs font-medium transition-colors duration-500 ${
+          isNight ? 'text-white/60' : 'text-slate-800/70'
         }`}
       >
-        <BookOpen size={14} />
-        Belajar • Jelajahi • Temukan
+        <span>Developers</span>
+        <a 
+          href="https://github.com/sgtadwiii" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className={`flex items-center gap-1 font-bold transition-colors ${
+            isNight ? 'text-white/90 hover:text-rose-400' : 'text-slate-900 hover:text-rose-600'
+          }`}
+        >
+          @sgtadwiii
+          <GithubIcon size={13} className="ml-0.5" />
+        </a>
       </div>
     </main>
   );
