@@ -50,13 +50,14 @@ Ikuti langkah-langkah berikut untuk menjalankan GeoNusa di lingkungan lokal:
 
 2. **Install semua dependensi:**
    Pastikan Node.js sudah terpasang di perangkat Anda.
-
-   ```npm install
+   ```bash
+   npm install
 
 3. **Jalankan Development Server:**
-
-   ```npm run dev
+   ```bash
+   npm run dev
 
 4. **Buka di Browser:**
 
-   ```Akses http://localhost:5173 (atau port yang tertera pada terminal).
+   ```bash
+   Akses http://localhost:5173 (atau port yang tertera pada terminal).
